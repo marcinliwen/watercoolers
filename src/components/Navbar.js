@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
 
 const Navbar = class extends React.Component {
@@ -62,34 +61,26 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
+            <div className="block md:flex has-text-centered">
+              <Link className="py-3 px-4 block" to="/about">
+              Venue & Accommodation
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
+              <Link className="py-3 px-4 block" to="/products">
+              Trade Fair
               </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
+              <Link className="py-3 px-4 block" to="/blog">
+              Event Programme
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
+              <Link className="py-3 px-4 block" to="/contact">
+              Aqua Awards & Gala Dinner
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
+              <Link className="py-3 px-4 bg-green-600 text-white block" to="/contact/examples">
+               Registration
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+              <a href ="\" className="navbar-item" rel="noopener noreferrer">Newsletter</a>
+              <Link className="navbar-item">Contact</Link>
             </div>
           </div>
         </div>
