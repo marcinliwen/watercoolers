@@ -5,16 +5,6 @@ module.exports = {
       "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
   },
   plugins: [
-    'gatsby-plugin-postcss',
-    "gatsby-plugin-react-helmet",
-    {
-      resolve: "gatsby-plugin-sass",
-      options: {
-        sassOptions: {
-          indentedSyntax: true,
-        },
-      },
-    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -26,17 +16,29 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/pages`,
-        name: "pages",
+        path: `${__dirname}/src/img`,
+        name: "images",
       },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/img`,
-        name: "images",
+        path: `${__dirname}/src/pages`,
+        name: "pages",
       },
     },
+    
+    'gatsby-plugin-postcss',
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        sassOptions: {
+          indentedSyntax: true,
+        },
+      },
+    },
+  
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

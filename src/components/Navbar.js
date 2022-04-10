@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import logo from "../img/logo.svg";
+import logo from "../img/we-logo.png";
+import phone from "../img/phone.svg";
+import subscribe from "../img/subscribe.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -34,53 +36,66 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              role="menuitem"
-              tabIndex={0}
-              onKeyPress={() => this.toggleHamburger()}
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
+          <div className="flex w-full justify-between py-6">
+            <div className="navbar-brand">
+              <Link to="/" className="" title="Logo">
+                <img
+                  src={logo}
+                  alt="Watercoolers Europe"
+                  style={{ width: "126px" }}
+                />
+              </Link>
+              {/* Hamburger menu */}
+              <div
+                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                role="menuitem"
+                tabIndex={0}
+                onKeyPress={() => this.toggleHamburger()}
+                onClick={() => this.toggleHamburger()}
+              >
+                <span />
+                <span />
+                <span />
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <a href="\" className="flex items-center" rel="noopener noreferrer">
+                <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2"/>
+                Newsletter
+              </a>
+              <Link className="flex items-center"><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
             </div>
           </div>
+
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-menu  ${this.state.navBarActiveClass}`}
           >
-            <div className="block md:flex has-text-centered">
+            <div className="block md:flex text-center justify-center mx-auto">
               <Link className="py-3 px-4 block" to="/about">
-              Venue & Accommodation
+                Venue & Accommodation
               </Link>
               <Link className="py-3 px-4 block" to="/products">
-              Trade Fair
+                Trade Fair
               </Link>
               <Link className="py-3 px-4 block" to="/blog">
-              Event Programme
+                Event Programme
               </Link>
               <Link className="py-3 px-4 block" to="/contact">
-              Aqua Awards & Gala Dinner
+                Aqua Awards & Gala Dinner
               </Link>
-              <Link className="py-3 px-4 bg-green-600 text-white block" to="/contact/examples">
-               Registration
+              <Link
+                className="py-3 px-4 bg-green-600 text-white block"
+                to="/contact/examples"
+              >
+                Registration
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a href ="\" className="navbar-item" rel="noopener noreferrer">Newsletter</a>
-              <Link className="navbar-item">Contact</Link>
             </div>
           </div>
         </div>
