@@ -9,7 +9,12 @@ module.exports = {
     extend: {
       colors:{
         'blue': '#0069AA',
+        'green': '#9dc017',
+        'greenhover': '#c8d42a'
       },
+      gridTemplateRows:{
+        'layout' : 'auto 1fr auto',
+      }
     },
     container:{
         maxWidth: {

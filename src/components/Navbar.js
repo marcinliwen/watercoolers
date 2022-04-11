@@ -65,33 +65,33 @@ const Navbar = class extends React.Component {
               </div>
             </div>
             <div className="flex gap-4">
-              <a href="\" className="flex items-center" rel="noopener noreferrer">
-                <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2"/>
+              <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
+                <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2 "/>
                 Newsletter
               </a>
-              <Link className="flex items-center"><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
+              <Link className="flex items-start text-blue "><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
             </div>
           </div>
 
           <div
             id="navMenu"
-            className={`navbar-menu  ${this.state.navBarActiveClass}`}
+            className={`navbar-menu pb-6  ${this.state.navBarActiveClass}`}
           >
             <div className="block md:flex text-center justify-center mx-auto">
-              <Link className="py-3 px-4 block" to="/about">
+              <Link className="py-3 px-4 block hover:text-blue ease-in-out duration-300" to="/venue-and-accommodation">
                 Venue & Accommodation
               </Link>
-              <Link className="py-3 px-4 block" to="/products">
+              <Link className="py-3 px-4 block  hover:text-blue ease-in-out duration-300" to="/trade-fair">
                 Trade Fair
               </Link>
-              <Link className="py-3 px-4 block" to="/blog">
+              <Link className="py-3 px-4 block  hover:text-blue ease-in-out duration-300" to="/blog">
                 Event Programme
               </Link>
-              <Link className="py-3 px-4 block" to="/contact">
+              <Link className="py-3 px-4 block  hover:text-blue ease-in-out duration-300" to="/contact">
                 Aqua Awards & Gala Dinner
               </Link>
               <Link
-                className="py-3 px-4 bg-green-600 text-white block"
+                className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300"
                 to="/contact/examples"
               >
                 Registration

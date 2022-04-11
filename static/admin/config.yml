@@ -47,7 +47,19 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
+          
+          - {
+              label: Category,
+              name: category,
+              widget: list,
+              fields: [
+                {label: "Image", name: "categoryimage", widget: image },
+                {label: Title, name: title, widget: string },
+                {label: Description, name: description, widget: text },
+                {label: Link, name: link, widget: string }
+              ]  
+            }               
+              
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
           - {
@@ -244,3 +256,28 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/venue-and-accommodation.md"
+        label: "Venue & Accommodation"
+        name: 'venue-and-accommodation'
+        fields:
+          - venue: 
+              { label: Title, name: title, widget: string }
+              { label: Description, name: description, widget: text }
+              { label: Image, name: image, widget: image }
+
+             
+          - {
+            label: Gallery,
+            name: gallery, 
+            widget: list,
+            fields: [
+              { label: Image, name: image, widget: image}
+            ]
+          }
+      - file: "src/pages/trade-fair.md"
+        label: "Trade Fair"
+        name: "trade-fair"
+        fields:
+         - tradefair:
+            {label: Description, name: description, widget: text }
+            {label: Image, name: image, widget: image }
