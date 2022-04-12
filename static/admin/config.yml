@@ -262,7 +262,7 @@ collections:
         fields:
           - venue: 
               { label: Title, name: title, widget: string }
-              { label: Description, name: description, widget: text }
+              { label: Description, name: body, widget: markdown }
               { label: Image, name: image, widget: image }
 
              

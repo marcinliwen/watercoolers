@@ -7,3 +7,15 @@ div#gatsby-focus-wrapper {height: 100%;}
 div#___gatsby {height: 100%;}
 
 html, body {height: 100%;}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], select{
+    background: #f4f4f4;
+    border-color:#f4f4f4;
+}
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus{
+    outline-color: #0069AA;
+}
+label{
+    font-size: 14px;
+    line-height: 16px;
+}
