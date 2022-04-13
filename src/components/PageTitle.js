@@ -1,8 +1,8 @@
 import React from "react";
 
-const PageTitle = ({title}) =>{
+const PageTitle = ({title, className}) =>{
     return(
-        <section className="bg-blue text-white text-center py-8">
+        <section className={`${className} bg-blue text-white text-center py-8`}>
         <div className="container">
           <h1 className="text-4xl">{title}</h1>
         </div>

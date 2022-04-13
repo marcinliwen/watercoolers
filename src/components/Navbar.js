@@ -92,7 +92,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link
                 className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300"
-                to="/"
+                to="/registration"
               >
                 Registration
               </Link>

@@ -26,7 +26,7 @@ label{
 }
 
 @media(min-width: 768px){
-    .plan-content .cart:nth-child(2n){
+    .plan-content .cart:nth-child(2n), .is-side .cart:nth-child(2n){
         flex-direction: row-reverse;
     }
 }

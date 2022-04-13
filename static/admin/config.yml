@@ -329,4 +329,15 @@ collections:
         label: "Aqua Aqards"
         name: "aqua-awards-page"
         fields:
-          - { label: Title, name: title, widget: string }
+          - label: 'Info'
+            name: 'info'
+            widget: 'list'
+            fields:
+              - {label: Title, name: title, widget: string }
+              - {label: Description, name: body, widget: markdown }
+              - {label: Image, name: image, widget: image }
+      - file: "src/pages/registration.md"
+        label: "Registration"
+        name: "registration-page"
+        fields:
+          - {label: Title, name: title, widget: string }
