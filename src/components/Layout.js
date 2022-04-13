@@ -47,6 +47,7 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
       <Navbar />
       <main>{children}</main>
