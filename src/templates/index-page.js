@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
     <div>
       <HomeBanner img={heroImage}/>
       <section className="">
-        <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 md:px-0">
+        <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 ">
          {category.map(item=>
             <div className="">
               <PreviewCompatibleImage
