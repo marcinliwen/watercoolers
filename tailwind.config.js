@@ -10,7 +10,8 @@ module.exports = {
       colors:{
         'blue': '#0069AA',
         'green': '#9dc017',
-        'greenhover': '#c8d42a'
+        'greenhover': '#c8d42a',
+        'pink' : '#DC368A'
       },
       gridTemplateRows:{
         'layout' : 'auto 1fr auto',

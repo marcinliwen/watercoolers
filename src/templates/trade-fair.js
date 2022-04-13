@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageSubtitle from "../components/PageSubtitle";
 
-export const TradeFairTemplate = ({ title, tradefair }) => {
+export const TradeFairTemplate = ({ title, tradefair, fees }) => {
   return (
     <div>
       <PageTitle title={title} />
@@ -26,7 +25,15 @@ export const TradeFairTemplate = ({ title, tradefair }) => {
         </div>
       </div>
       <PageSubtitle title="Stand Fees" />
-
+      <section><div className="container">
+      <PreviewCompatibleImage
+            imageInfo={{
+              image: fees.image,
+              alt: 'fees',
+            }}
+          />
+        </div></section>
+      
       <PageSubtitle title="Stand Application Form" />
       <section>
         <div class="container">
@@ -177,6 +184,7 @@ export const TradeFairTemplate = ({ title, tradefair }) => {
 TradeFairTemplate.propTypes = {
   title: PropTypes.string,
   tradefair: PropTypes.object,
+  fees: PropTypes.object
 };
 
 const TradeFair = ({ data }) => {
@@ -187,6 +195,7 @@ const TradeFair = ({ data }) => {
       <TradeFairTemplate
         title={frontmatter.title}
         tradefair={frontmatter.tradefair}
+        fees={frontmatter.fees}
       />
     </Layout>
   );
@@ -212,6 +221,13 @@ export const pageQuery = graphql`
           image {
             childImageSharp {
               gatsbyImageData(quality: 100, layout: CONSTRAINED, width: 1024)
+            }
+          }
+        }
+        fees{
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: CONSTRAINED)
             }
           }
         }

@@ -11,11 +11,22 @@ html, body {height: 100%;}
 input[type="text"], input[type="number"], input[type="email"], input[type="tel"], select{
     background: #f4f4f4;
     border-color:#f4f4f4;
+    margin-top: 4px;
 }
 input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus{
-    outline-color: #0069AA;
+    border-color: #0069AA;
 }
 label{
     font-size: 14px;
     line-height: 16px;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media(min-width: 768px){
+    .plan-content .cart:nth-child(2n){
+        flex-direction: row-reverse;
+    }
 }
