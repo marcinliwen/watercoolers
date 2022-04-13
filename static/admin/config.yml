@@ -260,54 +260,73 @@ collections:
         label: "Venue & Accommodation"
         name: 'venue-and-accommodation'
         fields:
-          - venue: 
-              { label: Title, name: title, widget: string }
-              { label: Description, name: body, widget: markdown }
-              { label: Image, name: image, widget: image }
-
-             
-          - {
-            label: Gallery,
-            name: gallery, 
-            widget: list,
+          - label: 'Venue' 
+            name: 'venue' 
+            widget: 'object'  
+            fields: 
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: body, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Gallery
+            name: gallery
+            widget: list
             fields: [
               { label: Image, name: image, widget: image}
             ]
-          }
       - file: "src/pages/trade-fair.md"
         label: "Trade Fair"
         name: "trade-fair"
         fields:
-         - tradefair:
-            {label: Description, name: description, widget: text }
-            {label: Image, name: image, widget: image }
-         - fees:
-            {label: Image, name: image, widget: image }
+          - label: 'Tradefair'
+            name: 'tradefair'
+            widget: 'object'
+            fields:
+            - {label: Description, name: description, widget: text }
+            - {label: Image, name: image, widget: image }
+          - label: 'Fees'
+            name: 'fees'
+            widget: 'ooobject'
+            fields:
+            - {label: Image, name: image, widget: image }
       - file: "src/pages/event-programme.md"
         label: "Event Programme"
         name: "event-programme-page"
         fields:
-          - event:
-              {label: Plan Conference, name: image_conf, widget: image }
-              {label: Plan Workshops, name: image_work, widget: image }
-          - {label: Event List, name: eventList, widget: list, fields: [
-              { label: Title, name: title, widget: string }
-              { label: Description, name: body, widget: markdown }
-              { label: Image, name: image, widget: image }
-          ]}
-          - {label: Conference Speakers, name: conference, widget: list, fields: [
-              {label: Image, name: image, widget: image }
-              {label: Name, name: name, widget: string}
-              {label: Role, name: role, widget: string}
-              {label: Resume, name: resume, widget: text}
-              {label: Title, name: title, widget: string}
-              {label: Description, name: description, widget: text}
-          ]}
-          - {label: Workshops Speakers, name: workshops, widget: list, fields: [
-              {label: Image, name: image, widget: image }
-              {label: Name, name: name, widget: string}
-              {label: Role, name: role, widget: string}
-              {label: Resume, name: resume, widget: text}
-              {label: Title, name: title, widget: string}
-              {label: Description, name: description, widget: text}
-          ]}
+          - label: 'Event'
+            name: 'event'
+            widget: 'object'
+            fields:
+              - {label: Plan Conference, name: image_conf, widget: image }
+              - {label: Plan Workshops, name: image_work, widget: image }
+          - label: 'Event List'  
+            name: 'eventList' 
+            widget: 'list' 
+            fields: 
+              - {label: Title, name: title, widget: string }
+              - {label: Description, name: body, widget: markdown }
+              - {label: Image, name: image, widget: image }
+          - label: 'Conference Speakers'
+            name: 'conference' 
+            widget: 'list' 
+            fields: 
+              - {label: Image, name: image, widget: image }
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: string}
+              - {label: Resume, name: resume, widget: text}
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: text}
+          - label: 'Workshops Speakers' 
+            name: 'workshops' 
+            widget: 'list' 
+            fields: 
+              - {label: Image, name: image, widget: image }
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: string}
+              - {label: Resume, name: resume, widget: text}
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: text}
+      - file: "src/pages/aqua-awards.md"
+        label: "Aqua Aqards"
+        name: "aqua-awards-page"
+        fields:
+          - { label: Title, name: title, widget: string }
