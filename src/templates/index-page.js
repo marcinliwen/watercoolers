@@ -13,13 +13,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
-  category,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
+  category
 }) => {
   const heroImage = getImage(image) || image;
 

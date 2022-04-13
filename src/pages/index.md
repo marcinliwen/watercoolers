@@ -14,11 +14,11 @@ category:
   - image: /img/program.png
     title: Event Programme
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn 
-    link: /venue&accomodation
+    link: /event-programme
   - image: /img/awards.png
     title: Aqua Awards & Gala Dinner
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn 
-    link: /venue&accomodation
+    link: /aqua-awards
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
