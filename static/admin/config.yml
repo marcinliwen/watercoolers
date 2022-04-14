@@ -37,102 +37,21 @@ collections:
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Home Page"
         name: "index"
         fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "index-page",
-            }
-          - { label: Title, name: title, widget: string }
-          
+          - {label: Banner, name: image, widget: image }
           - {
               label: Category,
               name: category,
               widget: list,
               fields: [
-                {label: "Image", name: "categoryimage", widget: image },
+                {label: Image, name: image, widget: image },
                 {label: Title, name: title, widget: string },
                 {label: Description, name: description, widget: text },
                 {label: Link, name: link, widget: string }
               ]  
             }               
-              
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
-          - {
-              label: Mainpitch,
-              name: mainpitch,
-              widget: object,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
-                ],
-            }
-          - { label: Description, name: description, widget: string }
-          - {
-              label: Intro,
-              name: intro,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Blurbs,
-                    name: blurbs,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Main,
-              name: main,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Image1,
-                    name: image1,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image2,
-                    name: image2,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image3,
-                    name: image3,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                ],
-            }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
@@ -256,7 +175,7 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/venue-and-accommodation.md"
+      - file: "src/pages/venue-and-accommodation/index.md"
         label: "Venue & Accommodation"
         name: 'venue-and-accommodation'
         fields:
@@ -273,7 +192,7 @@ collections:
             fields: [
               { label: Image, name: image, widget: image}
             ]
-      - file: "src/pages/trade-fair.md"
+      - file: "src/pages/trade-fair/index.md"
         label: "Trade Fair"
         name: "trade-fair"
         fields:
@@ -281,11 +200,13 @@ collections:
             name: 'tradefair'
             widget: 'object'
             fields:
-            - {label: Description, name: description, widget: text }
-            - {label: Image, name: image, widget: image }
+              [
+                {label: Description, name: description, widget: text },
+                {label: Image, name: image, widget: image }
+              ]
           - label: 'Fees'
             name: 'fees'
-            widget: 'ooobject'
+            widget: 'object'
             fields:
             - {label: Image, name: image, widget: image }
       - file: "src/pages/event-programme.md"

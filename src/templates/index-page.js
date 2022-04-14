@@ -15,12 +15,16 @@ export const IndexPageTemplate = ({
   image,
   category
 }) => {
-  const heroImage = getImage(image) || image;
-
-  console.log(category)
+console.log(category)
   return (
     <div>
-      <HomeBanner img={heroImage}/>
+       <div className="container my-auto">
+        <PreviewCompatibleImage
+              imageInfo={{
+                image: image,
+                alt: 'conference',
+              }} /> 
+       </div>
       <section className="">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 ">
          {category.map(item=>
@@ -42,7 +46,6 @@ export const IndexPageTemplate = ({
 };
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   category: PropTypes.array,
   title: PropTypes.string,
   heading: PropTypes.string,

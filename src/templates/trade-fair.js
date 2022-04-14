@@ -7,6 +7,7 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageSubtitle from "../components/PageSubtitle";
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
+  console.log(tradefair)
   return (
     <div>
       <PageTitle title={title} />
