@@ -8,6 +8,8 @@ import ProductPagePreview from './preview-templates/ProductPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import TradeFairPagePreview from './preview-templates/TradeFairPagePreview'
 import VenueAccommodationPreview from './preview-templates/VenueAccommodationPreview'
+import EventProgrammePreview from './preview-templates/EventProgrammePreview'
+import AquaAwardsPreview from './preview-templates/AquaAwardsPreview'
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
@@ -18,3 +20,5 @@ CMS.registerPreviewTemplate('products', ProductPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('trade-fair', TradeFairPagePreview)
 CMS.registerPreviewTemplate('venue-and-accommodation', VenueAccommodationPreview)
+CMS.registerPreviewTemplate('event-programme-page', EventProgrammePreview)
+CMS.registerPreviewTemplate('aqua-awards-page', AquaAwardsPreview)
