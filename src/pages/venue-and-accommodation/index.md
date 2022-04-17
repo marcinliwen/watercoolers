@@ -17,15 +17,15 @@ venue:
     - conference center
   image: /img/venue-1.png
   body: >-
-    * central city location in the gorgeous ancient capital of Portugal
+    1. central city location in the gorgeous ancient capital of Portugal
 
-    * unbeatable access to the city's finest dining, cultural and historic attractions
+    2. unbeatable access to the city's finest dining, cultural and historic attractions
 
-    * comfortable, modern hotel accommodation, with luxurious bedding, marble bathrooms
+    3. comfortable, modern hotel accommodation, with luxurious bedding, marble bathrooms
 
-    * in-house dining options, including Portuguese-style tapas and local dishes rooftop bar with a beautiful view of Lisbon city
+    4. in-house dining options, including Portuguese-style tapas and local dishes rooftop bar with a beautiful view of Lisbon city
 
-    * elegant outdoor poolday spaconference center
+    5. elegant outdoor poolday spaconference center
 gallery:
   - image: /img/venue-1.png
   - image: /img/venue-2.png
