@@ -26,6 +26,16 @@ venue:
     4. in-house dining options, including Portuguese-style tapas and local dishes rooftop bar with a beautiful view of Lisbon city
 
     5. elegant outdoor poolday spaconference center
+  text: >-
+    * central city location in the gorgeous ancient capital of Portugal
+
+    * unbeatable access to the city's finest dining, cultural and historic attractions
+
+    * comfortable, modern hotel accommodation, with luxurious bedding, marble bathrooms
+
+    * in-house dining options, including Portuguese-style tapas and local dishesrooftop bar with a beautiful view of Lisbon city
+
+    * elegant outdoor poolday spaconference center
 gallery:
   - image: /img/venue-1.png
   - image: /img/venue-2.png
