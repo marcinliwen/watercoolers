@@ -30,7 +30,7 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
       - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "text", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
 
   - name: "pages"
@@ -63,7 +63,7 @@ collections:
               default: "about-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "text", widget: "markdown" }
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
@@ -184,7 +184,7 @@ collections:
             widget: 'object'  
             fields: 
               - { label: Title, name: title, widget: string }
-              - { label: Description, name: body, widget: markdown }
+              - { label: Description, name: text, widget: markdown }
               - { label: Image, name: image, widget: image }
           - label: Gallery
             name: gallery
@@ -226,7 +226,7 @@ collections:
             widget: 'list' 
             fields: [
               {label: Title, name: title, widget: string },
-              {label: Description, name: body, widget: markdown },
+              {label: Description, name: text, widget: markdown },
               {label: Image, name: image, widget: image }
             ]
           - label: 'Conference Speakers'
@@ -262,7 +262,7 @@ collections:
             widget: 'list'
             fields:
               - {label: Title, name: title, widget: string }
-              - {label: Description, name: body, widget: markdown }
+              - {label: Description, name: text, widget: markdown }
               - {label: Image, name: image, widget: image }
       - file: "src/pages/registration.md"
         label: "Registration"
