@@ -16,7 +16,7 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 md:px-0">
           <div>
             <h3 className="font-bold my-4 text-2xl">{venue.title}</h3>
-            <p className="text-base ">{venue.description}</p>
+            <p className="text-base" dangerouslySetInnerHTML={{__html: venue.body}}></p>
           </div>
           <PreviewCompatibleImage
             imageInfo={{
@@ -78,7 +78,7 @@ export const pageQuery = graphql`
         title
         venue {
           title
-          description
+          body
           image {
             childImageSharp {
               gatsbyImageData(quality: 100, layout: CONSTRAINED, width: 512)
