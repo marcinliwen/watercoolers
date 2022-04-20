@@ -1,10 +1,14 @@
 ---
-templateKey: 'trade-fair'
+templateKey: trade-fair
 path: /trade-fair
 title: Trade Fair
 tradefair:
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
-    image: /img/floor-plan.png
+  description: After 3 years break caused by COVID-19 pandemic it is a great
+    opportunity to meet in person with your customers and business partners,
+    show your products and services to a targeted, industry specific,
+    Europe-wide audience. Strengthen your business relationship and reach out to
+    new partners and contact.
+  image: /img/floor-plan.png
 fees:
-    image: /img/fees.png
+  image: /img/fees.png
 ---
