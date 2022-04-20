@@ -24,7 +24,9 @@ label{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
+#venue-info .gatsby-image-wrapper img{
+    height: auto;
+}
 @media(min-width: 768px){
     .plan-content .cart:nth-child(2n), .is-side .cart:nth-child(2n){
         flex-direction: row-reverse;

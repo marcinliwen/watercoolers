@@ -11,7 +11,10 @@ module.exports = {
         'blue': '#006aac',
         'green': '#9dc017',
         'greenhover': '#c8d42a',
-        'pink' : '#DC368A'
+        'pink' : '#DC368A',
+        'gray' : '#899093',
+        'bgblue': '#d7e7f4',
+        'bggray' : '#f7f7f7'
       },
       gridTemplateRows:{
         'layout' : 'auto 1fr auto',
