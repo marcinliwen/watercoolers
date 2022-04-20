@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="bg-blue py-10">
 
-        <div className="container border-t-white border-t py-2">
+        <div className="container py-2">
           <img
             src={logo}
             alt="We"
