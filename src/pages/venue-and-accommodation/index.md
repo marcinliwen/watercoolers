@@ -52,5 +52,4 @@ gallery:
   - image: /img/venue-4.png
   - image: /img/venue-5.png
   - image: /img/venue-6.png
-  - image: /img/venue-7.png
 ---
