@@ -229,7 +229,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               <div>
                 <label>
                 <input type="checkbox" name="accept_terms_and_conditions" value="yes" required/>
-                <span className="ml-2">I hereby accept the <Link to="/terms-and-conditions" className="text-pink" >Exhibition Terms and Conditions</Link> <span className="text-red-600">*</span>. </span>
+                <span className="ml-2">I hereby accept the <a href="/terms-and-conditions" className="text-pink" target="_blank" >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
                 </label>
               </div>
               <button type="submit" className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl">
