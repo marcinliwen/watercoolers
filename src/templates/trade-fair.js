@@ -106,7 +106,9 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <h3 className="font-bold my-4 text-2xl text-center">
               COMPANY DETAIL
             </h3>
-            <form>
+            <form name="stand_application_form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="stand_application_form"/>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <label className="flex flex-col">
                   <span>Company name <span className="text-red-600">*</span></span>
@@ -230,7 +232,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 <span className="ml-2">I hereby accept the <Link to="/terms-and-conditions" className="text-pink" >Exhibition Terms and Conditions</Link> <span className="text-red-600">*</span>. </span>
                 </label>
               </div>
-              <button className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl">
+              <button type="submit" className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl">
                 Submit
               </button>
             </form>
