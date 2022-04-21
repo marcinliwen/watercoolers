@@ -12,30 +12,58 @@ eventList:
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
+    body: |-
+      * lista
+      * lista
+      * lista
   - image: /img/lizbona.png
     title: 20 October- Conference
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
+    body: |-
+      
+
+      * lista
+      * lista
+      * lista
   - image: /img/lizbona.png
     title: 20 October- Workshops
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
+    body: |-
+      
+
+      * lista
+      * lista
+      * lista
   - image: /img/lizbona.png
     title: 20 October– Aqua Awards & Gala Dinner
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
+    body: |-
+      
+
+      * lista
+      * lista
+      * lista
   - image: /img/lizbona.png
     title: 21 October- Trade Fair
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
+    body: |-
+      
+
+      * lista
+      * lista
+      * lista
 conference:
   - image: /img/richard-full-002-.jpg
     name: Richard Hall
