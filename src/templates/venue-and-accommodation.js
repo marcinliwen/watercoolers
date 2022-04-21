@@ -42,13 +42,14 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
               <li>day spa</li>
               <li>conference center</li>
             </ul>
+            
             <p className="font-bold mb-2">
+              Price of single room with breakfast: 185 EUR (VAT included)
+            </p>
+            <p className="font-bold mb-4">
               Price of double room with breakfast: 205 EUR (VAT included)
             </p>
 
-            <p className="font-bold mb-4">
-              Price of single room with breakfast: 185 EUR (VAT included)
-            </p>
             <p>
               <strong>Sheraton Lisbona Hotel & Spa</strong>
               <br /> Rua Latino Coelho, 1 <br />

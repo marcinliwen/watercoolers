@@ -18,7 +18,7 @@ export const EventProgrammeTemplate = ({
   return (
     <div>
       <PageTitle title={title} />
-     {/*  <section>
+      {/*  <section>
         <div className="container">
           <div className="md:flex my-16 md:my-20">
             <div className="md:basis-1/2 px-8">
@@ -44,7 +44,7 @@ export const EventProgrammeTemplate = ({
         <div className="container">
           <div className="mb-12">
             <h3 className="font-bold text-3xl text-blue mb-12">
-              WEDNESDAY 19TH OCTOBER 2022
+              WEDNESDAY 19 OCTOBER 2022
             </h3>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span>15:45</span>
@@ -168,14 +168,18 @@ export const EventProgrammeTemplate = ({
             </div>
             <h4 className="text-pink uppercase mb-4 text-xl">GALA DINNER</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
-              <span>19.30</span><span>Transfer from the Sheraton Lisboa Hotel</span>
-              <span>20:00</span><span>Gala Dinner</span>
-              <span>23:30</span><span>Transfer to the Sheraton Lisboa Hotel</span>
-
+              <span>19.30</span>
+              <span>Transfer from the Sheraton Lisboa Hotel</span>
+              <span>20:00</span>
+              <span>Gala Dinner</span>
+              <span>23:30</span>
+              <span>Transfer to the Sheraton Lisboa Hotel</span>
             </div>
           </div>
           <div className="mb-12">
-            <h3 className="font-bold text-3xl text-blue mb-12">FRIDAY 21st OCTOBER 2022</h3>
+            <h3 className="font-bold text-3xl text-blue mb-12">
+              FRIDAY 21 OCTOBER 2022
+            </h3>
             <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
               <span>10:00 – 16:00</span>
               <span>International Trade Show</span>
@@ -192,7 +196,7 @@ export const EventProgrammeTemplate = ({
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	px-8">
                 <h3 className="font-bold mb-8 mt-4 text-2xl">
-                  19 October- City Tour
+                  19 October - City Tour
                 </h3>
                 <p className="text-base mb-2 ">
                   Lisbon is just waiting to be explored by you!{" "}
@@ -219,7 +223,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="cart md:flex mb-16 md:mb-20 ">
               <div className="md:basis-1/2 px-8">
-                <StaticImage src="../img/programm/talking.jpg" />
+                <StaticImage src="../img/programm/conference.png" />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	px-8">
                 <h3 className="font-bold mb-8 mt-4 text-2xl">
@@ -238,13 +242,13 @@ export const EventProgrammeTemplate = ({
             <div className="cart md:flex mb-16 md:mb-20 ">
               <div className="md:basis-1/2 px-8">
                 <StaticImage
-                  src="../img/programm/workshops.jpg"
+                  src="../img/programm/workshops.png"
                   alt="workshops"
                 />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	px-8">
                 <h3 className="font-bold mb-8 mt-4 text-2xl">
-                  20 October- Workshops
+                  20 October - Workshops
                 </h3>
                 <p className="text-base mb-2 ">
                   Workshops will help you grow and improve your business.
@@ -260,7 +264,7 @@ export const EventProgrammeTemplate = ({
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	px-8">
                 <h3 className="font-bold mb-8 mt-4 text-2xl">
-                  20 October- Aqua Awards & Gala Dinner
+                  20 October - Aqua Awards & Gala Dinner
                 </h3>
                 <p className="text-base mb-2 ">
                   Don’t miss the highlight moment of the WE event.
@@ -271,27 +275,27 @@ export const EventProgrammeTemplate = ({
                 </p>
                 <p className="text-base mb-2 ">
                   The winners of the Aqua Awards competition will be announced
-                  at the Gala Dinner.{" "}
+                  at the Gala Dinner.
                 </p>
                 <p className="text-base mb-2 ">
                   This year the ceremony will be held in the magnificent SUD
-                  LISBOA - one of the most beautiful location in Lisbon.{" "}
+                  LISBOA - one of the most beautiful location in Lisbon.
                 </p>
               </div>
             </div>
             <div className="cart md:flex mb-16 md:mb-20 ">
               <div className="md:basis-1/2 px-8">
-                <StaticImage src="../img/programm/sudlizboa.jpg" />
+                <StaticImage src="../img/programm/trade-fair.png" />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	px-8">
                 <h3 className="font-bold mb-8 mt-4 text-2xl">
-                  21 October- Trade Fair
+                  21 October - Trade Fair
                 </h3>
                 <p className="text-base mb-2 ">
                   After 3 years break caused by COVID-19 pandemic it is a great
                   opportunity to meet in person with your customers and business
                   partners, show your products and services to a targeted,
-                  industry specific, Europe-wide audience.{" "}
+                  industry specific, Europe-wide audience.
                 </p>
                 <p className="text-base mb-2 ">
                   Strengthen your business relationship and reach out to new
@@ -330,7 +334,31 @@ export const EventProgrammeTemplate = ({
             </h2>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Richard.jpg" />
+                <StaticImage src="../img/speakers/Terence-Mauri.jpg" />
+                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Terence Mauri
+                  </h4>
+                  {/* <span className="text-sm text-pink leading-4 block">{item.role}</span> */}
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Keynote Speaker:</span>{" "}
+                  <span className="uppercase">
+                    ADAPT AND THRIVE IN THE AGE OF DISRUPTION
+                  </span>
+                </p>
+                <p className="">
+                  Terence is a future trends and disruption expert who
+                  challenges leaders to innovate, adapt and thrive in the age of
+                  disruption.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/Richard.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Richard Hall
@@ -347,6 +375,13 @@ export const EventProgrammeTemplate = ({
                     LATEST EUROPEAN MARKET AND INDUSTRY DEVELOPMENTS AND OUTLOOK
                   </span>
                 </p>
+                <p className="text-blue mb-4">
+                  Statistics and insights for bottled and mains-fed water
+                  dispensers as well as integrated tap systems in East and West
+                  Europe to give a full overview for future business planning.
+                  Delegates will receive a copy of a special WE member summary
+                  report at the conference.
+                </p>
                 <p className="mb-2">
                   Richard Hall is an acknowledged expert on the international
                   food and drinks sector, chairing and speaking at numerous
@@ -357,18 +392,11 @@ export const EventProgrammeTemplate = ({
                   team publishes three business journals, including
                   “Refreshment”, and manages the foodbev.com website.
                 </p>
-                <p>
-                  Statistics and insights for bottled and mains-fed water
-                  dispensers as well as integrated tap systems in East and West
-                  Europe to give a full overview for future business planning.
-                  Delegates will receive a copy of a special WE member summary
-                  report at the conference.
-                </p>
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Bill-Bruce.jpg" />
+                <StaticImage src="../img/speakers/Bill-Bruce.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Bill Bruce
@@ -383,12 +411,21 @@ export const EventProgrammeTemplate = ({
                   <span className="mr-2">Presentation:</span>{" "}
                   <span className="uppercase">SUSTAINABLE FUTURE</span>
                 </p>
+                <p className="mb-4 text-blue">
+                  Bill Bruce considers a ‘Sustainable future’ for the European
+                  water cooler industry, looking at: the need for a circular
+                  economy; the language we use when talking about ‘green’;
+                  carbon footprints and carbon neutrality; the realities of the
+                  environmental sustainability landscape; the effects of
+                  European legislation consumer opinion; and what the future
+                  holds…
+                </p>
                 <p className="mb-2">
-                  Statistics and insights for bottled and mains-fed water
-                  dispensers as well as integrated tap systems in East and West
-                  Europe to give a full overview for future business planning.
-                  Delegates will receive a copy of a special WE member summary
-                  report at the conference.
+                  Bill Bruce has a long history of working in the watercooler
+                  sector, having been the editor of Europe’s first dedicated
+                  sector magazine: H20 Europe (over 20 years ago), and more
+                  recent sector publications such as The Point, Cooler
+                  Innovation, Cooler Plus and Refreshment.
                 </p>
                 <p className="mb-2">
                   Bill left FoodBev in 2016 and now runs his own PR,
@@ -402,19 +439,29 @@ export const EventProgrammeTemplate = ({
                   marketing, PR and journalism. For the past 25 years his main
                   focus has been the food and beverage industry with a
                   particular interest in packaging and environmental
-                  sustainability. Bill Bruce considers a ‘Sustainable future’
-                  for the European water cooler industry, looking at: the need
-                  for a circular economy; the language we use when talking about
-                  ‘green’; carbon footprints and carbon neutrality; the
-                  realities of the environmental sustainability landscape; the
-                  effects of European legislation consumer opinion; and what the
-                  future holds…
+                  sustainability.
+                </p>
+              </div>
+            </div>
+            <div className="speacer-person  mb-16">
+              <div className="md:flex-1 ">
+                <p className="text-blue font-bold mb-4 md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">
+                    THE 21ST CENTURY WATERCOOLER INDUSTRY – REALITY AND TRENDS
+                  </span>
+                </p>
+                <p className="text-blue">
+                  How is the watercooler industry adapting to the technologies
+                  of other industries and what are the trends? How are Acquajet
+                  and Fonte Viva managing their businesses with the support of
+                  technology?
                 </p>
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Goncalo-Tremoceiro.jpg" />
+                <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Gonçalo Tremoceiro
@@ -446,7 +493,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.jpg" />
+                <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Miguel Ribeiro Ferreira
@@ -478,20 +525,7 @@ export const EventProgrammeTemplate = ({
                 </u>
               </div>
             </div>
-            <div className="speacer-person  mb-16">
-              <p className="text-blue font-bold mb-4 md:flex">
-                <span className="mr-2">Presentation:</span>
-                <span className="uppercase">
-                  THE 21ST CENTURY WATERCOOLER INDUSTRY – REALITY AND TRENDS
-                </span>
-              </p>
-              <p>
-                How is the watercooler industry adapting to the technologies of
-                other industries and what are the trends? How are Acquajet and
-                Fonte Viva managing their businesses with the support of
-                technology?
-              </p>
-            </div>
+
             {/* {conference &&
             conference.map((item) => (
               <div key={item.title} className="speacer-person md:flex mb-16">
@@ -536,7 +570,7 @@ export const EventProgrammeTemplate = ({
               </div>
               <div className="md:flex-1 md:pl-4">
                 <p className="text-blue font-bold md:flex">
-                  <span className="mr-2">Presentation:</span>{" "}
+                  <span className="mr-2">Presentation:</span>
                   <span className="uppercase">
                     The addition of air purifiers to your marketing portfolio
                   </span>
@@ -557,13 +591,13 @@ export const EventProgrammeTemplate = ({
               </div>
               <div className="md:flex-1 md:pl-4">
                 <p className="text-blue font-bold  mb-4 smd:flex">
-                  <span className="mr-2">Presentation:</span>{" "}
+                  <span className="mr-2">Presentation:</span>
                   <span className="uppercase">
                     The Home Water Dispenser Market – Lessons learnt from around
                     the world
                   </span>
                 </p>
-                <ul className="list-disc mb-4 pl-6">
+                <ul className="list-disc mb-4 pl-6 text-blue">
                   <li>
                     Brief recap on Middle East, USA and UK experience in this
                     industry.
@@ -583,15 +617,15 @@ export const EventProgrammeTemplate = ({
                   <li>Impact from the Pandemic</li>
                   <li>The future</li>
                 </ul>
-                <p className="mb-4">
+                <p className="mb-2">
                   Nick entered the water dispenser industry in 1985 when he
                   joined Ionics/Aquacool in a sales and marketing role to help
                   build a new business supplying homes and businesses in Bahrain
                   with water dispensers. This was followed by managing their
                   operation in Jeddah, Saudi Arabia, and eventually working in
-                  the US running their Baltimore operation.{" "}
+                  the US running their Baltimore operation.
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                   When Nick decided to head back to the UK, it was in the early
                   days of the industry there in 1990. He joined a small London
                   business called Aquaporte as Sales & Marketing Director. This
@@ -600,13 +634,13 @@ export const EventProgrammeTemplate = ({
                   This was sold in 2004, and after a few years Nick re-entered
                   the industry starting Love Water.
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                   Love Water was originally geared towards building a home
                   customer base but over time this has expanded into B2B, but
                   the home customers still retain over 25% of the business
-                  income.{" "}
+                  income.
                 </p>
-                <p className="mb-4">
+                <p className="mb-2">
                   Nick will give you an insightful view of his experience in the
                   home water dispenser business in the Middle East, the USA and
                   in England. He will give his views on the dos and don’ts, and
@@ -629,7 +663,7 @@ export const EventProgrammeTemplate = ({
               </div>
               <div className="md:flex-1 md:pl-4">
                 <p className="text-blue font-bold md:flex">
-                  <span className="mr-2">Presentation:</span>{" "}
+                  <span className="mr-2">Presentation:</span>
                   <span className="uppercase">Comming soon</span>
                 </p>
               </div>
@@ -639,7 +673,7 @@ export const EventProgrammeTemplate = ({
             </p>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/FranciscoDosSantos.jpg" />
+                <StaticImage src="../img/speakers/FranciscoDosSantos.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Francisco dos Santos
@@ -705,7 +739,7 @@ export const EventProgrammeTemplate = ({
                   <div className="md:flex-1 md:pl-4">
                     <p className="mb-8">{item.resume}</p>
                     <p className="text-blue font-bold md:flex">
-                      <span className="mr-2">Presentation:</span>{" "}
+                      <span className="mr-2">Presentation:</span>
                       <span className="uppercase">{item.title}</span>
                     </p>
                     <p className="text-blue">{item.description}</p>

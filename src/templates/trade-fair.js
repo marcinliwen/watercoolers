@@ -56,7 +56,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <h3 className="font-bold mb-2">PRICE INCLUDES:</h3>
             <ul className="list-disc text-sm pl-6 mb-4">
               <li>
-                7,5 m2 table top stand: to be dressed individually by the
+                7,5 m<sup>2</sup> table top stand: to be dressed individually by the
                 exhibitors
               </li>
               <li>
@@ -152,11 +152,11 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 <label>
                   <span className="mr-2">AVAILABLE EXHIBITION STANDS:<span className="text-red-600">*</span></span>
                   <select name="standsize">
-                    <option value="7,5m2 table top">7,5m2 table top</option>
+                    <option value="7,5 m2 table top">7,5 m&sup2; table top</option>
 
-                    <option value="15m2 table top">15m2 table top</option>
+                    <option value="15 m2 table top">15 m&sup2; table top</option>
 
-                    <option value="22,5m2 table top">22,5m2 table top</option>
+                    <option value="22,5 m2 table top">22,5 m&sup2; table top</option>
                   </select>
                 </label>
                 <label>
@@ -180,7 +180,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 <p>
                   Deposit payment within 14 days of stand
                   reservation/application form Balance payment by
-                  <strong>31 January 2022</strong>
+                  <strong> 31 January 2022</strong>
                 </p>
               </div>
               <div>
@@ -220,9 +220,9 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               <div>
                 <p>
                   Please refer any queries concerning the above requirements to
-                  the exhibition organiser:
-                  <a href="mailto:office@ideamarketing.pl">
-                    office@ideamarketing.pl
+                  the exhibition organiser: 
+                  <a href="mailto:office@ideamarketing.pl" className="ml-1">
+                     office@ideamarketing.pl
                   </a>
                 </p>
               </div>
