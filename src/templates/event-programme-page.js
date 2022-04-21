@@ -579,7 +579,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Nick-Swan.jpg " />
+                <StaticImage src="../img/speakers/no-person.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Nick Swan
@@ -651,7 +651,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/no.jpg" />
+                <StaticImage src="../img/speakers/no-person.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Mark Cross
@@ -694,7 +694,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/no.jpg" />
+                <StaticImage src="../img/speakers/no-person.png" />
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Alex Mezquida

@@ -31,7 +31,7 @@ the environment. To date, well over 400 awards have been presented.</p>
                   </div>
                   <div  className="cart md:flex mb-16 md:mb-20 ">
                     <div className="md:basis-1/2 px-8">
-                    <StaticImage src="../img/aa-logo.png" />
+                    <StaticImage src="../img/aa-benefits.png" />
                     </div>
                     <div className="md:basis-1/2 flex flex-col justify-center	px-8">
                       <h3 className="font-bold mb-8 mt-4 text-2xl">
@@ -50,14 +50,28 @@ the environment. To date, well over 400 awards have been presented.</p>
                       Categories
                       </h3>
                       <p className="text-base mb-4 font-bold">There are 5 award categories – any of which could gain your compnay the coveted WE Aqua Awards:</p>
-                      <ul className="list-disc pl-6 text-sm">
+                      <ul className="list-disc pl-6 mb-4 text-sm">
                       <li>Best Website</li>
                       <li>Best Product Innovation</li>
                       <li>Best Promotion of Health & Hydration</li>
                       <li>Best Environmental Practice/Green Initiative</li>
                       <li>Best Marketing Campaign</li>
                       </ul>
-                      <p className="mb-8">Check out the fantastic package for winners and applicants.</p>
+                      <p className="mb-8 font-bold">If you believe you have a great product or the highest level of service don’t hesitate – submit your application and a prestigious Aqua Award can be yours!</p>
+                      <p className="font-bold">How to enter?</p>
+                      <p>Just complete the Aqua Awards entry and submit it online. </p>
+                    </div>
+                  </div>
+                  <div className="cart md:flex mb-16 md:mb-20 ">
+                    <div className="md:basis-1/2 px-8">
+                    <StaticImage src="../img/judging.jpg" />
+                    </div>
+                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
+                      <h3 className="font-bold mb-8 mt-4 text-2xl">
+                       Criteria for judging
+                      </h3>
+                      <p className="font-bold">AQUA AWARDS - VOTING SYSTEM IN 2022</p>
+                      <p className="text-base mb-8">The winners of the Aqua Awards will be chosen by the Jury appointed by WE (75%) and National Associations (25%).</p>
                     </div>
                   </div>
               {/* {info &&
@@ -81,6 +95,68 @@ the environment. To date, well over 400 awards have been presented.</p>
                 ))} */}
                 </div>
           </div>
+      </section>
+      <section className="bg-bggray py-20">
+        <div className="container">
+          <div className="md:grid md:grid-cols-3 md:gap-4">
+                <div className="mb-12">
+                  <StaticImage  className="mb-2" src="../img/internet.png"/>
+                  <h3 className="font-bold h-16 text-xl">Best website</h3>
+                  <ul className="list-disc pl-6 text-sm">
+                    <li>Efective navigation</li>
+                    <li>Relevant content</li>
+                    <li>Performance and speed</li>
+                    <li>Attractive and appealing design</li>
+                    <li>Inclusion of WE/National Association logo</li>
+                    <li>Promotion of the watercooler industry if appropriate</li>
+                  </ul>
+                </div>
+                <div  className="mb-12">
+                  <StaticImage  className="mb-2" src="../img/rocket.png"/>
+                  <h3 className="font-bold h-16 text-xl">Best product innovation</h3>
+                  <ul className="list-disc pl-6 text-sm">
+                    <li>Innovative technology within the standards of the industry</li>
+                    <li>Stands out from the croud</li>
+                    <li>A recognised benefit to the user</li>
+                  </ul>
+                </div>
+                <div  className="mb-12">
+                  <StaticImage  className="mb-2" src="../img/mineral-water.png"/>
+                  <h3 className="font-bold h-16 text-xl">Best environmental practice / green initiative</h3>
+                  <ul className="list-disc pl-6 text-sm">
+                    <li>Immediate positive impact on target audience</li>
+                    <li>Relevance to audience</li>
+                    <li>Lasting impression on audience of key message</li>
+                    <li>Promotion of the watercooler industr</li>
+                    <li>Include of the WE/National Association logo</li>
+                    <li>Attractive and appealing design</li>
+                  </ul>
+                </div>
+                <div  className="mb-12">
+                  <StaticImage className="mb-2" src="../img/recycle-sign.png"/>
+                  <h3 className="font-bold h-16 text-xl">Best promotion of health & hydration</h3>
+                  <ul className="list-disc pl-6 text-sm">
+                    <li>Total commitment to the benefit of the environment</li>
+                    <li>Immediate impact on target audience</li>
+                    <li>Lasting impression on target audience to continue this initiative</li>
+                    <li>Promotion of the watercooler industry</li>
+                    <li>Attractive and appealing design</li>
+                  </ul>
+                </div>
+                <div  className="mb-12">
+                  <StaticImage  className="mb-2" src="../img/ads.png"/>
+                  <h3 className="font-bold h-16 text-xl">Best marketing campaign</h3>
+                  <ul className="list-disc pl-6 text-sm">
+                    <li>Easily understood campaign message</li>
+                    <li>Immediate positive impact on target audience - to inform/persuade/remind customers of campaign message</li>
+                    <li>Lasting impression on target audience of this message</li>
+                    <li>Promotion of the watercooler industry</li>
+                    <li>Inclusion of the WE/National Association logo</li>
+                    <li>Attractive and appealing design</li>
+                  </ul>
+                </div>
+          </div>
+        </div>
       </section>
       <PageSubtitle title="Aqua Awards Application Form" />
       <section>
