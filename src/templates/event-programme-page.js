@@ -18,7 +18,7 @@ export const EventProgrammeTemplate = ({
   return (
     <div>
       <PageTitle title={title} />
-      <section>
+     {/*  <section>
         <div className="container">
           <div className="md:flex my-16 md:my-20">
             <div className="md:basis-1/2 px-8">
@@ -36,6 +36,149 @@ export const EventProgrammeTemplate = ({
                   alt: title,
                 }}
               />
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section id="programm" className="bg-bggray py-12 mb-12">
+        <div className="container">
+          <div className="mb-12">
+            <h3 className="font-bold text-3xl text-blue mb-12">
+              WEDNESDAY 19TH OCTOBER 2022
+            </h3>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>15:45</span>
+              <span>Pick up from the Sheraton Lisboa Hotel</span>
+              <span>16:00</span>
+              <span>City Tour</span>
+              <span>19:30</span>
+              <span>Dinner at the restaurant</span>
+            </div>
+          </div>
+          <div className="mb-12">
+            <h3 className="font-bold text-3xl text-blue mb-12">
+              THURSDAY 20TH OCTOBER 2022
+            </h3>
+            <h4 className="text-pink uppercase mb-4 text-xl">CONFERENCE</h4>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span className="w-12">09:00</span>
+              <span>Registration</span>
+              <span>09:30</span>
+              <span>Welcome</span>
+              <span>09:35</span>
+              <span>Chair’s address</span>
+              <span>09:40</span>
+              <span>
+                <strong>
+                  Latest European market and industry developments and outlook
+                </strong>
+                <br />
+                <span>Richard Hall, Zenith Global</span>
+              </span>
+              <span>10:10</span>
+              <span>
+                <strong>Sustainable Future</strong>
+                <br />
+                <span>Bill Bruce, Bill Bruce Communications</span>
+              </span>
+              <span>10:30</span>
+              <span>Hydration Break</span>
+              <span>11:00</span>
+              <span>
+                <strong>
+                  The 21st Century Watercooler Industry – Reality and Trends
+                </strong>
+                <br />
+                <span>
+                  Gonçalo Tremoceiro: General Manager for Culligan Portugal and
+                  Iberian Director at Acquajet; <br />
+                  Miguel Ribeiro Ferreira: Culligan Iberia M&A Advisor
+                </span>
+              </span>
+              <span>11:30</span>
+              <span>
+                <strong>Adapt and thrive in the age of disruption</strong>
+                <br /> <span>Keynote speaker: Terence Mauri </span>
+              </span>
+              <span>12:30</span>
+              <span>Lunch</span>
+            </div>
+
+            <h4 className="text-pink uppercase mb-4 text-xl">
+              WORKSHOPS – SESSION 1 - Business Strategy
+            </h4>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>13:30</span>
+              <span>
+                <strong>
+                  The addition of air purifiers to your marketing portfolio
+                </strong>
+              </span>
+              <br />
+              <span>Peter Hogervorst, Dolphin</span>
+              <span>14:15</span>
+              <span>
+                <strong>
+                  The home water dispenser market – lessons learnt from around
+                  the world
+                </strong>
+              </span>
+              <br />
+              <span>Nick Swan, Love Water</span>
+              <span>14:45</span>
+              <span>Hydration break</span>
+              <span>15:00</span>
+              <span>
+                <strong>
+                  Introducing municipal hydration into your portfolio
+                </strong>
+                <br />
+                <span>Mark Cross, MIW Water Cooler Experts</span>
+              </span>
+              <span>15:30</span>
+              <span>FINISH</span>
+            </div>
+            <h4 className="text-pink uppercase mb-4 text-xl">
+              WORKSHOPS – SESSION 2 -{" "}
+              <span className="normal-case">Technical & Sustainability</span>
+            </h4>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>13:30</span>
+              <span>
+                <strong>
+                  How to use your system and data to prepare for the future
+                </strong>
+                <br />
+                <span>Francisco dos Santos, Activewhere</span>
+              </span>
+              <span>14:15</span>
+              <span>
+                <strong>
+                  Sanitisation & microbiology in the light of Covid-19
+                </strong>
+                <br />
+                <span>Alex Mezquida, Eden Springs</span>
+              </span>
+              <span>14:45</span>
+              <span>Hydration break</span>
+              <span>15:00</span>
+              <span>To be advised.</span>
+              <span>15:30</span>
+              <span>FINISH</span>
+            </div>
+            <h4 className="text-pink uppercase mb-4 text-xl">GALA DINNER</h4>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>19.30</span><span>Transfer from the Sheraton Lisboa Hotel</span>
+              <span>20:00</span><span>Gala Dinner</span>
+              <span>23:30</span><span>Transfer to the Sheraton Lisboa Hotel</span>
+
+            </div>
+          </div>
+          <div className="mb-12">
+            <h3 className="font-bold text-3xl text-blue mb-12">FRIDAY 21st OCTOBER 2022</h3>
+            <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
+              <span>10:00 – 16:00</span>
+              <span>International Trade Show</span>
             </div>
           </div>
         </div>
@@ -376,119 +519,169 @@ export const EventProgrammeTemplate = ({
             <h2 className="text-pink uppercase text-3xl mb-12">
               Workshops speakers
             </h2>
-            <p className="text-blue font-bold mb-8 text-xl">SESSION 1 - Business Strategy</p>
-            <div  className="speacer-person md:flex mb-16">
-                  <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                    <StaticImage src="../img/speakers/Peter-Hogervorst.png" />
-                    <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                      <h4 className="font-bold text-pink leading-4 mt-2">
-                      Peter Hogervorst
-                      </h4>
-                      <span className="text-sm text-pink leading-4 block">
-                      Managing Director, Dolphin Water
-                      </span>
-                    </div>
-                  </div>
-                  <div className="md:flex-1 md:pl-4">
-                    <p className="text-blue font-bold md:flex">
-                      <span className="mr-2">Presentation:</span>{" "}
-                      <span className="uppercase">The addition of air purifiers to your marketing portfolio</span>
-                    </p>
-                  </div>
-                </div>
-                <div className="speacer-person md:flex mb-16">
-                <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                  <StaticImage src="../img/speakers/Nick-Swan.jpg "/>
-                  <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                  <h4 className="font-bold text-pink leading-4 mt-2">Nick Swan</h4>
-                  <span className="text-sm text-pink leading-4 block">Managing Director, Love Water</span>
-                  </div>
-                </div>
-                <div className="md:flex-1 md:pl-4">
-                  <p className="text-blue font-bold  mb-4 smd:flex"><span className="mr-2">Presentation:</span> <span className="uppercase">The Home Water Dispenser Market – Lessons learnt from around the world</span></p>
-                  <ul className="list-disc mb-4 pl-6">
-                  <li>Brief recap on Middle East, USA and UK experience in this industry.</li>
-<li>Love Water and the UK Home market</li>
-<li>The advantages of having a Home customer base</li>
-<li>Choosing your ideal customer profile</li>
-<li>Choosing your Product Range</li>
-<li>Rent or Sell? – That is the question</li>
-<li>Home Service Contracts</li>
-<li>Minimising bad debts</li>
-<li>Sanitising Home dispensers</li>
-<li>Delivery Schedules and Service Levels</li>
-<li>Customer communication</li>
-<li>Marketing – What works and what doesn’t.</li>
-<li>Efficiency Stats and Customer Turnover</li>
-<li>Impact from the Pandemic</li>
-<li>The future</li>
-                  </ul>
-                  <p className="mb-4">Nick entered the water dispenser industry in 1985 when he joined Ionics/Aquacool in a sales and marketing role to help build a new business supplying homes and businesses in Bahrain with water dispensers. This was followed by managing their operation in Jeddah, Saudi Arabia, and eventually working in the US running their Baltimore operation. </p>
-                  <p className="mb-4">When Nick decided to head back to the UK, it was in the early days of the industry there in 1990. He joined a small London business called Aquaporte as Sales & Marketing Director. This business was eventually sold, and in 1996 Nick started a London watercooler business called Office Refreshments Ltd. This was sold in 2004, and after a few years Nick re-entered the industry starting Love Water.</p>
-                  <p className="mb-4">Love Water was originally geared towards building a home customer base but over time this has expanded into B2B, but the home customers still retain over 25% of the business income. </p>
-                  <p className="mb-4">Nick will give you an insightful view of his experience in the home water dispenser business in the Middle East, the USA and in England. He will give his views on the dos and don’ts, and why in today’s Hybrid workforce, there has never been a better time to market to this sector.</p>
+            <p className="text-blue font-bold mb-8 text-xl">
+              SESSION 1 - Business Strategy
+            </p>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/Peter-Hogervorst.png" />
+                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Peter Hogervorst
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    Managing Director, Dolphin Water
+                  </span>
                 </div>
               </div>
-              <div className="speacer-person md:flex mb-16">
-                  <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                    <StaticImage src="../img/speakers/no.jpg" />
-                    <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                      <h4 className="font-bold text-pink leading-4 mt-2">
-                      Mark Cross
-                      </h4>
-                      <span className="text-sm text-pink leading-4 block">
-                      Managing Director, MIW Water Cooler Experts
-                      </span>
-                    </div>
-                  </div>
-                  <div className="md:flex-1 md:pl-4">
-                    <p className="text-blue font-bold md:flex">
-                      <span className="mr-2">Presentation:</span>{" "}
-                      <span className="uppercase">Comming soon</span>
-                    </p>
-                  </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>{" "}
+                  <span className="uppercase">
+                    The addition of air purifiers to your marketing portfolio
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/Nick-Swan.jpg " />
+                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Nick Swan
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    Managing Director, Love Water
+                  </span>
                 </div>
-                <p className="text-blue font-bold mb-8 text-xl">SESSION 1 - Business Strategy</p>
-                <div className="speacer-person md:flex mb-16">
-                  <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                    <StaticImage src="../img/speakers/FranciscoDosSantos.jpg" />
-                    <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                      <h4 className="font-bold text-pink leading-4 mt-2">
-                      Francisco dos Santos
-                      </h4>
-                      <span className="text-sm text-pink leading-4 block">
-                      IT – Activewhere
-                      </span>
-                    </div>
-                  </div>
-                  <div className="md:flex-1 md:pl-4">
-                    <p className="text-blue font-bold md:flex">
-                      <span className="mr-2">Presentation:</span>
-                      <span className="uppercase">How to use your IT system and data to prepare for the future</span>
-                    </p>
-                  </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold  mb-4 smd:flex">
+                  <span className="mr-2">Presentation:</span>{" "}
+                  <span className="uppercase">
+                    The Home Water Dispenser Market – Lessons learnt from around
+                    the world
+                  </span>
+                </p>
+                <ul className="list-disc mb-4 pl-6">
+                  <li>
+                    Brief recap on Middle East, USA and UK experience in this
+                    industry.
+                  </li>
+                  <li>Love Water and the UK Home market</li>
+                  <li>The advantages of having a Home customer base</li>
+                  <li>Choosing your ideal customer profile</li>
+                  <li>Choosing your Product Range</li>
+                  <li>Rent or Sell? – That is the question</li>
+                  <li>Home Service Contracts</li>
+                  <li>Minimising bad debts</li>
+                  <li>Sanitising Home dispensers</li>
+                  <li>Delivery Schedules and Service Levels</li>
+                  <li>Customer communication</li>
+                  <li>Marketing – What works and what doesn’t.</li>
+                  <li>Efficiency Stats and Customer Turnover</li>
+                  <li>Impact from the Pandemic</li>
+                  <li>The future</li>
+                </ul>
+                <p className="mb-4">
+                  Nick entered the water dispenser industry in 1985 when he
+                  joined Ionics/Aquacool in a sales and marketing role to help
+                  build a new business supplying homes and businesses in Bahrain
+                  with water dispensers. This was followed by managing their
+                  operation in Jeddah, Saudi Arabia, and eventually working in
+                  the US running their Baltimore operation.{" "}
+                </p>
+                <p className="mb-4">
+                  When Nick decided to head back to the UK, it was in the early
+                  days of the industry there in 1990. He joined a small London
+                  business called Aquaporte as Sales & Marketing Director. This
+                  business was eventually sold, and in 1996 Nick started a
+                  London watercooler business called Office Refreshments Ltd.
+                  This was sold in 2004, and after a few years Nick re-entered
+                  the industry starting Love Water.
+                </p>
+                <p className="mb-4">
+                  Love Water was originally geared towards building a home
+                  customer base but over time this has expanded into B2B, but
+                  the home customers still retain over 25% of the business
+                  income.{" "}
+                </p>
+                <p className="mb-4">
+                  Nick will give you an insightful view of his experience in the
+                  home water dispenser business in the Middle East, the USA and
+                  in England. He will give his views on the dos and don’ts, and
+                  why in today’s Hybrid workforce, there has never been a better
+                  time to market to this sector.
+                </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/no.jpg" />
+                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Mark Cross
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    Managing Director, MIW Water Cooler Experts
+                  </span>
                 </div>
-                <div className="speacer-person md:flex mb-16">
-                  <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                    <StaticImage src="../img/speakers/no.jpg" />
-                    <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                      <h4 className="font-bold text-pink leading-4 mt-2">
-                      Alex Mezquida
-                      </h4>
-                      <span className="text-sm text-pink leading-4 block">
-                      Group Quality Director <br />Eden Springs
-                      </span>
-                    </div>
-                  </div>
-                  <div className="md:flex-1 md:pl-4">
-                    <p className="text-blue font-bold md:flex">
-                      <span className="mr-2">Presentation:</span>
-                      <span className="uppercase">Sanitisation & microbiology in the light of Covid-19</span>
-                    </p>
-                  </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>{" "}
+                  <span className="uppercase">Comming soon</span>
+                </p>
+              </div>
+            </div>
+            <p className="text-blue font-bold mb-8 text-xl">
+              SESSION 1 - Business Strategy
+            </p>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/FranciscoDosSantos.jpg" />
+                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Francisco dos Santos
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    IT – Activewhere
+                  </span>
                 </div>
-                
-           {/*  {workshops &&
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">
+                    How to use your IT system and data to prepare for the future
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/no.jpg" />
+                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Alex Mezquida
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    Group Quality Director <br />
+                    Eden Springs
+                  </span>
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">
+                    Sanitisation & microbiology in the light of Covid-19
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            {/*  {workshops &&
               workshops.map((item) => (
                 <div key={item.title} className="speacer-person md:flex mb-16">
                   <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
