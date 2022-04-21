@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import { getImage, StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
@@ -14,7 +14,53 @@ export const AquaAwardsTemplate = ({ title, info }) => {
       <section>
           <div className="container">
               <div className="py-16 is-side">
-              {info &&
+              <div  className="cart md:flex mb-16 md:mb-20 ">
+                    <div className="md:basis-1/2 px-8">
+                    <StaticImage src="../img/aa-logo.png" />
+                    </div>
+                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
+                      <h3 className="font-bold mb-8 mt-4 text-2xl">
+                        History
+                      </h3>
+                      <p className="text-base mb-8">The Aqua Awards Ceremony held at the annual Watercoolers Europe
+Conference & Fair is a tradition extending back for over 20 years and
+recognises excellence in marketing, innovation and public relations, as well as
+products and programmes which enhance sustainability and protect
+the environment. To date, well over 400 awards have been presented.</p>
+                    </div>
+                  </div>
+                  <div  className="cart md:flex mb-16 md:mb-20 ">
+                    <div className="md:basis-1/2 px-8">
+                    <StaticImage src="../img/aa-logo.png" />
+                    </div>
+                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
+                      <h3 className="font-bold mb-8 mt-4 text-2xl">
+                      Benefits for Applicants
+                      </h3>
+                      <p className="text-base mb-4">The Aqua Awards is an excellent way to promote your brand to the event’s visitors and the wider audience online.</p>
+                      <p className="mb-8">Check out the fantastic package for winners and applicants.</p>
+                    </div>
+                  </div>
+                  <div  className="cart md:flex mb-16 md:mb-20 ">
+                    <div className="md:basis-1/2 px-8">
+                    <StaticImage src="../img/aa-logo.png" />
+                    </div>
+                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
+                      <h3 className="font-bold mb-8 mt-4 text-2xl">
+                      Categories
+                      </h3>
+                      <p className="text-base mb-4 font-bold">There are 5 award categories – any of which could gain your compnay the coveted WE Aqua Awards:</p>
+                      <ul className="list-disc pl-6 text-sm">
+                      <li>Best Website</li>
+                      <li>Best Product Innovation</li>
+                      <li>Best Promotion of Health & Hydration</li>
+                      <li>Best Environmental Practice/Green Initiative</li>
+                      <li>Best Marketing Campaign</li>
+                      </ul>
+                      <p className="mb-8">Check out the fantastic package for winners and applicants.</p>
+                    </div>
+                  </div>
+              {/* {info &&
                 info.map((item) => (
                   <div key={item.title} className="cart md:flex mb-16 md:mb-20 ">
                     <div className="md:basis-1/2 px-8">
@@ -32,7 +78,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                       <p className="text-base mb-8">{item.description}</p>
                     </div>
                   </div>
-                ))}
+                ))} */}
                 </div>
           </div>
       </section>
