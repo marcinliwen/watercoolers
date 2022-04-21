@@ -5,22 +5,23 @@ image: /img/home-banner.png
 category:
   - image: /img/sheraton.png
     title: Venue & Accommodation
-    description: "WE 2022 Conference and Trade Show will take place in Sheraton
-      Lisboa Hotel & Spa. The location has many benefits: "
+    description: A central Lisbon location in one of the city’s most luxurius venues
+      - the Sheraton Lisboa Hotel & Spa.
     link: /venue-and-accommodation
   - image: /img/tradefare.png
     title: Trade Fair
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magn
+    description: After 3 years break, caused by COVID-19 pandemic, the 2022 event in
+      Lisbon is proving to be exceptionally popular with over 85% of exhibition
+      stands already taken.
     link: /trade-fair
   - image: /img/program.png
     title: Event Programme
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magn
+    description: The high quality programme led by international opinion leaders
+      covers the latest research and advances on important topics in the field.
     link: /event-programme
-  - image: /img/awards.png
+  - image: /img/aa-logo.png
     title: Aqua Awards & Gala Dinner
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magn
+    description: Meet the finalists and winners at the Gala Dinner night! Network
+      with your colleagues, business partners and customers.
     link: /aqua-awards
 ---
