@@ -99,7 +99,7 @@ the environment. To date, well over 400 awards have been presented.</p>
       <section className="bg-bggray py-20">
         <div className="container">
           <div className="md:grid md:grid-cols-3 md:gap-4">
-                <div className="mb-12">
+                <div className="mb-4 md:mb-0 p-6 bg-white">
                   <StaticImage  className="mb-2" src="../img/internet.png"/>
                   <h3 className="font-bold h-16 text-xl">Best website</h3>
                   <ul className="list-disc pl-6 text-sm">
@@ -111,7 +111,7 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>Promotion of the watercooler industry if appropriate</li>
                   </ul>
                 </div>
-                <div  className="mb-12">
+                <div  className="mb-4  md:mb-0 p-6 bg-white">
                   <StaticImage  className="mb-2" src="../img/rocket.png"/>
                   <h3 className="font-bold h-16 text-xl">Best product innovation</h3>
                   <ul className="list-disc pl-6 text-sm">
@@ -120,7 +120,7 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>A recognised benefit to the user</li>
                   </ul>
                 </div>
-                <div  className="mb-12">
+                <div  className="mb-4  md:mb-0 p-6 bg-white">
                   <StaticImage  className="mb-2" src="../img/mineral-water.png"/>
                   <h3 className="font-bold h-16 text-xl">Best environmental practice / green initiative</h3>
                   <ul className="list-disc pl-6 text-sm">
@@ -132,7 +132,7 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>Attractive and appealing design</li>
                   </ul>
                 </div>
-                <div  className="mb-12">
+                <div  className="mb-4  md:mb-0 p-6 bg-white">
                   <StaticImage className="mb-2" src="../img/recycle-sign.png"/>
                   <h3 className="font-bold h-16 text-xl">Best promotion of health & hydration</h3>
                   <ul className="list-disc pl-6 text-sm">
@@ -143,7 +143,7 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>Attractive and appealing design</li>
                   </ul>
                 </div>
-                <div  className="mb-12">
+                <div  className="mb-4 md:mb-0 p-6 bg-white">
                   <StaticImage  className="mb-2" src="../img/ads.png"/>
                   <h3 className="font-bold h-16 text-xl">Best marketing campaign</h3>
                   <ul className="list-disc pl-6 text-sm">
