@@ -244,6 +244,7 @@ export const EventProgrammeTemplate = ({
                 <StaticImage
                   src="../img/programm/workshops.png"
                   alt="workshops"
+                  placeholder="none"
                 />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
@@ -260,6 +261,7 @@ export const EventProgrammeTemplate = ({
                 <StaticImage
                   src="../img/programm/sudlizboa.png"
                   alt="Sud Lisboa"
+                  placeholder="none"
                 />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center">
@@ -285,7 +287,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/trade-fair.png" />
+                <StaticImage src="../img/programm/trade-fair.png" placeholder="none"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
@@ -334,7 +336,7 @@ export const EventProgrammeTemplate = ({
             </h2>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Terence-Mauri.jpg" />
+                <StaticImage src="../img/speakers/Terence-Mauri.jpg" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Terence Mauri
@@ -358,7 +360,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Richard.png" />
+                <StaticImage src="../img/speakers/Richard.png" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Richard Hall
@@ -396,7 +398,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Bill-Bruce.png" />
+                <StaticImage src="../img/speakers/Bill-Bruce.png" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Bill Bruce
@@ -461,7 +463,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" />
+                <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Gonçalo Tremoceiro
@@ -476,7 +478,7 @@ export const EventProgrammeTemplate = ({
                 <u className="list-disc">
                   <li>
                     Executive Board Member | General Manager for Culligan
-                    Portugal and Iberian Director at Acquajet
+                    Portugal and Iberian Director at Acquajet
                   </li>
                   <li>Fonte Viva General Manager from 2010 to 2021.</li>
                   <li>
@@ -493,7 +495,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.png" />
+                <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.png" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Miguel Ribeiro Ferreira
@@ -509,13 +511,13 @@ export const EventProgrammeTemplate = ({
                   <li>
                     Pioneer in the Watercooler business in Portugal and Spain
                   </li>
-                  <li>Founding partner of Bebágua (Portugal) in 1996</li>
+                  <li>Founding partner of Bebágua (Portugal) in 1996</li>
                   <li>
-                    Chairman of Acquajet (Spain) from 2000 to 2021 and Fonte
+                    Chairman of Acquajet (Spain) from 2000 to 2021 and Fonte
                     Viva (Portugal) from 2005 to 2021
                   </li>
                   <li>
-                    Business Angel and Investor in various fields of activity,
+                    Business Angel and Investor in various fields of activity,
                     namely in the areas of Real Estate development, Start-Ups of
                     various activities, industry;
                   </li>
@@ -558,7 +560,7 @@ export const EventProgrammeTemplate = ({
             </p>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Peter-Hogervorst.png" />
+                <StaticImage src="../img/speakers/Peter-Hogervorst.png" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Peter Hogervorst
@@ -673,7 +675,7 @@ export const EventProgrammeTemplate = ({
             </p>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/FranciscoDosSantos.png" />
+                <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none"/>
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Francisco dos Santos

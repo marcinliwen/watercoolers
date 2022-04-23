@@ -22,7 +22,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
         </p> */}
         <div className="py-8 md:px-0">
           <h3 className="text-blue py-6  text-2xl">Floor Plan</h3>
-          <StaticImage src="../img/floor_plan_stage.png"/>
+          <StaticImage src="../img/floor_plan_stage.png" placeholder="none"/>
         </div>
         <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
           <div className="grid grid-cols-[108px_1fr] list">

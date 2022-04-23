@@ -16,7 +16,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <div className="py-16 is-side">
               <div  className="cart md:flex mb-16 md:mb-20 ">
                     <div className="md:basis-1/2 ">
-                    <StaticImage src="../img/aa-logo.png" />
+                    <StaticImage src="../img/aa-logo.png" placeholder="none"/>
                     </div>
                     <div className="md:basis-1/2 flex flex-col justify-center	">
                       <h3 className="font-bold mb-8 mt-4 text-2xl">
@@ -36,23 +36,23 @@ Winning presentations will be shown during the Aqua Awards ceremony at the gala 
 winners. Interview with the winners will be published on the Watercoolers Europe website and in the monthly newsletter.</p>
                     <div className="benefits-container">
                       <div className="benefits-item">
-                        <StaticImage src="../img/icons/award.png" />
+                        <StaticImage src="../img/icons/award.png" placeholder="none"/>
                         <p>Statuette</p>
                       </div>
                       <div className="benefits-item">
-                        <StaticImage src="../img/icons/certificate.png" />
+                        <StaticImage src="../img/icons/certificate.png" placeholder="none" />
                         <p>Certificate</p>
                       </div>
                       <div className="benefits-item">
-                        <StaticImage src="../img/icons/presentation.png" />
+                        <StaticImage src="../img/icons/presentation.png" placeholder="none"/>
                         <p>Presentation</p>
                       </div>
                       <div className="benefits-item">
-                        <StaticImage src="../img/icons/interview.png" />
+                        <StaticImage src="../img/icons/interview.png"placeholder="none" />
                         <p>Interview</p>
                       </div>
                       <div className="benefits-item">
-                        <StaticImage src="../img/icons/publications.png" />
+                        <StaticImage src="../img/icons/publications.png" placeholder="none"/>
                         <p>Publications</p>
                       </div>
                     </div>
@@ -91,7 +91,7 @@ winners. Interview with the winners will be published on the Watercoolers Europe
           <p className="md:text-center mb-8">Any of which could gain your company the coveted WE Aqua Awards</p>
           <div className="category-container">
                 <div className="category-item mb-4 md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/icons/website.png"/>
+                  <StaticImage  className="mb-2" src="../img/icons/website.png" placeholder="none"/>
                   <h3 className="font-bold h-16 text-xl">Best website</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Efective navigation</li>
@@ -103,7 +103,7 @@ winners. Interview with the winners will be published on the Watercoolers Europe
                   </ul>
                 </div>
                 <div  className="category-item mb-4  md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/icons/rocket.png"/>
+                  <StaticImage  className="mb-2" src="../img/icons/rocket.png" placeholder="none"/>
                   <h3 className="font-bold h-16 text-xl">Best product innovation</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Innovative technology within the standards of the industry</li>
@@ -112,7 +112,7 @@ winners. Interview with the winners will be published on the Watercoolers Europe
                   </ul>
                 </div>
                 <div  className="category-item mb-4  md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/icons/recycle-sign.png"/>
+                  <StaticImage  className="mb-2" src="../img/icons/recycle-sign.png" placeholder="none"/>
                   <h3 className="font-bold h-16 text-xl">Best environmental practice / green initiative</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Immediate positive impact on target audience</li>
@@ -124,7 +124,7 @@ winners. Interview with the winners will be published on the Watercoolers Europe
                   </ul>
                 </div>
                 <div  className="category-item mb-4  md:mb-0 p-6 bg-white">
-                  <StaticImage className="mb-2" src="../img/icons/drop.png"/>
+                  <StaticImage className="mb-2" src="../img/icons/drop.png" placeholder="none"/>
                   <h3 className="font-bold h-16 text-xl">Best promotion of health & hydration</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Total commitment to the benefit of the environment</li>
@@ -135,7 +135,7 @@ winners. Interview with the winners will be published on the Watercoolers Europe
                   </ul>
                 </div>
                 <div  className="category-item mb-4 md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/icons/ads.png"/>
+                  <StaticImage  className="mb-2" src="../img/icons/ads.png" placeholder="none"/>
                   <h3 className="font-bold h-16 text-xl">Best marketing campaign</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Easily understood campaign message</li>
