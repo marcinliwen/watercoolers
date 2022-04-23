@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageSubtitle from "../components/PageSubtitle";
+import { StaticImage } from "gatsby-plugin-image";
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
   console.log(tradefair);
@@ -12,21 +13,52 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
     <div>
       <PageTitle title={title} />
       <div class="container">
-        <h3 className="font-bold mt-8  mb-6 text-2xl text-center">
+        {/* <h3 className="font-bold mt-8  mb-6 text-2xl text-center">
           Don’t miss the next Watercoolers Europe annula event. Book now in your
           calendar.
         </h3>
         <p className="text-base text-center p-6 md:px-0">
           {tradefair.description}
-        </p>
-        <div className="p-8 md:px-0">
+        </p> */}
+        <div className="py-8 md:px-0">
           <h3 className="text-blue py-6  text-2xl">Floor Plan</h3>
-          <PreviewCompatibleImage
-            imageInfo={{
-              image: tradefair.image,
-              alt: tradefair.title,
-            }}
-          />
+          <StaticImage src="../img/floor_plan_stage.png"/>
+        </div>
+        <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-[108px_1fr] list">
+            <span className="first">S21</span><span className="first">ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA</span>
+            <span className="">S04</span><span>AQUEDUCT - THE WELL WATER</span>
+            <span className="">S08</span><span>AQUISENSE TECHNOLOGIES</span>
+            <span className="">S15</span><span>ASE PACKAGING SOLUTIONS GMBH</span>
+            <span className="">S19</span><span>BARDI</span>
+            <span className="">S29</span><span>BLACKHAWK MOLDING, CO., INC.</span>
+            <span className="">S17/22</span><span>BLUPURA SRL</span>
+            <span className="">S26</span><span>CANALETAS S.A.</span>
+            <span className="">S24/25</span><span>COSMETAL SRL</span>
+            <span className="">S16</span><span>CRYSTAL MOUNTAIN</span>
+            <span className="">S09</span><span>GREIF POLAND SP. Z O.O.</span>
+            <span className="">S28</span><span>H2O DIRECT LIMITED</span>
+            <span className="">S13</span><span>HODMETER</span>
+            <span className="">S20</span><span>KLARAN BY CRYSTAL IS</span>
+            <span className="last">S12</span><span className="last">KTLC EUROPE LTD</span>
+          </div>
+          <div className="grid grid-cols-[108px_1fr] list">
+            <span className="first">S07</span><span className="first">MARCO BEVERAGE SYSTEMS</span>
+            <span className="">S31</span><span>MIW WATER COOLER EXPERTS</span>
+            <span className="">S05/10</span><span>OASIS WATER FRIENDLY SOLUTIONS</span>
+            <span className="">S14</span><span>OP SARL</span>
+            <span className="">S18</span><span>PALLETCO LLC</span>
+            <span className="">S23</span><span>PETAINER</span>
+            <span className="">S02</span><span>PITKIT LTD</span>
+            <span className="">S11</span><span>POLYMER SOLUTIONS INTERNATIONAL INC.</span>
+            <span className="">S06</span><span>SILGAN CLOSURES</span>
+            <span className="">S13</span><span>VIKI PLAST</span>
+            <span className="">S30</span><span>ZERICA SRL</span>
+            <span className="">S01</span><span></span>
+            <span className="">S03</span><span></span>
+            <span className="">S27</span><span></span>
+            <span className="">S32</span><span ></span>
+          </div>
         </div>
       </div>
       <PageSubtitle title="Stand Fees" />

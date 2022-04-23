@@ -15,10 +15,10 @@ export const AquaAwardsTemplate = ({ title, info }) => {
           <div className="container">
               <div className="py-16 is-side">
               <div  className="cart md:flex mb-16 md:mb-20 ">
-                    <div className="md:basis-1/2 px-8">
+                    <div className="md:basis-1/2 ">
                     <StaticImage src="../img/aa-logo.png" />
                     </div>
-                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
+                    <div className="md:basis-1/2 flex flex-col justify-center	">
                       <h3 className="font-bold mb-8 mt-4 text-2xl">
                         History
                       </h3>
@@ -29,50 +29,34 @@ products and programmes which enhance sustainability and protect
 the environment. To date, well over 400 awards have been presented.</p>
                     </div>
                   </div>
-                  <div  className="cart md:flex mb-16 md:mb-20 ">
-                    <div className="md:basis-1/2 px-8">
-                    <StaticImage src="../img/aa-benefits.png" />
+                  <div className="border-t-2 border-bggray pt-8">
+                    <h3 className="font-bold mb-8 mt-4 text-2xl md:text-center">Fantastic benefits waiting for winners</h3>
+                    <p className="mb-8 md:text-center">The Aqua Awards is an excellent way to promote your brand to the event’s visitors and the wider audience online.
+Winning presentations will be shown during the Aqua Awards ceremony at the gala dinner and statuette & certificate will be given to the
+winners. Interview with the winners will be published on the Watercoolers Europe website and in the monthly newsletter.</p>
+                    <div className="benefits-container">
+                      <div className="benefits-item">
+                        <StaticImage src="../img/icons/award.png" />
+                        <p>Statuette</p>
+                      </div>
+                      <div className="benefits-item">
+                        <StaticImage src="../img/icons/certificate.png" />
+                        <p>Certificate</p>
+                      </div>
+                      <div className="benefits-item">
+                        <StaticImage src="../img/icons/presentation.png" />
+                        <p>Presentation</p>
+                      </div>
+                      <div className="benefits-item">
+                        <StaticImage src="../img/icons/interview.png" />
+                        <p>Interview</p>
+                      </div>
+                      <div className="benefits-item">
+                        <StaticImage src="../img/icons/publications.png" />
+                        <p>Publications</p>
+                      </div>
                     </div>
-                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                      <h3 className="font-bold mb-8 mt-4 text-2xl">
-                      Benefits for Applicants
-                      </h3>
-                      <p className="text-base mb-4">The Aqua Awards is an excellent way to promote your brand to the event’s visitors and the wider audience online.</p>
-                      <p className="mb-8">Check out the fantastic package for winners and applicants.</p>
-                    </div>
-                  </div>
-                  <div  className="cart md:flex mb-16 md:mb-20 ">
-                    <div className="md:basis-1/2 px-8">
-                    <StaticImage src="../img/aa-logo.png" />
-                    </div>
-                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                      <h3 className="font-bold mb-8 mt-4 text-2xl">
-                      Categories
-                      </h3>
-                      <p className="text-base mb-4 font-bold">There are 5 award categories – any of which could gain your compnay the coveted WE Aqua Awards:</p>
-                      <ul className="list-disc pl-6 mb-4 text-sm">
-                      <li>Best Website</li>
-                      <li>Best Product Innovation</li>
-                      <li>Best Promotion of Health & Hydration</li>
-                      <li>Best Environmental Practice/Green Initiative</li>
-                      <li>Best Marketing Campaign</li>
-                      </ul>
-                      <p className="mb-8 font-bold">If you believe you have a great product or the highest level of service don’t hesitate – submit your application and a prestigious Aqua Award can be yours!</p>
-                      <p className="font-bold">How to enter?</p>
-                      <p>Just complete the Aqua Awards entry and submit it online. </p>
-                    </div>
-                  </div>
-                  <div className="cart md:flex mb-16 md:mb-20 ">
-                    <div className="md:basis-1/2 px-8">
-                    <StaticImage src="../img/judging.jpg" />
-                    </div>
-                    <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                      <h3 className="font-bold mb-8 mt-4 text-2xl">
-                       Criteria for judging
-                      </h3>
-                      <p className="font-bold">AQUA AWARDS - VOTING SYSTEM IN 2022</p>
-                      <p className="text-base mb-8">The winners of the Aqua Awards will be chosen by the Jury appointed by WE (75%) and National Associations (25%).</p>
-                    </div>
+
                   </div>
               {/* {info &&
                 info.map((item) => (
@@ -98,9 +82,16 @@ the environment. To date, well over 400 awards have been presented.</p>
       </section>
       <section className="bg-bggray py-20">
         <div className="container">
-          <div className="md:grid md:grid-cols-3 md:gap-4">
-                <div className="mb-4 md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/internet.png"/>
+          <h3 className="font-bold mb-8 mt-4 text-2xl md:text-center">If you believe you have a great product or the highest level of service don’t hesitate. Submit your application and a prestigious aqua award can be yours!</h3>
+          <h4 className="font-bold  md:text-center">How to enter?</h4>
+          <p  className="md:text-center mb-8" >Just complete the Aqua Awards entry and submit it online</p>
+          <h4 className="font-bold  md:text-center">Criteria for judging</h4>
+          <p className="md:text-center mb-8">The winners will be chosen by the Jury appointed by WE (75%) and National Associations (25%)</p>
+          <h4 className="font-bold  md:text-center">There are 5 categories</h4>
+          <p className="md:text-center mb-8">Any of which could gain your company the coveted WE Aqua Awards</p>
+          <div className="category-container">
+                <div className="category-item mb-4 md:mb-0 p-6 bg-white">
+                  <StaticImage  className="mb-2" src="../img/icons/website.png"/>
                   <h3 className="font-bold h-16 text-xl">Best website</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Efective navigation</li>
@@ -111,8 +102,8 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>Promotion of the watercooler industry if appropriate</li>
                   </ul>
                 </div>
-                <div  className="mb-4  md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/rocket.png"/>
+                <div  className="category-item mb-4  md:mb-0 p-6 bg-white">
+                  <StaticImage  className="mb-2" src="../img/icons/rocket.png"/>
                   <h3 className="font-bold h-16 text-xl">Best product innovation</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Innovative technology within the standards of the industry</li>
@@ -120,8 +111,8 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>A recognised benefit to the user</li>
                   </ul>
                 </div>
-                <div  className="mb-4  md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/mineral-water.png"/>
+                <div  className="category-item mb-4  md:mb-0 p-6 bg-white">
+                  <StaticImage  className="mb-2" src="../img/icons/recycle-sign.png"/>
                   <h3 className="font-bold h-16 text-xl">Best environmental practice / green initiative</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Immediate positive impact on target audience</li>
@@ -132,8 +123,8 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>Attractive and appealing design</li>
                   </ul>
                 </div>
-                <div  className="mb-4  md:mb-0 p-6 bg-white">
-                  <StaticImage className="mb-2" src="../img/recycle-sign.png"/>
+                <div  className="category-item mb-4  md:mb-0 p-6 bg-white">
+                  <StaticImage className="mb-2" src="../img/icons/drop.png"/>
                   <h3 className="font-bold h-16 text-xl">Best promotion of health & hydration</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Total commitment to the benefit of the environment</li>
@@ -143,8 +134,8 @@ the environment. To date, well over 400 awards have been presented.</p>
                     <li>Attractive and appealing design</li>
                   </ul>
                 </div>
-                <div  className="mb-4 md:mb-0 p-6 bg-white">
-                  <StaticImage  className="mb-2" src="../img/ads.png"/>
+                <div  className="category-item mb-4 md:mb-0 p-6 bg-white">
+                  <StaticImage  className="mb-2" src="../img/icons/ads.png"/>
                   <h3 className="font-bold h-16 text-xl">Best marketing campaign</h3>
                   <ul className="list-disc pl-6 text-sm">
                     <li>Easily understood campaign message</li>

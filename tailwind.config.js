@@ -14,7 +14,8 @@ module.exports = {
         'pink' : '#DC368A',
         'gray' : '#899093',
         'bgblue': '#d7e7f4',
-        'bggray' : '#f7f7f7'
+        'bggray' : '#f7f7f7',
+        'bluelight' : '#D8E9F2'
       },
       gridTemplateRows:{
         'layout' : 'auto 1fr auto',

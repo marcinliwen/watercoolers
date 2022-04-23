@@ -43,7 +43,7 @@ export const EventProgrammeTemplate = ({
       <section id="programm" className="bg-bggray py-12 mb-12">
         <div className="container">
           <div className="mb-12">
-            <h3 className="font-bold text-3xl text-blue mb-12">
+            <h3 className="font-bold text-3xl text-blue mb-4">
               WEDNESDAY 19 OCTOBER 2022
             </h3>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
@@ -56,8 +56,8 @@ export const EventProgrammeTemplate = ({
             </div>
           </div>
           <div className="mb-12">
-            <h3 className="font-bold text-3xl text-blue mb-12">
-              THURSDAY 20TH OCTOBER 2022
+            <h3 className="font-bold text-3xl text-blue mb-4">
+              THURSDAY 20 OCTOBER 2022
             </h3>
             <h4 className="text-pink uppercase mb-4 text-xl">CONFERENCE</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
@@ -177,7 +177,7 @@ export const EventProgrammeTemplate = ({
             </div>
           </div>
           <div className="mb-12">
-            <h3 className="font-bold text-3xl text-blue mb-12">
+            <h3 className="font-bold text-3xl text-blue mb-4">
               FRIDAY 21 OCTOBER 2022
             </h3>
             <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
@@ -190,12 +190,12 @@ export const EventProgrammeTemplate = ({
       <section>
         <div className="container">
           <div className="plan-content">
-            <div className="cart md:flex mb-16 md:mb-20 ">
-              <div className="md:basis-1/2 px-8">
+            <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
+              <div className="md:basis-1/2 ">
                 <StaticImage src="../img/programm/lizbona.jpg" />
               </div>
-              <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                <h3 className="font-bold mb-8 mt-4 text-2xl">
+              <div className="md:basis-1/2 flex flex-col justify-center	">
+                <h3 className="font-bold mb-4 mt-4 text-2xl">
                   19 October - City Tour
                 </h3>
                 <p className="text-base mb-2 ">
@@ -221,12 +221,12 @@ export const EventProgrammeTemplate = ({
                 </p>
               </div>
             </div>
-            <div className="cart md:flex mb-16 md:mb-20 ">
-              <div className="md:basis-1/2 px-8">
+            <div className="cart md:flex mb-16 md:mb-20  md:gap-8 ">
+              <div className="md:basis-1/2 ">
                 <StaticImage src="../img/programm/conference.png" />
               </div>
-              <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                <h3 className="font-bold mb-8 mt-4 text-2xl">
+              <div className="md:basis-1/2 flex flex-col justify-center	">
+                <h3 className="font-bold mb-4 mt-4 text-2xl">
                   20 October- Conference
                 </h3>
                 <p className="text-base mb-2 ">
@@ -239,15 +239,15 @@ export const EventProgrammeTemplate = ({
                 </p>
               </div>
             </div>
-            <div className="cart md:flex mb-16 md:mb-20 ">
-              <div className="md:basis-1/2 px-8">
+            <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
+              <div className="md:basis-1/2 ">
                 <StaticImage
                   src="../img/programm/workshops.png"
                   alt="workshops"
                 />
               </div>
-              <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                <h3 className="font-bold mb-8 mt-4 text-2xl">
+              <div className="md:basis-1/2 flex flex-col justify-center	">
+                <h3 className="font-bold mb-4 mt-4 text-2xl">
                   20 October - Workshops
                 </h3>
                 <p className="text-base mb-2 ">
@@ -255,15 +255,15 @@ export const EventProgrammeTemplate = ({
                 </p>
               </div>
             </div>
-            <div className="cart md:flex mb-16 md:mb-20 ">
-              <div className="md:basis-1/2 px-8">
+            <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
+              <div className="md:basis-1/2">
                 <StaticImage
-                  src="../img/programm/sudlizboa.jpg"
+                  src="../img/programm/sudlizboa.png"
                   alt="Sud Lisboa"
                 />
               </div>
-              <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                <h3 className="font-bold mb-8 mt-4 text-2xl">
+              <div className="md:basis-1/2 flex flex-col justify-center">
+                <h3 className="font-bold mb-4 mt-4 text-2xl">
                   20 October - Aqua Awards & Gala Dinner
                 </h3>
                 <p className="text-base mb-2 ">
@@ -283,12 +283,12 @@ export const EventProgrammeTemplate = ({
                 </p>
               </div>
             </div>
-            <div className="cart md:flex mb-16 md:mb-20 ">
-              <div className="md:basis-1/2 px-8">
+            <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
+              <div className="md:basis-1/2 ">
                 <StaticImage src="../img/programm/trade-fair.png" />
               </div>
-              <div className="md:basis-1/2 flex flex-col justify-center	px-8">
-                <h3 className="font-bold mb-8 mt-4 text-2xl">
+              <div className="md:basis-1/2 flex flex-col justify-center	">
+                <h3 className="font-bold mb-4 mt-4 text-2xl">
                   21 October - Trade Fair
                 </h3>
                 <p className="text-base mb-2 ">
@@ -329,7 +329,7 @@ export const EventProgrammeTemplate = ({
       <section>
         <div className="container">
           <div className="py-16">
-            <h2 className="text-pink uppercase text-3xl mb-8">
+            <h2 className="text-pink uppercase text-3xl mb-4">
               Conference speakers
             </h2>
             <div className="speacer-person md:flex mb-16">
@@ -369,7 +369,7 @@ export const EventProgrammeTemplate = ({
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
-                <p className="text-blue font-bold mb-4 md:flex">
+                <p className="text-blue font-bold mb-2 md:flex">
                   <span className="mr-2">Presentation:</span>{" "}
                   <span className="uppercase">
                     LATEST EUROPEAN MARKET AND INDUSTRY DEVELOPMENTS AND OUTLOOK
@@ -407,7 +407,7 @@ export const EventProgrammeTemplate = ({
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
-                <p className="text-blue font-bold mb-4 md:flex">
+                <p className="text-blue font-bold mb-2 md:flex">
                   <span className="mr-2">Presentation:</span>{" "}
                   <span className="uppercase">SUSTAINABLE FUTURE</span>
                 </p>
@@ -445,7 +445,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person  mb-16">
               <div className="md:flex-1 ">
-                <p className="text-blue font-bold mb-4 md:flex">
+                <p className="text-blue font-bold mb-2 md:flex">
                   <span className="mr-2">Presentation:</span>
                   <span className="uppercase">
                     THE 21ST CENTURY WATERCOOLER INDUSTRY – REALITY AND TRENDS
@@ -550,10 +550,10 @@ export const EventProgrammeTemplate = ({
                 </div>
               </div>
             ))} */}
-            <h2 className="text-pink uppercase text-3xl mb-12">
+            <h2 className="text-pink uppercase text-3xl mb-4">
               Workshops speakers
             </h2>
-            <p className="text-blue font-bold mb-8 text-xl">
+            <p className="text-blue font-bold mb-4 text-xl">
               SESSION 1 - Business Strategy
             </p>
             <div className="speacer-person md:flex mb-16">
@@ -579,7 +579,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/no-person.png" />
+                {/* <StaticImage src="../img/speakers/no-person.png" /> */}
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Nick Swan
@@ -590,7 +590,7 @@ export const EventProgrammeTemplate = ({
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
-                <p className="text-blue font-bold  mb-4 smd:flex">
+                <p className="text-blue font-bold  mb-2 smd:flex">
                   <span className="mr-2">Presentation:</span>
                   <span className="uppercase">
                     The Home Water Dispenser Market – Lessons learnt from around
@@ -651,7 +651,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/no-person.png" />
+                {/* <StaticImage src="../img/speakers/no-person.png" /> */}
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Mark Cross
@@ -668,7 +668,7 @@ export const EventProgrammeTemplate = ({
                 </p>
               </div>
             </div>
-            <p className="text-blue font-bold mb-8 text-xl">
+            <p className="text-blue font-bold mb-4 text-xl">
               SESSION 1 - Business Strategy
             </p>
             <div className="speacer-person md:flex mb-16">
@@ -694,7 +694,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/no-person.png" />
+                {/* <StaticImage src="../img/speakers/no-person.png" /> */}
                 <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Alex Mezquida
