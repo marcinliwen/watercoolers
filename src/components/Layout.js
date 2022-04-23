@@ -5,11 +5,20 @@ import Navbar from "../components/Navbar";
 /* import "./all.sass"; */
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import CookieConsent from "react-cookie-consent";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+
+  const [cookie, setCookie] = React.useState(false);
+  React.useEffect(() => {
+    setTimeout(()=>{
+      setCookie(true)
+    }, 500)
+    
+  })
   return (
-    <div  className="h-full grid grid-rows-layout">
+    <div className="h-full grid grid-rows-layout">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -47,11 +56,23 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.png`}
         />
-        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script
+          type="text/javascript"
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+        ></script>
       </Helmet>
       <Navbar />
       <main>{children}</main>
       <Footer />
+      <CookieConsent
+        disableStyles={true}
+        location="none"
+        containerClasses={` ${cookie ? 'bottom-8': 'bottom-[-100%]'} ease-in-out duration-300 delay-500 fixed bottom-4 left-4 right-4  md:w-[450px] md:left-8 md:right-auto bg-white text-blue p-5 flex flex-col items-end shadow-xl`}
+        buttonClasses="bg-blue text-white py-2 px-6  ml-auto mt-8"
+      >
+        This website uses cookies to enhance the user experience.
+        Check <a href="/" >PRIVATE POLICY</a>
+      </CookieConsent>
     </div>
   );
 };
