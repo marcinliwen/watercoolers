@@ -19,7 +19,7 @@ category:
     description: The high quality programme led by international opinion leaders
       covers the latest research and advances on important topics in the field.
     link: /event-programme
-  - image: /img/aa-logo.png
+  - image: /img/aa_logo_home.png
     title: Aqua Awards & Gala Dinner
     description: Meet the finalists and winners at the Gala Dinner night! Network
       with your colleagues, business partners and customers.
