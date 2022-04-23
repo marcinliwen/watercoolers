@@ -84,11 +84,11 @@ winners. Interview with the winners will be published on the Watercoolers Europe
         <div className="container">
           <h3 className="font-bold mb-8 mt-4 text-2xl md:text-center">If you believe you have a great product or the highest level of service don’t hesitate. Submit your application and a prestigious aqua award can be yours!</h3>
           <h4 className="font-bold  md:text-center">How to enter?</h4>
-          <p  className="md:text-center mb-8" >Just complete the Aqua Awards entry and submit it online</p>
-          <h4 className="font-bold  md:text-center">Criteria for judging</h4>
-          <p className="md:text-center mb-8">The winners will be chosen by the Jury appointed by WE (75%) and National Associations (25%)</p>
+          <p  className="md:text-center mb-8" >Just complete the Aqua Awards entry and submit it online.</p>
           <h4 className="font-bold  md:text-center">There are 5 categories</h4>
-          <p className="md:text-center mb-8">Any of which could gain your company the coveted WE Aqua Awards</p>
+          <p className="md:text-center">Any of which could gain your company the coveted WE Aqua Awards.</p>
+          <p className="md:text-center mb-8">The winners will be chosen by the Jury appointed by WE (75%) and National Associations (25%).</p>
+          <h4 className="font-bold text-center uppercase text-2xl mb-4">Criteria for judging</h4>
           <div className="category-container">
                 <div className="category-item mb-4 md:mb-0 p-6 bg-white">
                   <StaticImage  className="mb-2" src="../img/icons/website.png" placeholder="none"/>

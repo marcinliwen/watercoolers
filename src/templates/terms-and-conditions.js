@@ -8,7 +8,7 @@ export const TermsandConditionsTemplate = ({ title }) => {
   return (
     <div className="container">
       <PageTitle title={title} />
-      <div className="my-8">
+      <div className="my-8 terms-conditions">
         <h1>EXHIBITION SET-UP, DISMANTLE</h1>
         <p>
           SET-UP FOR EXHIBITORS on 20 October 2022 16:00 - 22:00

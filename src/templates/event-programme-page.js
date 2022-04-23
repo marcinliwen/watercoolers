@@ -192,7 +192,7 @@ export const EventProgrammeTemplate = ({
           <div className="plan-content">
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/lizbona.jpg" />
+                <StaticImage src="../img/programm/lizbona.png" />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">

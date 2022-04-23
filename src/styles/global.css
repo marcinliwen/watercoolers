@@ -72,3 +72,31 @@ label{
     }
     
 }
+.terms-conditions h1{
+    color: #005AA2;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 26px;
+    font-style: italic;
+    font:italic 20px/26px Georgia,Tahoma,Arial;
+}
+.terms-conditions h2{
+    color: #899093;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+.terms-conditions p{
+    margin-bottom: 1.2em;
+    text-align: justify;
+    color: #899093;
+    font: normal 13px/18px Tahoma, Arial;
+}
+.terms-conditions ul li{
+    list-style: disc;
+    margin-left: 20px;
+    color: #899093;
+    font: normal 13px/18px Tahoma, Arial;
+}

@@ -21,7 +21,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           {tradefair.description}
         </p> */}
         <div className="py-8 md:px-0">
-          <h3 className="text-blue py-6  text-2xl">Floor Plan</h3>
+          <h3 className="font-bold my-4 text-2xl">Floor Plan</h3>
           <StaticImage src="../img/floor_plan_stage.png" placeholder="none"/>
         </div>
         <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
@@ -64,7 +64,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
       <PageSubtitle title="Stand Fees" />
       <section>
         <div className="container">
-          <h3 className=" mt-8 text-2xl text-blue">STAND FEES (0% VAT)</h3>
+          <h3 className="font-bold mt-4 text-2xl">Sand Fees (0% VAT)</h3>
           <p className="font-extrabold text-gray mb-8">
             6% VAT ON ONE SINGLE BEDROOM PRICE WILL BE ADDED TO THE STAND FEE
             (10.50 EUR)
@@ -84,9 +84,9 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <div className="text-pink py-4 px-6 bg-bggray">NON-WE MEMBERS</div>
             <div className="text-gray py-4 px-6 bg-bggray">€ 4 330</div>
           </div>
-          <div className=" text-gray mb-12">
-            <h3 className="font-bold mb-2">PRICE INCLUDES:</h3>
-            <ul className="list-disc text-sm pl-6 mb-4">
+          <div className="  mb-12">
+            <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
+            <ul className="list-disc text-sm pl-6 mb-4 text-gray">
               <li>
                 7,5 m<sup>2</sup> table top stand: to be dressed individually by the
                 exhibitors
@@ -97,8 +97,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               </li>
               <li>Listing in the Fair Catalogue</li>
             </ul>
-            <h3 className="font-bold mb-2">PAYMENT DEADLINES:</h3>
-            <p>
+            <h3 className="font-bold my-4 text-2xl">Payment deadlines:</h3>
+            <p className="text-gray">
               Deposit payment within 14 days of stand reservation/application
               form. Balance payment by <strong>31 August 2022</strong>
             </p>
@@ -113,7 +113,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <h3 className="font-bold my-4 text-2xl">
               To reserve a stand, please:
             </h3>
-            <ul className="list-disc pl-6">
+            <ul className="list-disc pl-6 text-gray">
               <li>
                 Complete this reservation form, indicating your preferred
                 location
@@ -123,10 +123,10 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 ALL bank charges to be paid by the Payer).
               </li>
             </ul>
-            <p className="font-bold">
+            <p className="font-bold text-gray">
               Note: No reservation will be accepted WITHOUT the pre-payment.
             </p>
-            <p className="pt-8">
+            <p className="pt-8 text-gray">
               Exhibition stands will be allocated on a ‘first-come first-served’
               basis subject to space availability. Full payment is due by
               <strong> 31 August 2022</strong>. Cancellation after that date
@@ -198,8 +198,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               </div>
 
               <div>
-                <h3 className="font-bold my-4 text-2xl">PRICE INCLUDES:</h3>
-                <ul className="list-disc pl-6">
+                <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
+                <ul className="list-disc pl-6 text-gray">
                   <li>
                     One night accommodation (single room) on 21 April 2022 at
                     the Sheraton Lisboa Hotel & Spa
@@ -208,8 +208,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 </ul>
               </div>
               <div>
-                <h3 className="font-bold my-4 text-2xl">PAYMENT DEADLINES:</h3>
-                <p>
+                <h3 className="font-bold my-4 text-2xl">Payment deadlines:</h3>
+                <p className="text-gray">
                   Deposit payment within 14 days of stand
                   reservation/application form Balance payment by
                   <strong> 31 January 2022</strong>
@@ -217,15 +217,15 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               </div>
               <div>
                 <h3 className="font-bold my-4 text-2xl">
-                  EXHIBITION REGULATIONS
+                  Exhibition regulations
                 </h3>
-                <p>
+                <p className="text-gray">
                   <strong>
                     WE regulations are designed to ensure that all stand
                     exhibits comply with current legislation.
                   </strong>
                 </p>
-                <ul className="list-disc pl-6">
+                <ul className="list-disc pl-6 text-gray">
                   <li>
                     Water displayed and dispensed must have been bottled in
                     compliance with WE regulations. Bottlers who exhibit must
@@ -249,8 +249,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                   </li>
                 </ul>
               </div>
-              <div>
-                <p>
+              <div className="my-12">
+                <p className="text-gray">
                   Please refer any queries concerning the above requirements to
                   the exhibition organiser: 
                   <a href="mailto:office@ideamarketing.pl" className="ml-1">
