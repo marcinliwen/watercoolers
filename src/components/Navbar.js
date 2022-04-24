@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
                 <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2 "/>
                 Newsletter
               </a>
-              <Link className="flex items-start text-blue "><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
+              <Link to="/contact" className="flex items-start text-blue "><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
             </div>
           </div>
 

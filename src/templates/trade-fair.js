@@ -65,7 +65,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
       <section>
         <div className="container">
           <h3 className="font-bold mt-4 text-2xl">Sand Fees (0% VAT)</h3>
-          <p className="font-extrabold text-gray mb-8">
+          <p className="font-extrabold mb-8">
             6% VAT ON ONE SINGLE BEDROOM PRICE WILL BE ADDED TO THE STAND FEE
             (10.50 EUR)
           </p>
@@ -86,7 +86,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           </div>
           <div className="  mb-12">
             <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
-            <ul className="list-disc text-sm pl-6 mb-4 text-gray">
+            <ul className="list-disc text-sm pl-6 mb-4">
               <li>
                 7,5 m<sup>2</sup> table top stand: to be dressed individually by the
                 exhibitors
@@ -98,7 +98,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               <li>Listing in the Fair Catalogue</li>
             </ul>
             <h3 className="font-bold my-4 text-2xl">Payment deadlines:</h3>
-            <p className="text-gray">
+            <p className="">
               Deposit payment within 14 days of stand reservation/application
               form. Balance payment by <strong>31 August 2022</strong>
             </p>
@@ -113,7 +113,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <h3 className="font-bold my-4 text-2xl">
               To reserve a stand, please:
             </h3>
-            <ul className="list-disc pl-6 text-gray">
+            <ul className="list-disc pl-6">
               <li>
                 Complete this reservation form, indicating your preferred
                 location
@@ -123,10 +123,10 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 ALL bank charges to be paid by the Payer).
               </li>
             </ul>
-            <p className="font-bold text-gray">
+            <p className="font-bold">
               Note: No reservation will be accepted WITHOUT the pre-payment.
             </p>
-            <p className="pt-8 text-gray">
+            <p className="pt-8">
               Exhibition stands will be allocated on a ‘first-come first-served’
               basis subject to space availability. Full payment is due by
               <strong> 31 August 2022</strong>. Cancellation after that date
@@ -136,7 +136,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           </div>
           <div id="registration-form" className="my-8">
             <h3 className="font-bold my-4 text-2xl text-center">
-              COMPANY DETAIL
+              COMPANY DETAILS
             </h3>
             <form name="stand_application_form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
@@ -196,36 +196,17 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                   <input type="text" name="stand-no" required />
                 </label>
               </div>
-
-              <div>
-                <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
-                <ul className="list-disc pl-6 text-gray">
-                  <li>
-                    One night accommodation (single room) on 21 April 2022 at
-                    the Sheraton Lisboa Hotel & Spa
-                  </li>
-                  <li>Listing in the Fair Catalogue</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-bold my-4 text-2xl">Payment deadlines:</h3>
-                <p className="text-gray">
-                  Deposit payment within 14 days of stand
-                  reservation/application form Balance payment by
-                  <strong> 31 January 2022</strong>
-                </p>
-              </div>
               <div>
                 <h3 className="font-bold my-4 text-2xl">
                   Exhibition regulations
                 </h3>
-                <p className="text-gray">
+                <p className="">
                   <strong>
                     WE regulations are designed to ensure that all stand
                     exhibits comply with current legislation.
                   </strong>
                 </p>
-                <ul className="list-disc pl-6 text-gray">
+                <ul className="list-disc pl-6">
                   <li>
                     Water displayed and dispensed must have been bottled in
                     compliance with WE regulations. Bottlers who exhibit must
@@ -250,7 +231,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 </ul>
               </div>
               <div className="my-12">
-                <p className="text-gray">
+                <p className="">
                   Please refer any queries concerning the above requirements to
                   the exhibition organiser: 
                   <a href="mailto:office@ideamarketing.pl" className="ml-1">

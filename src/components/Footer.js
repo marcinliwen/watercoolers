@@ -16,10 +16,10 @@ const Footer = class extends React.Component {
           <div className="flex flex-wrap">
           
           <div className="text-white text-sm font-light flex flex-col gap-1 mr-auto mb-12 md:mb-0">
-            <a href="/">CONTACT</a>
+            <Link to="/contact">CONTACT</Link>
             <a href="/terms-and-conditions" target="_blank">TERMS & CONDITIONS FOR EXHIBITORS</a>
             <a href="/">GENERAL INFORMATION</a>
-            <a href="/">PRIVATE POLICY</a>
+            <a href="/private-policy-we.pdf" target="_blank">PRIVATE POLICY</a>
           </div>
           <div className="basis-[168px]">
           <img
