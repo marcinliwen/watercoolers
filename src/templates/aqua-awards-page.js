@@ -241,7 +241,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 name="form-name"
                 value="stand_application_form"
               />
-              <h3 className="font-bold my-4 text-2xl">
+              <h3 className="font-bold mt-12 mb-4 text-2xl">
                 COMPANY DETAILS
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -314,7 +314,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="font-bold my-4 text-2xl">
+                <h3 className="font-bold mt-12 mb-4 md:min-h-[128px] lg:min-h-[100px] text-2xl">
                   PLEASE INDICATE YOUR COMPANY’S CATEGORY AND TO WHICH
                   ASSOCIATION YOU BELONG
                 </h3>
@@ -352,7 +352,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               </div>
               </div>
               <div>
-                <h3 className="font-bold my-4 text-2xl">
+                <h3 className="font-bold mt-12 mb-4 md:min-h-[128px] lg:min-h-[100px] text-2xl">
                 PLEASE INDICATE BELOW THE CATEGORIES YOU ARE ENTERING
                 </h3>
               
@@ -388,6 +388,113 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               </div>
               </div>
               </div>
+              <div className="my-12 bg-bluelight py-8 px-8 md:px-20">
+                <h3 className="font-bold mt-12 mb-4 text-2xl">PLEASE INDICATE BELOW THE MATERIALS YOU ARE ATTACHING</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-12">
+                  <div className="md:col-span-2">PRESENTATION</div>
+                  <label>
+                    <input type="checkbox" name="powerpoint" />
+                    <span className="ml-2">POWERPOINT</span>
+                   </label>
+                   <label>
+                    <input type="checkbox" name="powerpoint_2" />
+                    <span className="ml-2">POWERPOINT</span>
+                   </label>
+                   <label>
+                    <input type="checkbox" name="keynote" />
+                    <span className="ml-2">KEYNOTE</span>
+                   </label>
+                   <label>
+                    <input type="checkbox" name="key_note" />
+                    <span className="ml-2">KEY NOTE</span>
+                   </label>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-12">
+                  <div className="md:col-span-2">MOVIE AND SOUND FILES</div>
+                  <label className="flex items-center">
+                    <input type="checkbox" name="mp4_file" />
+                    <span className="ml-2">MP4 FILE</span>
+                   </label>
+                   <label className="flex items-center">                   
+                    <span className="mr-2 w-[160px] block">NUMBER OF MP4 FILES</span>
+                    <input type="number" name="mp4_file_num" className="w-[58px] py-0 px-2" />
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="mp3_file_2"  />
+                    <span className="ml-2">MP3 FILE</span>
+                   </label>
+                   <label className="flex items-center">                   
+                    <span className="mr-2 w-[160px]">NUMBER OF MP3 FILES</span>
+                    <input type="number" name="mp3_file_num_2" className="w-[58px] py-0 px-2" />
+                   </label>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-12">
+                  <div className="md:col-span-2">PHOTOS</div>
+                  <label className="flex items-center">
+                    <input type="checkbox" name="jpg_file" />
+                    <span className="ml-2">JPG FILE</span>
+                   </label>
+                   <label className="flex items-center">                   
+                    <span className="mr-2 w-[160px]">NUMBER OF JPG FILES</span>
+                    <input type="number" name="jpg_file_num" className="w-[58px] py-0 px-2"/>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="png_file" />
+                    <span className="ml-2">PNG FILE</span>
+                   </label>
+                   <label className="flex items-center">                   
+                    <span className="mr-2 w-[160px]">NUMBER OF PNG FILES</span>
+                    <input type="number" name="mp3_file_num_" className="w-[58px] py-0 px-2" />
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="gif_file" />
+                    <span className="ml-2">GIF FILE</span>
+                   </label>
+                   <label className="flex items-center">                   
+                    <span className="mr-2 w-[160px]">NUMBER OF GIF FILES</span>
+                    <input type="number" name="gif_file_num_" className="w-[58px] py-0 px-2"/>
+                   </label>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-12">
+                  <div className="md:col-span-2">LOGO</div>
+                  <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">COMPANY LOGO (.EPS OR .AI)</span>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="product_logo" />
+                    <span className="ml-2">PRODUCT LOGO (.EPS OR .AI)</span>
+                   </label>
+                   
+                </div>
+                <div className="grid grid-cols-1 gap-2 mb-12">
+                <div className="">STATEMENT</div>
+                <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST WEBSITE</span>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST PRODUCT INNOVATION</span>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST PROMOTION OF HEALTH & HYDRATION</span>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST ENVIRONMENTAL PRACTICE/GREEN INITIATIVE</span>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST MARKETING CAMPAIGN</span>
+                   </label>
+                   <label className="flex items-center">
+                    <input type="checkbox" name="company_logo" />
+                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST SERVICE PERSON</span>
+                   </label>
+                </div>
+              </div>
               <div>
                 <label>
                   <input
@@ -399,16 +506,17 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   <span className="ml-2">
                     I hereby accept the{" "}
                     <a
-                      href="/terms-and-conditions"
+                      href="/private-policy-we.pdf"
                       className="text-pink"
                       target="_blank"
                     >
-                      Exhibition Terms and Conditions
+                      Private Policy
                     </a>{" "}
                     <span className="text-red-600">*</span>.{" "}
                   </span>
                 </label>
               </div>
+             
               <button
                 type="submit"
                 className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl"

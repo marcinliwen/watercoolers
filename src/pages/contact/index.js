@@ -72,10 +72,7 @@ export default class Index extends React.Component {
                     <div>
                       <p className="block text-lg">Email</p>
 
-                      <a
-                        
-                        href="mailto:info@watercoolerseurope.eu"
-                      >
+                      <a href="mailto:info@watercoolerseurope.eu">
                         info@watercoolerseurope.eu
                       </a>
                     </div>
@@ -133,10 +130,7 @@ export default class Index extends React.Component {
                     />
                     <div>
                       <p className="block text-lg">Email</p>
-                      <a
-                        
-                        href="mailto:office@ideamarketing.pl"
-                      >
+                      <a href="mailto:office@ideamarketing.pl">
                         office@ideamarketing.pl
                       </a>
                     </div>
@@ -300,19 +294,33 @@ export default class Index extends React.Component {
                       />
                     </div>
                   </div>
-                 <div className="my-12">
-                <label>
-                <input type="checkbox" name="accept_private_policy" value="yes" required/>
-                <span className="ml-2">I hereby accept the <a href="/private-policy-we.pdf" className="text-pink" target="_blank" >PRIVATE POLICY</a> <span className="text-red-600">*</span>. </span>
-                </label>
-              </div>
-                    <button
-                      className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl w-full"
-                      type="submit"
-                    >
-                      Submit information
-                    </button>
-                 
+                  <div className="my-12">
+                    <label>
+                      <input
+                        type="checkbox"
+                        name="accept_private_policy"
+                        value="yes"
+                        required
+                      />
+                      <span className="ml-2">
+                        I hereby accept the{" "}
+                        <a
+                          href="/private-policy-we.pdf"
+                          className="text-pink"
+                          target="_blank"
+                        >
+                          PRIVATE POLICY
+                        </a>{" "}
+                        <span className="text-red-600">*</span>.{" "}
+                      </span>
+                    </label>
+                  </div>
+                  <button
+                    className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl w-full"
+                    type="submit"
+                  >
+                    Submit information
+                  </button>
                 </form>
               </div>
             </div>
