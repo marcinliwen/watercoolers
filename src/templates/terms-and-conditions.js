@@ -11,9 +11,9 @@ export const TermsandConditionsTemplate = ({ title }) => {
       <div className="my-8 terms-conditions">
         <h1>EXHIBITION SET-UP, DISMANTLE</h1>
         <p>
-          SET-UP FOR EXHIBITORS on 20 October 2022 16:00 - 22:00
+          SET-UP FOR EXHIBITORS on 20 October 2022 14:00 – 18:00
           <br />
-          DISMANTLE FOR EXHIBITORS on 20 October 2022 16:00 - 22:00
+          DISMANTLE FOR EXHIBITORS on 21 October 2022 17:00 - 20:00
         </p>
         <h2>EXHIBITION REGULATIONS</h2>
         <p>
