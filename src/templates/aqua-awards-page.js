@@ -230,7 +230,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
         <div className="container">
           <div id="registration-form" className="my-8">
             <form
-              name="stand_application_form"
+              name="aqua_awards_form"
               method="POST"
               netlify-honeypot="bot-field"
               data-netlify="true"
@@ -239,7 +239,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <input
                 type="hidden"
                 name="form-name"
-                value="stand_application_form"
+                value="aqua_awards_form"
               />
               <h3 className="font-bold mt-12 mb-4 text-2xl">
                 COMPANY DETAILS
@@ -397,16 +397,8 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                     <span className="ml-2">POWERPOINT</span>
                    </label>
                    <label>
-                    <input type="checkbox" name="powerpoint_2" />
-                    <span className="ml-2">POWERPOINT</span>
-                   </label>
-                   <label>
                     <input type="checkbox" name="keynote" />
                     <span className="ml-2">KEYNOTE</span>
-                   </label>
-                   <label>
-                    <input type="checkbox" name="key_note" />
-                    <span className="ml-2">KEY NOTE</span>
                    </label>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-12">
