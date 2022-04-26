@@ -462,28 +462,24 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 <div className="grid grid-cols-1 gap-2 mb-12">
                 <div className="">STATEMENT</div>
                 <label className="flex items-center">
-                    <input type="checkbox" name="company_logo" />
+                    <input type="checkbox" name="statement_best_website" />
                     <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST WEBSITE</span>
                    </label>
                    <label className="flex items-center">
-                    <input type="checkbox" name="company_logo" />
+                    <input type="checkbox" name="statement_best_product_innovation" />
                     <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST PRODUCT INNOVATION</span>
                    </label>
                    <label className="flex items-center">
-                    <input type="checkbox" name="company_logo" />
+                    <input type="checkbox" name="statement_best_promotion_health_hudration" />
                     <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST PROMOTION OF HEALTH & HYDRATION</span>
                    </label>
                    <label className="flex items-center">
-                    <input type="checkbox" name="company_logo" />
+                    <input type="checkbox" name="statement_best_environmental" />
                     <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST ENVIRONMENTAL PRACTICE/GREEN INITIATIVE</span>
                    </label>
                    <label className="flex items-center">
-                    <input type="checkbox" name="company_logo" />
+                    <input type="checkbox" name="statement_best_markeing" />
                     <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST MARKETING CAMPAIGN</span>
-                   </label>
-                   <label className="flex items-center">
-                    <input type="checkbox" name="company_logo" />
-                    <span className="ml-2">OBJECTIVE STATEMENT FOR CATEGORY: BEST SERVICE PERSON</span>
                    </label>
                 </div>
               </div>
