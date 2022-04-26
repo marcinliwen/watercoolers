@@ -197,7 +197,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="flex flex-col">
                       <label className="label" htmlFor={"contact_name"}>
-                        Cntact name <span className="text-red-600">*</span>
+                        Contact name <span className="text-red-600">*</span>
                       </label>
 
                       <input
@@ -211,7 +211,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="flex flex-col">
                       <label className="label" htmlFor={"contact_position"}>
-                        Cntact position <span className="text-red-600">*</span>
+                        Contact position <span className="text-red-600">*</span>
                       </label>
 
                       <input
