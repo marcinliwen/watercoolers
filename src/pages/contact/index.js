@@ -302,8 +302,8 @@ export default class Index extends React.Component {
                   </div>
                  <div className="my-12">
                 <label>
-                <input type="checkbox" name="accept_terms_and_conditions" value="yes" required/>
-                <span className="ml-2">I hereby accept the <a href="/terms-and-conditions" className="text-pink" target="_blank" >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
+                <input type="checkbox" name="accept_private_policy" value="yes" required/>
+                <span className="ml-2">I hereby accept the <a href="/private-policy-we.pdf" className="text-pink" target="_blank" >PRIVATE POLICY</a> <span className="text-red-600">*</span>. </span>
                 </label>
               </div>
                     <button
