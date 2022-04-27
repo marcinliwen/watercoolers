@@ -138,7 +138,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <h3 className="font-bold my-4 text-2xl text-center">
               COMPANY DETAILS
             </h3>
-            <form name="stand_application_form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <form name="stand_application_form" method="POST" netlify-honeypot="bot-field" data-netlify="true"  action="/contact/thanks/">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="stand_application_form"/>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
