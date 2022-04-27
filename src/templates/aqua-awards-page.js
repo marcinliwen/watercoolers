@@ -530,7 +530,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
         )
       )
     "
-    className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl text-center w-max">
+    className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-20 block text-2xl text-center w-max">
       Application Form
     </a>
         </div>
