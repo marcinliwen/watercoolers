@@ -226,7 +226,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
         <div className="container">
         </div>
       </section>
-      <section>
+   {/*    <section>
         <div className="container">
           <div id="registration-form" className="my-8">
             <form
@@ -514,7 +514,27 @@ export const AquaAwardsTemplate = ({ title, info }) => {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section>
+        <div className="container">
+          
+        <a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/221161365793053',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    "
+    className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl text-center w-max">
+      Application Form
+    </a>
+        </div>
+    </section>
     </div>
   );
 };
