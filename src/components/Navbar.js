@@ -64,7 +64,7 @@ const Navbar = class extends React.Component {
                 <span />
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="hidden md:flex gap-4 ">
               <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
                 <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2 "/>
                 Newsletter
@@ -77,6 +77,11 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu pb-6  ${this.state.navBarActiveClass}`}
           >
+            <div className={`navbar-close md:hidden`} onKeyPress={() => this.toggleHamburger()}
+                onClick={() => this.toggleHamburger()}>
+                   <span />
+                <span />
+                </div>
             <div className="block md:flex text-center justify-center mx-auto">
               <Link className="py-3 px-4 block hover:text-blue ease-in-out duration-300" to="/venue-and-accommodation">
                 Venue & Accommodation
