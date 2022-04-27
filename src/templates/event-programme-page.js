@@ -335,9 +335,9 @@ export const EventProgrammeTemplate = ({
               Conference speakers
             </h2>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48  mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Terence-Mauri.jpg" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Terence Mauri
                   </h4>
@@ -359,9 +359,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48  mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Richard.png" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className=" md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Richard Hall
                   </h4>
@@ -397,9 +397,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Bill-Bruce.png" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Bill Bruce
                   </h4>
@@ -462,9 +462,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Gonçalo Tremoceiro
                   </h4>
@@ -494,9 +494,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.png" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Miguel Ribeiro Ferreira
                   </h4>
@@ -559,9 +559,9 @@ export const EventProgrammeTemplate = ({
               SESSION 1 - Business Strategy
             </p>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Peter-Hogervorst.png" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Peter Hogervorst
                   </h4>
@@ -580,9 +580,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 {/* <StaticImage src="../img/speakers/no-person.png" /> */}
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Nick Swan
                   </h4>
@@ -652,9 +652,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 {/* <StaticImage src="../img/speakers/no-person.png" /> */}
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Mark Cross
                   </h4>
@@ -674,9 +674,9 @@ export const EventProgrammeTemplate = ({
               SESSION 1 - Business Strategy
             </p>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none"/>
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Francisco dos Santos
                   </h4>
@@ -695,9 +695,9 @@ export const EventProgrammeTemplate = ({
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
+              <div className="md:basis-48 mb-8 md:mb-0">
                 {/* <StaticImage src="../img/speakers/no-person.png" /> */}
-                <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
+                <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Alex Mezquida
                   </h4>
