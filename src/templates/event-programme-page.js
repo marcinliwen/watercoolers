@@ -203,7 +203,7 @@ export const EventProgrammeTemplate = ({
                 </p>
                 <p className="mb-2">
                   Join our amazing city tour and discover one of the most
-                  spectacular cities in the world and it’s breathtaking
+                  spectacular cities in the world and its breathtaking
                   monuments:{" "}
                 </p>
                 <ul className="list-disc pl-6 text-sm mb-2">
@@ -666,7 +666,7 @@ export const EventProgrammeTemplate = ({
               <div className="md:flex-1 md:pl-4">
                 <p className="text-blue font-bold md:flex">
                   <span className="mr-2">Presentation:</span>
-                  <span className="uppercase">Comming soon</span>
+                  <span className="uppercase">Coming soon</span>
                 </p>
               </div>
             </div>

@@ -134,7 +134,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               />
               <h3 className="font-bold h-16 text-xl">Best website</h3>
               <ul className="list-disc pl-6 text-sm">
-                <li>Efective navigation</li>
+                <li>Effective navigation</li>
                 <li>Relevant content</li>
                 <li>Performance and speed</li>
                 <li>Attractive and appealing design</li>
@@ -155,7 +155,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 <li>
                   Innovative technology within the standards of the industry
                 </li>
-                <li>Stands out from the croud</li>
+                <li>Stands out from the crowd</li>
                 <li>A recognised benefit to the user</li>
               </ul>
             </div>
@@ -172,7 +172,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 <li>Immediate positive impact on target audience</li>
                 <li>Relevance to audience</li>
                 <li>Lasting impression on audience of key message</li>
-                <li>Promotion of the watercooler industr</li>
+                <li>Promotion of the watercooler industry</li>
                 <li>Include of the WE/National Association logo</li>
                 <li>Attractive and appealing design</li>
               </ul>
