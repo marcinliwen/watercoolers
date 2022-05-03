@@ -19,7 +19,7 @@ const Footer = class extends React.Component {
             <Link to="/contact">CONTACT</Link>
             <a href="/terms-and-conditions" target="_blank">TERMS & CONDITIONS FOR EXHIBITORS</a>
             <a href="/">GENERAL INFORMATION</a>
-            <a href="/private-policy-we.pdf" target="_blank">PRIVATE POLICY</a>
+            <a href="/private-policy-we.pdf" target="_blank">PRIVACY POLICY</a>
           </div>
           <div className="basis-[168px]">
           <img

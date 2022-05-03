@@ -498,7 +498,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                       className="text-pink"
                       target="_blank"
                     >
-                      Private Policy
+                      Privacy Policy
                     </a>{" "}
                     <span className="text-red-600">*</span>.{" "}
                   </span>

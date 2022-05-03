@@ -71,7 +71,7 @@ const TemplateWrapper = ({ children }) => {
         buttonClasses="bg-blue text-white py-2 px-6  ml-auto mt-8"
       >
         This website uses cookies to enhance the user experience.
-        Check <a href="/private-policy-we.pdf" target="_blank" className="text-pink" >PRIVATE POLICY</a>
+        Check <a href="/private-policy-we.pdf" target="_blank" className="text-pink" >PRIVACY POLICY</a>
       </CookieConsent>
     </div>
   );
