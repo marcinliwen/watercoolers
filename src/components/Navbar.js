@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import logo from "../img/we-logo.png";
 import phone from "../img/phone.svg";
 import subscribe from "../img/subscribe.svg";
+import MailChimpForm from "../components/MailChimpForm"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -65,10 +66,11 @@ const Navbar = class extends React.Component {
               </div>
             </div>
             <div className="hidden md:flex gap-4 ">
-              <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
+              <MailChimpForm />
+              {/* <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
                 <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2 "/>
                 Newsletter
-              </a>
+              </a> */}
               <Link to="/contact" className="flex items-start text-blue "><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
             </div>
           </div>

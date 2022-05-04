@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: "Watercooller Europe",
@@ -74,6 +78,13 @@ module.exports = {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+         endpoint: process.env.MAILCHIMP_ENDPOINT
+         /*  endpoint: "https://ideamarketing.us6.list-manage.com/subscribe/post?u=c68b7a56a5a4bf7cebc7f69d6&amp;id=a74568eaf0" */
       },
     },
     {
