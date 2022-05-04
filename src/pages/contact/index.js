@@ -309,7 +309,7 @@ export default class Index extends React.Component {
                           className="text-pink"
                           target="_blank"
                         >
-                          PRIVATE POLICY
+                          PRIVACY POLICY
                         </a>{" "}
                         <span className="text-red-600">*</span>.{" "}
                       </span>
