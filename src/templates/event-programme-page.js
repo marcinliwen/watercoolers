@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageSubtitle from "../components/PageSubtitle";
-
+import Fee from "../components/Fee"
 export const EventProgrammeTemplate = ({
   title,
   event,
@@ -327,6 +327,8 @@ export const EventProgrammeTemplate = ({
           </div>
         </div>
       </section>
+      <PageSubtitle title="Registration Fees" />
+      <Fee />
       <PageSubtitle title="Presentations & Speakers" />
       <section>
         <div className="container">
@@ -751,84 +753,6 @@ export const EventProgrammeTemplate = ({
                 </div>
               ))} */}
           </div>
-        </div>
-      </section>
-      <PageSubtitle title="Registration Fees" />
-      <section>
-        <div className="container">
-          <div className="reg-fees-wrapper my-12">
-            <div className="grid grid-cols-7 teb-header bg-bluelight">
-            <span className="row-span-2 col-span-1 "></span>
-            <span className="col-span-2  font-bold">SPECIAL OFFER FOR EXHIBITORS </span>
-            <span className="col-span-2  font-bold">WE MEMBERS & NATIONAL ASSOCIATIONS</span>
-            <span className="col-span-2  font-bold">NON-WE MEMBERS</span>
-            <span className=" text-sm text-left">EARLY BIRD RATES, <br />IF BOOKED BEFORE <strong>30 SEPTEMBER</strong>	</span>
-            <span className=" text-sm text-left">REGULAR RATES, <br /> FROM <strong>1 OCTOBER</strong>	</span>           
-            <span className=" text-sm text-left">EARLY BIRD RATES, <br />IF BOOKED BEFORE <strong>30 SEPTEMBER</strong>	</span>
-            <span className=" text-sm text-left">REGULAR RATES, <br />FROM <strong>1 OCTOBER</strong>	</span>           
-            <span className=" text-sm text-left">EARLY BIRD RATES, <br /> IF BOOKED BEFORE <strong>30 SEPTEMBER</strong>	</span>
-            <span className=" text-sm text-left">REGULAR RATES, <br />FROM <strong>1 OCTOBER</strong></span>
-            </div>
-          <div className="teb-body grid grid-cols-7 bg-bggray">
-            <span className="col-span-1 text-left ">FAIR ENTRACE	</span>
-            <span className="col-span-2 text-gray ">FREE	</span>
-            <span className="col-span-2 text-gray ">FREE	</span>
-            <span className="col-span-2 text-gray ">FREE	</span>
-            <span className="col-span-1 text-left ">CONFERENCE</span>
-            <span className="text-gray ">169 €</span>
-            <span className="text-gray ">205 €</span>
-            <span className="text-gray ">198 €</span>
-            <span className="text-gray ">228 €</span>
-            <span className="text-gray ">223 €</span>
-            <span className="text-gray ">257 €</span>
-            <span className="col-span-1 text-left ">GALA DINNER	</span>
-            <span className="text-gray ">149 €</span>
-            <span className="text-gray ">175 €</span>
-            <span className="text-gray ">149 €</span>
-            <span className="text-gray ">175 €</span>
-            <span className="text-gray ">198 €</span>
-            <span className="text-gray ">228 €</span>
-            <span className="col-span-1 text-left ">CITY TOUR</span>
-            <span className="text-gray ">79 €</span>
-            <span className="text-gray ">87 €</span>
-            <span className="text-gray ">79 €</span>
-            <span className="text-gray ">87 €</span>
-            <span className="text-gray ">91 €</span>
-            <span className="text-gray ">105 €</span>
-            <span className="col-span-1 text-left ">PACKAGE 1: <span className="text-pink">CONFERENCE, WORKSHOPS, GALA DINNER</span></span>
-            <span className="text-gray ">409 €</span>
-            <span className="text-gray ">467 €</span>
-            <span className="text-gray ">489 €</span>
-            <span className="text-gray ">567 €</span>
-            <span className="text-gray ">531 €</span>
-            <span className="text-gray ">613 €</span>
-            <span className="col-span-1 text-left ">PACKAGE 2: <span className="text-pink">CONFERENCE, WORKSHOPS</span></span>
-            <span className="text-gray ">279 €</span>
-            <span className="text-gray ">321 €</span>
-            <span className="text-gray ">339 €</span>
-            <span className="text-gray ">392 €</span>
-            <span className="text-gray ">369 €</span>
-            <span className="text-gray ">421 €</span>
-          </div>
-          
-          </div>
-          <div className="addition-tab mt-12 grid grid-cols-8 bg-bggray">
-            <span className="col-span-2 text-left py-4 px-6 text-blue ">GALA DINNER PACKAGE 5+</span>
-            <span className="col-span-6 text-left py-4 px-6">FOR EVERY 5 PURCHASED TICKETS FOR THE GALA DINNER, YOU WILL RECEIVE 3 TICKETS FOR THE GALA DINNER FREE OF CHARGE</span>
-            <span className="col-span-2 text-left py-4 px-6 text-blue">SUPER PACKAGE 3+</span>
-            <span className="col-span-6 text-left  py-4 px-6">FOR EVERY 3 PURCHASED TICKETS FOR CONFERENCE, WORKSHOPS YOU WILL RECEIVE 1 TICKET FREE OF CHARGE</span>
-            <span className="col-span-2 text-left py-4 px-6 text-blue">SUPER PACKAGE 3+ MAX</span>
-            <span className="col-span-6 text-left py-4 px-6">FOR EVERY 3 PURCHASED TICKETS FOR CONFERENCE, WORKSHOPS, GALA DINNER YOU WILL RECEIVE 1 TICKET FREE OF CHARGE</span>
-            <span className="col-span-2 text-left py-4 px-6 text-blue">SUPER PACKAGE 4+</span>
-            <span className="col-span-6 text-left py-4 px-6">FOR EVERY 4 PURCHASED TICKETS FOR CONFERENCE, WORKSHOPS YOU WILL RECEIVE 2 TICKETS FREE OF CHARGE</span>
-            <span className="col-span-2 text-left py-4 px-6 text-blue">SUPER PACKAGE 4+ MAX</span>
-            <span className="col-span-6 text-left py-4 px-6">FOR EVERY 4 PURCHASED TICKETS FOR CONFERENCE, WORKSHOPS, GALA DINNER YOU WILL RECEIVE 2 TICKETS FREE OF CHARGE</span>
-            <span className="col-span-2 text-left py-4 px-6 text-blue">SUPER PACKAGE 5+</span>
-            <span className="col-span-6 text-left py-4 px-6">FOR EVERY 5 PURCHASED TICKETS FOR CONFERENCE, WORKSHOPS YOU WILL RECEIVE 3 TICKETS FREE OF CHARGE</span>
-            <span className="col-span-2 text-left py-4 px-6 text-blue">SUPER PACKAGE 5+ MAX</span>
-            <span className="col-span-6 text-lef py-4 px-6t">FOR EVERY 5 PURCHASED TICKETS FOR CONFERENCE, WORKSHOPS, GALA DINNER YOU WILL RECEIVE 3 TICKETS FREE OF CHARGE</span>
-          </div>
-          <h3 className="text-pink uppercase text-2xl my-12">ATTENTION: ALL PRICES ARE NET. VAT WILL BE ADDED ACCORDING TO LOCAL REGULATIONS.</h3>
         </div>
       </section>
     </div>

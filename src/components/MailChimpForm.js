@@ -62,7 +62,25 @@ class MailChimpForm extends React.Component {
                     className=""
                   />
                 </label>
-
+                <label>
+                      <input
+                        type="checkbox"
+                        name="accept_private_policy"
+                        value="yes"
+                        required
+                      />
+                      <span className="ml-2">
+                        I hereby accept the{" "}
+                        <a
+                          href="/private-policy-we.pdf"
+                          className="text-pink"
+                          target="_blank"
+                        >
+                          PRIVACY POLICY
+                        </a>{" "}
+                        <span className="text-red-600">*</span>.{" "}
+                      </span>
+                    </label>
                 <button
                   className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 "
                   type="submit"
