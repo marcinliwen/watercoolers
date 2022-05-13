@@ -25,7 +25,8 @@ const Fee = () => {
             </div>
           <div className="fee-col">
               <div className="fee-header">
-            <span className="font-bold">SPECIAL OFFER FOR EXHIBITORS </span>
+            <span className="font-bold">SPECIAL OFFER <br />
+            FOR EXHIBITORS </span>
             <span className=" text-sm text-center">
               EARLY BIRD RATES,<br />
               IF BOOKED BEFORE  <br /><strong>30 SEPTEMBER</strong>{" "}
@@ -69,7 +70,7 @@ const Fee = () => {
           <div className="fee-col">
               <div className="fee-header">
           <span className="col-span-2  font-bold">
-              WE MEMBERS & NATIONAL ASSOCIATIONS
+              WE MEMBERS & NATIONAL <br /> ASSOCIATIONS
             </span>
             <span className=" text-sm text-center">
               EARLY BIRD RATES, <br />
@@ -114,7 +115,8 @@ const Fee = () => {
           <div className="fee-col">
          
             <div className="fee-header">
-                <span className="font-bold">NON-WE MEMBERS</span>
+                <span className="font-bold">NON-WE <br /
+                > MEMBERS</span>
                 <span className=" text-sm text-center">
                     EARLY BIRD RATES, <br />
                     IF BOOKED BEFORE <br /><strong>30 SEPTEMBER</strong>{" "}
