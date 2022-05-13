@@ -100,6 +100,9 @@ label {
 .addition-tab span:nth-child(2n){
   border-bottom: 2px solid #fff;
 }
+.fee-header>span:nth-child(2) {
+  border-right: 1px solid #ffffffad;
+}
 @media (min-width: 768px) {
   .plan-content .cart:nth-child(2n),
   .is-side .cart:nth-child(2n) {
@@ -185,14 +188,21 @@ label {
 .fee-header>span:nth-child(n+2) {padding: 16px 8px;}
 
 .fee-row>span:nth-child(1) {padding: 8px 8px 4px;}
+.fee-col-titles{display: none;}
 @media (min-width: 768px) {
   .category-item {
     flex-basis: calc(100% / 3 - 20px);
   }
   .fee-wrapper {display: flex;
     flex-wrap: wrap;
-    margin: 64px -16px 32px;}
-  .fee-col {flex-basis: calc((100% / 3) - 32px);margin: 0 16px;}
+    margin: 64px 0px 32px;}
+  .fee-col {flex-basis: calc((100% - 130px) / 3);margin: 0; }
+  .fee-col-titles {display:block;flex-basis: 130px;}
+  .fee-col-titles .fee-header {height: 172px;border-bottom: 2px solid #fff;background: #fff;}
+  .fee-col .fee-row>span:nth-child(1) {display: none;}
+  .fee-col:nth-child(n+2){
+    border-left: 4px solid #fff;
+  }
   .addition-tab {
     grid-auto-rows: 60px;
 }

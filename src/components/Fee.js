@@ -5,15 +5,33 @@ const Fee = () => {
     <section>
       <div className="container">
         <div className="fee-wrapper">
+          <div className="fee-col-titles">
+          <div className="fee-header"></div>
+          
+          <div className="fee-row">
+                <span className="col-span-1 text-left font-bold">
+                FAIR ENTRACE{" "}
+                </span>
+                </div>
+              <div className="fee-row"><span className="col-span-1 text-left font-bold">CONFERENCE</span></div>
+              <div className="fee-row">
+            <span className="col-span-1 text-left font-bold">GALA DINNER </span></div>
+            <div className="fee-row">
+            <span className="col-span-1 text-left font-bold">CITY TOUR</span></div>
+            <div className="fee-row">
+            <span className="col-span-1 text-left font-bold">PACKAGE 1:</span></div>
+            <div className="fee-row">
+            <span className="col-span-1 text-left font-bold ">PACKAGE 2:</span></div>
+            </div>
           <div className="fee-col">
               <div className="fee-header">
             <span className="font-bold">SPECIAL OFFER FOR EXHIBITORS </span>
-            <span className=" text-sm text-left">
+            <span className=" text-sm text-center">
               EARLY BIRD RATES,<br />
               IF BOOKED BEFORE  <br /><strong>30 SEPTEMBER</strong>{" "}
             </span>
-            <span className=" text-sm text-left">
-              REGULAR RATES,  FROM <br /><strong>1 OCTOBER</strong>{" "}
+            <span className=" text-sm text-center">
+              REGULAR RATES, <br /> FROM <br /><strong>1 OCTOBER</strong>{" "}
             </span>
             </div>
             <div className="fee-row">
@@ -53,12 +71,12 @@ const Fee = () => {
           <span className="col-span-2  font-bold">
               WE MEMBERS & NATIONAL ASSOCIATIONS
             </span>
-            <span className=" text-sm text-left">
+            <span className=" text-sm text-center">
               EARLY BIRD RATES, <br />
-              IF BOOKED BEFORE <strong>30 SEPTEMBER</strong>{" "}
+              IF BOOKED BEFORE <br /><strong>30 SEPTEMBER</strong>{" "}
             </span>
-            <span className=" text-sm text-left">
-              REGULAR RATES, <br /> FROM <strong>1 OCTOBER</strong>{" "}
+            <span className=" text-sm text-center">
+              REGULAR RATES, <br /> FROM <br /><strong>1 OCTOBER</strong>{" "}
             </span>
             </div>
             <div className="fee-row">
@@ -97,12 +115,12 @@ const Fee = () => {
          
             <div className="fee-header">
                 <span className="font-bold">NON-WE MEMBERS</span>
-                <span className=" text-sm text-left">
+                <span className=" text-sm text-center">
                     EARLY BIRD RATES, <br />
-                    IF BOOKED BEFORE <strong>30 SEPTEMBER</strong>{" "}
+                    IF BOOKED BEFORE <br /><strong>30 SEPTEMBER</strong>{" "}
                 </span>
-                <span className=" text-sm text-left">
-                    REGULAR RATES, <br /> FROM <strong>1 OCTOBER</strong>{" "}
+                <span className=" text-sm text-center">
+                    REGULAR RATES, <br /> FROM <br /><strong>1 OCTOBER</strong>{" "}
                 </span>
             </div>
             <div className="fee-row">
@@ -152,7 +170,10 @@ const Fee = () => {
         </div>
       </div>
       <div className="container">
-        <div className="addition-tab mt-12 grid grid-cols-8 bg-bggray">
+        <div className="addition-header mt-12 py-4 px-6 text-white bg-blue font-bold">
+          SUPER PACKAGES
+        </div>
+        <div className="addition-tab grid grid-cols-8 bg-bggray">
           <span className="col-span-2 text-left py-4 px-6 text-blue font-bold">
             GALA DINNER PACKAGE 5+
           </span>
