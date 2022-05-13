@@ -100,9 +100,7 @@ label {
 .addition-tab span:nth-child(2n){
   border-bottom: 2px solid #fff;
 }
-.fee-header>span:nth-child(2) {
-  border-right: 1px solid #ffffffad;
-}
+
 @media (min-width: 768px) {
   .plan-content .cart:nth-child(2n),
   .is-side .cart:nth-child(2n) {
@@ -174,21 +172,32 @@ label {
 .fee-wrapper {display: flex;
   flex-wrap: wrap;
   margin: 64px 0px 32px;}
-
+.fee-header>span:nth-child(2) {
+  border-right: 2px solid #fff;
+}
 .fee-col {flex-basis:100%;margin: 0 0 32px;}
 
 .fee-header>span:nth-child(1), .fee-row>span:nth-child(1) {grid-column: 1/3;text-align: center;}
 
 .fee-row {display: grid;grid-template-columns: 1fr 1fr;background: #f7f7f7;border-bottom: 4px solid #fff;}
 
-.fee-header>span:nth-child(1) {height: 80px;padding: 16px;background: #006aac;color: #fff;display: grid;align-items: center;}
+.fee-header>span:nth-child(1) {height: 100px;padding: 16px;background: #006aac;color: #fff;display: grid;align-items: center;}
 
-.fee-row >span {text-align: center;padding: 4px 8px 8px;}
+.fee-row >span {text-align: center;padding: 4px 8px 4px;}
 
 .fee-header>span:nth-child(n+2) {padding: 16px 8px;}
 
-.fee-row>span:nth-child(1) {padding: 8px 8px 4px;}
+.fee-row>span:nth-child(1) {padding: 4px 8px 4px;}
 .fee-col-titles{display: none;}
+.fee-col .fee-row >span:nth-child(3) {
+  border-left: 2px solid #fff;
+}
+.fee-col .fee-row >span:nth-child(n+2){
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (min-width: 768px) {
   .category-item {
     flex-basis: calc(100% / 3 - 20px);
@@ -196,9 +205,9 @@ label {
   .fee-wrapper {display: flex;
     flex-wrap: wrap;
     margin: 64px 0px 32px;}
-  .fee-col {flex-basis: calc((100% - 130px) / 3);margin: 0; }
-  .fee-col-titles {display:block;flex-basis: 130px;}
-  .fee-col-titles .fee-header {height: 172px;border-bottom: 2px solid #fff;background: #fff;}
+  .fee-col {flex-basis: calc((100% - 140px) / 3);margin: 0; }
+  .fee-col-titles {display:flex;flex-basis: 140px;flex-direction: column;justify-content: flex-end;}
+  .fee-col-titles .fee-header {height: 192px;border-bottom: 2px solid #fff;background: #fff;}
   .fee-col .fee-row>span:nth-child(1) {display: none;}
   .fee-col:nth-child(n+2){
     border-left: 4px solid #fff;
