@@ -576,9 +576,11 @@ export const EventProgrammeTemplate = ({
                 <p className="text-blue font-bold md:flex">
                   <span className="mr-2">Presentation:</span>
                   <span className="uppercase">
-                    The addition of air purifiers to your marketing portfolio
+                  Air cleaners; an addition to your water dispenser business
                   </span>
                 </p>
+                <p className="text-blue mb-2">Indoor air quality is affected by many factors and activities. The presence of several people in poorly ventilated indoor rooms quickly leads to 'stale air' Air purifiers offer a simple, effective and inexpensive solution to significantly improve indoor air quality. This will lead to more concentrated and fitter employees and fewer problems with respiratory problems such as asthma and allergies. The business model is comparable to the water cooler business model.  Air cleaners only need a power socket, can be sold or rented, and filter change.</p>
+                <p className="mb-2">Peter Hogervorst has spent all his working life in bottling. Starting at Heineken in 1987 and moving to the 5 Gallon industry with Dolphin in 2000, he has experience in bottling beer, soft drinks and, of course, water. In 2007 he completed the acquisition of Dolphin Production in Mierlo, Netherlands. In 2012 he acquired Porla Brunn, Sweden. In 2015 the German branch was founded in a joint venture with family owned Teamblue resulting in Teamblue Dolphin with more than 100 years of experience in the watercooler industry, especially in bottling. In 2021 the former Kalimba spring in Lanaken, Belgium was acquired and Dolphin Bottling Belgium was founded.  Every year around 100 million litres of water are filled by the group for more than 50 distributors in 9 countries from the North Cape to the Alps. In 2020 Teamblue Dolphin started with the sale of Air Cleaners in Germany, the Netherlands and Belgium resulting in over 1500 installations.</p>
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
