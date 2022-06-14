@@ -97,12 +97,7 @@ const Navbar = class extends React.Component {
               <Link className="py-3 px-4 block  hover:text-blue ease-in-out duration-300" to="/aqua-awards">
                 Aqua Awards & Gala Dinner
               </Link>
-              <Link
-                className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300"
-                to="/registration"
-              >
-                Registration
-              </Link>
+              <a className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300" href="https://systemcoffee.pl/?lang=en&go2rej=1&kid=1316" target="_blank"> Registration</a>
             </div>
           </div>
         </div>
