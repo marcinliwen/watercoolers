@@ -5,7 +5,7 @@ import { VenueAccommodationTemplate } from '../../templates/venue-and-accommodat
 const VenueAccommodationPreview = ({entry}) => {
     const data = entry.getIn(['data']).toJS()
   
-    console.log(data)
+    //console.log(data)
     if (data) {
       return (
         < VenueAccommodationTemplate

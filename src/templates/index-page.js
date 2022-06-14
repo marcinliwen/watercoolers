@@ -15,7 +15,7 @@ export const IndexPageTemplate = ({
   image,
   category
 }) => {
-console.log(category)
+//console.log(category)
   return (
     <div>
        <div className="container my-auto">

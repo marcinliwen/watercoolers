@@ -5,7 +5,7 @@ import { EventProgrammeTemplate } from '../../templates/event-programme-page'
 const  EventProgrammePreview = ({entry}) => {
     const data = entry.getIn(['data']).toJS()
   
-    console.log(data)
+    //console.log(data)
     if (data) {
       return (
         < EventProgrammeTemplate

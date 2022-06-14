@@ -8,7 +8,7 @@ import PageSubtitle from "../components/PageSubtitle";
 import { StaticImage } from "gatsby-plugin-image";
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
-  console.log(tradefair);
+ // console.log(tradefair);
   return (
     <div>
       <PageTitle title={title} />

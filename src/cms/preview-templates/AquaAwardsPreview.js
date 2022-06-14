@@ -5,7 +5,7 @@ import { AquaAwardsTemplate } from '../../templates/aqua-awards-page'
 const AquaAwardsPreview = ({entry}) => {
     const data = entry.getIn(['data']).toJS()
   
-    console.log(data)
+    //console.log(data)
     if (data) {
       return (
         < AquaAwardsTemplate

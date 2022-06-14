@@ -5,7 +5,7 @@ import { TradeFairTemplate } from '../../templates/trade-fair'
 const TradeFairPagePreview = ({entry}) => {
     const data = entry.getIn(['data']).toJS()
   
-    console.log(data)
+    //console.log(data)
     if (data) {
       return (
         <TradeFairTemplate
