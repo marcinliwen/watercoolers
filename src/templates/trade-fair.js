@@ -57,7 +57,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S01</span><span></span>
             <span className="">S03</span><span></span>
             <span className="">S27</span><span></span>
-            <span className="">S32</span><span ></span>
+            <span className="">S32</span><span >GWS R&D</span>
           </div>
         </div>
       </div>
