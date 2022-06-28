@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
       <section className="">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 ">
          {category.map(item=>
-            <div className="">
+            <div className="" key={item.title}>
               <PreviewCompatibleImage
               imageInfo={{
                 image: item.image,

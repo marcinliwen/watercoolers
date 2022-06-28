@@ -44,10 +44,10 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
             </ul>
             
             <p className="font-bold mb-2">
-              Price of single room with breakfast: 185 EUR (VAT included)
+              Price of single room with breakfast: 190 € (VAT included)
             </p>
             <p className="font-bold mb-4">
-              Price of double room with breakfast: 205 EUR (VAT included)
+              Price of double room with breakfast: 210 € (VAT included)
             </p>
 
             <p>
@@ -72,13 +72,18 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
           />
         </div>
       </section>
-      <PageSubtitle title="Booking online" />
-      <section><div className="container">
+      <section className="bg-blue text-white text-center py-8">
+        <div className="container">
+          <h2 className="text-4xl"><a className="hover:underline ease-in-out duration-300"  href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1652979882546&key=GRP&app=resvlink" target="_blank">Book now</a></h2>
+        </div>
+      </section>
+     {/*  <section><div className="container">
         <a className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 text-center my-12 w-32 mx-auto" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1652979882546&key=GRP&app=resvlink" target="_blank">Book now</a>
-        </div></section>
+        </div></section> */}
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 md:px-0">
-        {gallery.map((item) => 
+        {gallery.map((item, index) => 
           <PreviewCompatibleImage
+            key={index}
             imageInfo={{
               image: item.image,
             }}
