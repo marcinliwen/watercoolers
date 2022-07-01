@@ -101,7 +101,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <h1 className="font-bold text-xl text-blue ">
-                  <span>IDEA &amp; MARKETING</span>
+                  <span>IDEA &amp; MARKETING <br /> BEATA MĄKOLSKA</span>
                 </h1>
                 <h2 className="font-bold text-md mb-4">
                   ORGANISER
