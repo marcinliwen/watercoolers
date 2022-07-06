@@ -13,13 +13,28 @@ const Footer = class extends React.Component {
       <footer className="bg-blue py-10">
 
         <div className="container py-2">
-          <div className="flex flex-wrap">
+          <div className="flex flex-col md:flex-row">
           
-          <div className="text-white text-sm font-light flex flex-col gap-1 mr-auto mb-12 md:mb-0">
+          <div className="text-white text-sm font-light flex flex-col gap-1  mb-12 md:mb-0">
             <Link to="/contact">CONTACT</Link>
             <a href="/terms-and-conditions" target="_blank">TERMS & CONDITIONS FOR EXHIBITORS</a>
             <a href="/GENERAL_INFORMATION_LISBON_2022.pdf" target="_blank">GENERAL INFORMATION</a>
             <a href="/private-policy-we.pdf" target="_blank">PRIVACY POLICY</a>
+          </div>
+          <div className="mr-auto md:ml-12  mb-12 md:mb-0">
+            <p className="text-white text-sm font-light">
+            IDEA & MARKETING 
+            <br />
+            Beata Mąkólska
+<br/>
+Jedności 118
+<br />
+05-506 Janczewice, Poland
+<br />
+NIP: 123-002-55-82 
+<br />
+REGON: 388439940
+            </p>
           </div>
           <div className="basis-[168px]">
           <img
