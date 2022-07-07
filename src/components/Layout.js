@@ -56,6 +56,7 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.png`}
         />
+        <meta name="google-site-verification" content="2Tsu7Q9ZqKdksBeYLBS4tJHjRABjswNbcZhddMN1YzQ" />
         <script
           type="text/javascript"
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"
