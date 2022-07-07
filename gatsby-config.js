@@ -7,6 +7,7 @@ module.exports = {
     title: "Watercooller Europe",
     description:
       "Watercooler description",
+    siteUrl: "https://we2022.eu",
   },
   plugins: [
     {
@@ -42,7 +43,7 @@ module.exports = {
         },
       },
     },
-  
+    "gatsby-plugin-sitemap",
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
