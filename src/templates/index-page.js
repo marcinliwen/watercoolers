@@ -6,7 +6,6 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import HomeBanner from "../components/HomeBanner";
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
