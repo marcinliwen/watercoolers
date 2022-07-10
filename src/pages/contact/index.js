@@ -39,7 +39,7 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <Layout  pageName="Contact">
         <PageTitle title="Contact" />
         <section className="section py-12">
           <div className="container">

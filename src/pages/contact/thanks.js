@@ -6,7 +6,6 @@ import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
 export default (props) => {
-  console.log(props.location.pathname)
   return (
   <Layout location={props.location.pathname}>
     

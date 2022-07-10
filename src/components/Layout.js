@@ -7,7 +7,7 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import CookieConsent from "react-cookie-consent";
 
-const TemplateWrapper = ({ location, children }) => {
+const TemplateWrapper = ({ location, pageName,  children }) => {
   const { title, description } = useSiteMetadata();
 
   const [cookie, setCookie] = React.useState(false);
@@ -17,14 +17,14 @@ const TemplateWrapper = ({ location, children }) => {
     }, 500)
     
   })
-
-  console.log(location)
+console.log(pageName)
+const descriptionPage = pageName ? pageName + " - " + description : description;
   return (
     <div className="h-full grid grid-rows-layout">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content={descriptionPage} />
 
         <link
           rel="apple-touch-icon"

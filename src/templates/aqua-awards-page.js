@@ -546,7 +546,7 @@ AquaAwardsTemplate.propTypes = {
 const AquaAwards = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
-    <Layout location={location.pathname}>
+    <Layout location={location.pathname}  pageName={data.markdownRemark.frontmatter.title}>
       <AquaAwardsTemplate title={frontmatter.title} info={frontmatter.info} />
     </Layout>
   );

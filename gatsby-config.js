@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: "Watercooller Europe",
     description:
-      "Watercooler description",
+      "Watercooler Europe - Conference and Fair, 19-21 October 2022, Lisbon, Portugal.",
     siteUrl: "https://we2022.eu",
   },
   plugins: [

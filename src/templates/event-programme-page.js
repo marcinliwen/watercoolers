@@ -773,7 +773,7 @@ const EventProgramme = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout location={location.pathname}>
+    <Layout location={location.pathname} pageName={data.markdownRemark.frontmatter.title}>
       <EventProgrammeTemplate
         title={frontmatter.title}
         event={frontmatter.event}

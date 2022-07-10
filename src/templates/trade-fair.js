@@ -266,7 +266,7 @@ const TradeFair = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout location={location.pathname}>
+    <Layout location={location.pathname}  pageName={data.markdownRemark.frontmatter.title}>
       <TradeFairTemplate
         title={frontmatter.title}
         tradefair={frontmatter.tradefair}
