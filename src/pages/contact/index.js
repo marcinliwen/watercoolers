@@ -58,7 +58,7 @@ export default class Index extends React.Component {
                     />
                     <div>
                       <p className="block text-lg">Phone</p>
-                      <a href="tel:(+32) 2 880 20 34">(+32) 2 880 20 34</a>
+                      <a rel="nofollow"  href="tel:(+32) 2 880 20 34">(+32) 2 880 20 34</a>
                     </div>
                   </div>
 
@@ -72,7 +72,7 @@ export default class Index extends React.Component {
                     <div>
                       <p className="block text-lg">Email</p>
 
-                      <a href="mailto:info@watercoolerseurope.eu">
+                      <a rel="nofollow"  href="mailto:info@watercoolerseurope.eu">
                         info@watercoolerseurope.eu
                       </a>
                     </div>
@@ -93,6 +93,7 @@ export default class Index extends React.Component {
                   </div>
                   <div className="mb-8">
                     <a
+                    rel="nofollow" 
                       className="text-pink"
                       href="http://www.watercoolerseurope.eu"
                     >
@@ -118,7 +119,7 @@ export default class Index extends React.Component {
                     />
                     <div>
                       <p className="block text-lg">Phone</p>
-                      <a href="tel:+48 508 399 182">+48 508 399 182</a>
+                      <a rel="nofollow"  href="tel:+48 508 399 182">+48 508 399 182</a>
                     </div>
                   </div>
                   <div className="mb-8 flex">
@@ -130,7 +131,7 @@ export default class Index extends React.Component {
                     />
                     <div>
                       <p className="block text-lg">Email</p>
-                      <a href="mailto:office@ideamarketing.pl">
+                      <a rel="nofollow"  href="mailto:office@ideamarketing.pl">
                         office@ideamarketing.pl
                       </a>
                     </div>
@@ -151,7 +152,7 @@ export default class Index extends React.Component {
                     </div>
                   </div>
                   <div className="mb-8">
-                    <a className="text-pink" href="http://www.ideamarketing.pl">
+                    <a rel="nofollow"  className="text-pink" href="http://www.ideamarketing.pl">
                       www.ideamarketing.pl
                     </a>
                   </div>
@@ -305,6 +306,7 @@ export default class Index extends React.Component {
                       <span className="ml-2">
                         I hereby accept the{" "}
                         <a
+                        rel="nofollow" 
                           href="/private-policy-we.pdf"
                           className="text-pink"
                           target="_blank"
