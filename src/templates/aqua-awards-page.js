@@ -16,7 +16,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
           <div className="py-16 is-side">
             <div className="cart md:flex mb-16 md:mb-20 ">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/aa-logo.png" placeholder="none" />
+                <StaticImage src="../img/aa-logo.png" placeholder="none" alt="Aqua Awards Logo"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-8 mt-4 text-2xl">History</h3>
@@ -543,10 +543,10 @@ AquaAwardsTemplate.propTypes = {
   title: PropTypes.string,
   info: PropTypes.object,
 };
-const AquaAwards = ({ data }) => {
+const AquaAwards = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
-    <Layout>
+    <Layout location={location.pathname}>
       <AquaAwardsTemplate title={frontmatter.title} info={frontmatter.info} />
     </Layout>
   );

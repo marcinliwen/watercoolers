@@ -100,11 +100,11 @@ VenueAccommodationTemplate.propTypes = {
   gallery: PropTypes.array,
 };
 
-const VenueAccommodation = ({ data }) => {
+const VenueAccommodation = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout location={location.pathname}>
       <VenueAccommodationTemplate
         title={frontmatter.title}
         venue={frontmatter.venue}

@@ -56,11 +56,11 @@ IndexPageTemplate.propTypes = {
   }),
 };
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout location={location.pathname}>
       <IndexPageTemplate
         image={frontmatter.image}
         category={frontmatter.category}

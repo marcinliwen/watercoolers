@@ -12,7 +12,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
   return (
     <div>
       <PageTitle title={title} />
-      <div class="container">
+      <div className="container">
         {/* <h3 className="font-bold mt-8  mb-6 text-2xl text-center">
           Don’t miss the next Watercoolers Europe annula event. Book now in your
           calendar.
@@ -22,7 +22,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
         </p> */}
         <div className="py-8 md:px-0">
           <h3 className="font-bold my-4 text-2xl">Floor Plan</h3>
-          <StaticImage src="../img/floor_plan_stage.png" placeholder="none"/>
+          <StaticImage src="../img/floor_plan_stage.png" placeholder="none" alt="Floor plan"/>
         </div>
         <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
           <div className="grid grid-cols-[108px_1fr] list">
@@ -262,11 +262,11 @@ TradeFairTemplate.propTypes = {
   fees: PropTypes.object,
 };
 
-const TradeFair = ({ data }) => {
+const TradeFair = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout location={location.pathname}>
       <TradeFairTemplate
         title={frontmatter.title}
         tradefair={frontmatter.tradefair}

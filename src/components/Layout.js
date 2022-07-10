@@ -7,7 +7,7 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import CookieConsent from "react-cookie-consent";
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ location, children }) => {
   const { title, description } = useSiteMetadata();
 
   const [cookie, setCookie] = React.useState(false);
@@ -17,6 +17,8 @@ const TemplateWrapper = ({ children }) => {
     }, 500)
     
   })
+
+  console.log(location)
   return (
     <div className="h-full grid grid-rows-layout">
       <Helmet>
@@ -56,7 +58,8 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.png`}
         />
-        <meta name="google-site-verification" content="2Tsu7Q9ZqKdksBeYLBS4tJHjRABjswNbcZhddMN1YzQ" />
+        {location === "/" ? <meta name="google-site-verification" content="2Tsu7Q9ZqKdksBeYLBS4tJHjRABjswNbcZhddMN1YzQ" /> : ''}
+        {location === "/contact/thanks" ? <meta name="robots" content="noindex" />: ''}
         <script
           type="text/javascript"
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"

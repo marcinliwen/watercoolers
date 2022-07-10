@@ -192,7 +192,7 @@ export const EventProgrammeTemplate = ({
           <div className="plan-content">
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/lizbona.png" />
+                <StaticImage src="../img/programm/lizbona.png" alt="Lisboa"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
@@ -223,7 +223,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8 ">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/conference.png" />
+                <StaticImage src="../img/programm/conference.png" alt="Conference programm"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
@@ -287,7 +287,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/trade-fair.png" placeholder="none"/>
+                <StaticImage src="../img/programm/trade-fair.png" placeholder="none" alt="Trade fair Programm"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
@@ -338,7 +338,7 @@ export const EventProgrammeTemplate = ({
             </h2>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48  mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Terence-Mauri.jpg" placeholder="none"/>
+                <StaticImage src="../img/speakers/Terence-Mauri.jpg" placeholder="none" alt="Terence Mauri"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Terence Mauri
@@ -362,7 +362,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48  mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Richard.png" placeholder="none"/>
+                <StaticImage src="../img/speakers/Richard.png" placeholder="none" alt="Richard Hall"/>
                 <div className=" md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Richard Hall
@@ -400,7 +400,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Bill-Bruce.png" placeholder="none"/>
+                <StaticImage src="../img/speakers/Bill-Bruce.png" placeholder="none" alt=" Bill Bruce"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Bill Bruce
@@ -465,7 +465,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" placeholder="none"/>
+                <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" placeholder="none" alt="Gonçalo Tremoceiro"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Gonçalo Tremoceiro
@@ -497,7 +497,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.png" placeholder="none"/>
+                <StaticImage src="../img/speakers/Miguel-Ribeiro-Ferreira.png" placeholder="none" alt="Miguel Ribeiro Ferreira"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Miguel Ribeiro Ferreira
@@ -562,7 +562,7 @@ export const EventProgrammeTemplate = ({
             </p>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/Peter-Hogervorst.png" placeholder="none"/>
+                <StaticImage src="../img/speakers/Peter-Hogervorst.png" placeholder="none" alt="Peter Hogervorst"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Peter Hogervorst
@@ -657,7 +657,7 @@ export const EventProgrammeTemplate = ({
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/MarkCross.png" /> 
+                <StaticImage src="../img/speakers/MarkCross.png"  alt="Mark Cross"/> 
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Mark Cross
@@ -681,7 +681,7 @@ export const EventProgrammeTemplate = ({
             </p>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none"/>
+                <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none" alt="Francisco dos Santos"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Francisco dos Santos
@@ -769,11 +769,11 @@ EventProgrammeTemplate.propTypes = {
   workshops: PropTypes.array,
 };
 
-const EventProgramme = ({ data }) => {
+const EventProgramme = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout location={location.pathname}>
       <EventProgrammeTemplate
         title={frontmatter.title}
         event={frontmatter.event}

@@ -2,10 +2,14 @@ import React from "react";
 import Layout from "../../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 // eslint-disable-next-line
-export default () => (
-  <Layout>
+export default (props) => {
+  console.log(props.location.pathname)
+  return (
+  <Layout location={props.location.pathname}>
+    
     <section className="section">
       <div className="container">
         <div className="my-20">
@@ -47,5 +51,5 @@ export default () => (
         </div>
       </div>
     </section>
-  </Layout>
-);
+  </Layout>)
+};
