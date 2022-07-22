@@ -37,13 +37,15 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S24/25</span><span>COSMETAL SRL</span>
             <span className="">S16</span><span>CRYSTAL MOUNTAIN</span>
             <span className="">S09</span><span>GREIF POLAND SP. Z O.O.</span>
+            <span className="">S32</span><span >GWS R&D</span>
             <span className="">S28</span><span>H2O DIRECT LIMITED</span>
             <span className="">S13</span><span>HODMETER</span>
-            <span className="">S20</span><span>KLARAN BY CRYSTAL IS</span>
-            <span className="last">S12</span><span className="last">KTLC EUROPE LTD</span>
+            <span className="last">S20</span><span className="last">KLARAN BY CRYSTAL IS</span>
+            
           </div>
           <div className="grid grid-cols-[108px_1fr] list">
-            <span className="first">S07</span><span className="first">MARCO BEVERAGE SYSTEMS</span>
+            <span className="first">S12</span><span  className="first">KTLC EUROPE LTD</span>
+            <span className="">S07</span><span>MARCO BEVERAGE SYSTEMS</span>
             <span className="">S31</span><span>MIW WATER COOLER EXPERTS</span>
             <span className="">S05/10</span><span>OASIS WATER FRIENDLY SOLUTIONS</span>
             <span className="">S14</span><span>OP SARL</span>
@@ -52,12 +54,13 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S02</span><span>PITKIT LTD</span>
             <span className="">S11</span><span>POLYMER SOLUTIONS INTERNATIONAL INC.</span>
             <span className="">S06</span><span>SILGAN CLOSURES</span>
+            <span className="">S27</span><span>SNC PLASTIK</span>
             <span className="">S13</span><span>VIKI PLAST</span>
             <span className="">S30</span><span>ZERICA SRL</span>
             <span className="">S01</span><span></span>
             <span className="">S03</span><span></span>
-            <span className="">S27</span><span>SNC PLASTIK</span>
-            <span className="">S32</span><span >GWS R&D</span>
+            
+            
           </div>
         </div>
       </div>
