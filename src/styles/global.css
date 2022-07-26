@@ -198,6 +198,30 @@ label {
   align-items: center;
   justify-content: center;
 }
+.custom-select {
+  position: relative;
+  background: #f4f4f4;
+  border-color: #f4f4f4;
+}
+
+.custom-select svg {
+  position: absolute;
+    top: 13px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+.custom-select select {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+label.custom-select-wrapper {
+  display: flex;
+  align-items: center;
+}
 @media (min-width: 768px) {
   .category-item {
     flex-basis: calc(100% / 3 - 20px);

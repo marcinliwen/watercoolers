@@ -27,7 +27,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
         <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
           <div className="grid grid-cols-[108px_1fr] list">
             <span className="first">S21</span><span className="first">ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA</span>
-            <span className="">S04</span><span>AQUEDUCT - THE WELL WATER</span>
+           
             <span className="">S08</span><span>AQUISENSE TECHNOLOGIES</span>
             <span className="">S15</span><span>ASE PACKAGING SOLUTIONS GMBH</span>
             <span className="">S19</span><span>BARDI</span>
@@ -40,12 +40,13 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S32</span><span >GWS R&D</span>
             <span className="">S28</span><span>H2O DIRECT LIMITED</span>
             <span className="">S13</span><span>HODMETER</span>
-            <span className="last">S20</span><span className="last">KLARAN BY CRYSTAL IS</span>
+            <span >S20</span><span >KLARAN BY CRYSTAL IS</span>
+            <span className="last">S12</span><span  className="last">KTLC EUROPE LTD</span>
             
           </div>
           <div className="grid grid-cols-[108px_1fr] list">
-            <span className="first">S12</span><span  className="first">KTLC EUROPE LTD</span>
-            <span className="">S07</span><span>MARCO BEVERAGE SYSTEMS</span>
+            
+            <span className="first">S07</span><span className="first">MARCO BEVERAGE SYSTEMS</span>
             <span className="">S31</span><span>MIW WATER COOLER EXPERTS</span>
             <span className="">S05/10</span><span>OASIS WATER FRIENDLY SOLUTIONS</span>
             <span className="">S14</span><span>OP SARL</span>
@@ -59,6 +60,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S30</span><span>ZERICA SRL</span>
             <span className="">S01</span><span></span>
             <span className="">S03</span><span></span>
+            <span className="">S04</span><span></span>
             
             
           </div>
@@ -184,20 +186,37 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 <label className="flex flex-col">
                   Website <input type="text" name="website" />
                 </label>
-                <label>
+                <label className="custom-select-wrapper">
+                  <span className="mr-2">PREFFERED STAND NO.:<span className="text-red-600">*</span></span>
+                 {/*  <input type="text" name="stand-no" required /> */}
+                 <div className="custom-select">
+                  <select name="stand-no" required>
+                    <option value="S01">S01</option>
+                    <option value="S03">S03</option>
+                    <option value="S04">S04</option>
+ 
+                  </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+</svg>
+                  </div>
+                </label>
+                <label className="custom-select-wrapper">
                   <span className="mr-2">AVAILABLE EXHIBITION STANDS:<span className="text-red-600">*</span></span>
+                  <div className="custom-select">
                   <select name="standsize">
                     <option value="7,5 m2 table top">7,5 m&sup2; table top</option>
 
-                    <option value="15 m2 table top">15 m&sup2; table top</option>
+                    <option disabled value="15 m2 table top">15 m&sup2; table top</option>
 
-                    <option value="22,5 m2 table top">22,5 m&sup2; table top</option>
+                    <option disabled value="22,5 m2 table top">22,5 m&sup2; table top</option>
                   </select>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+</svg>
+</div>
                 </label>
-                <label>
-                  <span className="mr-2">PREFFERED STAND NO.:<span className="text-red-600">*</span></span>
-                  <input type="text" name="stand-no" required />
-                </label>
+                
               </div>
               <div>
                 <h3 className="font-bold my-4 text-2xl">

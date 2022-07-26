@@ -73,7 +73,16 @@ module.exports = {
     },
     "gatsby-plugin-sitemap",
     `gatsby-plugin-image`,
-    "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `dominantColor`,
+          quality: 100,
+        },
+      },
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
