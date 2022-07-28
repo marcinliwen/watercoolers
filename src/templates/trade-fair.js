@@ -27,8 +27,9 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
         <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
           <div className="grid grid-cols-[108px_1fr] list">
             <span className="first">S21</span><span className="first">ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA</span>
-           
+            <span className="">S04</span><span>ACUVA Technologies</span>
             <span className="">S08</span><span>AQUISENSE TECHNOLOGIES</span>
+            
             <span className="">S15</span><span>ASE PACKAGING SOLUTIONS GMBH</span>
             <span className="">S19</span><span>BARDI</span>
             <span className="">S29</span><span>BLACKHAWK MOLDING, CO., INC.</span>
@@ -40,13 +41,13 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S32</span><span >GWS R&D</span>
             <span className="">S28</span><span>H2O DIRECT LIMITED</span>
             <span className="">S13</span><span>HODMETER</span>
-            <span >S20</span><span >KLARAN BY CRYSTAL IS</span>
-            <span className="last">S12</span><span  className="last">KTLC EUROPE LTD</span>
+            <span className="last">S20</span><span className="last" >KLARAN BY CRYSTAL IS</span>
+            
             
           </div>
           <div className="grid grid-cols-[108px_1fr] list">
-            
-            <span className="first">S07</span><span className="first">MARCO BEVERAGE SYSTEMS</span>
+            <span className="first">S12</span><span  className="first">KTLC EUROPE LTD</span>
+            <span >S07</span><span >MARCO BEVERAGE SYSTEMS</span>
             <span className="">S31</span><span>MIW WATER COOLER EXPERTS</span>
             <span className="">S05/10</span><span>OASIS WATER FRIENDLY SOLUTIONS</span>
             <span className="">S14</span><span>OP SARL</span>
@@ -60,7 +61,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S30</span><span>ZERICA SRL</span>
             <span className="">S01</span><span></span>
             <span className="">S03</span><span></span>
-            <span className="">S04</span><span></span>
+            
             
             
           </div>
@@ -193,7 +194,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                   <select name="stand-no" required>
                     <option value="S01">S01</option>
                     <option value="S03">S03</option>
-                    <option value="S04">S04</option>
+                    
  
                   </select>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
