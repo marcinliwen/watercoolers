@@ -343,3 +343,9 @@ label.custom-select-wrapper {
   color: #899093;
   font: normal 13px/18px Tahoma, Arial;
 }
+section.inactive:before {position: absolute;content: "";background: #fff;top: 0;left: 0;right: 0;bottom: 0;opacity: 0.5;z-index: 10;}
+
+section.inactive {
+    position: relative;
+    z-index: 1;
+}
