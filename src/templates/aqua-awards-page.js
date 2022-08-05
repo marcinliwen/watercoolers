@@ -16,22 +16,359 @@ export const AquaAwardsTemplate = ({ title, info }) => {
           <div className="py-16 is-side">
             <div className="cart md:flex mb-16 md:mb-20 ">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/aa-logo.png" placeholder="none" alt="Aqua Awards Logo"/>
+                <StaticImage
+                  src="../img/aa-logo.png"
+                  placeholder="none"
+                  alt="Aqua Awards Logo"
+                />
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
-                <h3 className="font-bold mb-8 mt-4 text-2xl">History</h3>
+                <h3 className="font-bold mb-8 mt-4 text-2xl text-pink">
+                  AQUA AWARDS
+                </h3>
                 <p className="text-base mb-8">
-                  The Aqua Awards Ceremony held at the annual Watercoolers
-                  Europe Conference & Fair is a tradition extending back for
-                  over 20 years and recognises excellence in marketing,
-                  innovation and public relations, as well as products and
-                  programmes which enhance sustainability and protect the
-                  environment. To date, well over 400 awards have been
-                  presented.
+                  The Aqua Awards Ceremony, held at the annual Watercoolers
+                  Europe Conference and Fair, is a tradition extending back over
+                  20 years. It recognises excellence in the water dispenser
+                  industry in marketing, innovation and public relations, as
+                  well as products and programmes which enhance sustainability
                 </p>
               </div>
             </div>
-            <div className="border-t-2 border-bggray pt-8">
+            <div className="cart mb-16 md:mb-20 ">
+              <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
+                WHO CAN ENTER?
+              </h3>
+              <p className="text-base mb-8">
+                Full members of WE, either directly or through their National
+                Association - <b>THERE IS NO ENTRY FEE! </b>
+                There are 5 categories – one of them could be your company’s
+                ticket to a treasured WE Aqua Award.
+              </p>
+            </div>
+            <div className="flex flex-wrap md:block md:columns-5 gap-6 mb-16 md:mb-20">
+              <div className="e-item flex flex-col w-[45%] md:w-[100%]">
+                <StaticImage
+                  className="shadow-md rounded-[1rem]"
+                  src="../img/WE-enter/best-website.png"
+                  placeholder="none"
+                  alt="Aqua Awards Logo"
+                />
+                <h5 className="font-bold text-center mt-6 w-[122px] mx-auto">
+                  Best Website
+                </h5>
+              </div>
+              <div className="e-item flex flex-col w-[45%] md:w-[100%]">
+                <StaticImage
+                  className="shadow-md rounded-[1rem]"
+                  src="../img/WE-enter/innovation.png"
+                  placeholder="none"
+                  alt="Aqua Awards Logo"
+                />
+                <h5 className="font-bold text-center mt-6 w-[122px] mx-auto">
+                  Best Product Innovation
+                </h5>
+              </div>
+              <div className="e-item flex flex-col w-[45%] md:w-[100%]">
+                <StaticImage
+                  className="shadow-md rounded-[1rem]"
+                  src="../img/WE-enter/hydration.png"
+                  placeholder="none"
+                  alt="Aqua Awards Logo"
+                />
+                <h5 className="font-bold text-center mt-6 w-[122px] mx-auto">
+                  Best Promotion of Health & Hydration
+                </h5>
+              </div>
+              <div className="e-item flex flex-col w-[45%] md:w-[100%]">
+                <StaticImage
+                  className="shadow-md rounded-[1rem]"
+                  src="../img/WE-enter/green.png"
+                  placeholder="none"
+                  alt="Aqua Awards Logo"
+                />
+                <h5 className="font-bold text-center mt-6 w-[122px] mx-auto">
+                  Best Environmental Practice/Green Initiative
+                </h5>
+              </div>
+              <div className="e-item flex flex-col w-[45%] md:w-[100%]">
+                <StaticImage
+                  className="shadow-md rounded-[1rem]"
+                  src="../img/WE-enter/brainand.png"
+                  placeholder="none"
+                  alt="Aqua Awards Logo"
+                />
+                <h5 className="font-bold text-center mt-6 w-[94px] mx-auto">
+                  Marketing Campaign
+                </h5>
+              </div>
+            </div>
+
+            <div className="mb-16 md:mb-20">
+              <p className="text-base mb-8">
+                This could be your year! Have a look at the award categories and
+                see where you can best present your company’s work, services,
+                products, campaigns, marketing initiatives - or all of them.
+                This is your opportunity to present your company to an audience
+                of experts and colleagues in the industry.
+              </p>
+            </div>
+            <div className="mb-16 md:mb-20">
+              <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
+                WE ARE LOOKING FOR:
+              </h3>
+              <ul className="list-disc	">
+                <li>Dynamic and forward thinking initiatives</li>
+                <li>Marketing that promotes the industry as a whole</li>
+                <li>A clear message</li>
+                <li>
+                  Effective use of colour and images to attract and hold the
+                  customer’s interest
+                </li>
+                <li>The relevance of the nomination to its stated objective</li>
+              </ul>
+            </div>
+            <div className="mb-16 md:mb-20">
+              <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
+                HOW TO ENTER?
+              </h3>
+              <p className="text-base mb-8">
+                Please complete the form below and ensure that each nomination
+                is sent with the appropriate attachments.{" "}
+                <b>Submit the application form before 15th September 2022</b>
+              </p>
+            </div>
+            <div className="mb-16 md:mb-20">
+              <a
+                href="javascript:void(
+        window.open(
+          'https://form.jotform.com/221161365793053',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    "
+                className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-20 block text-2xl text-center w-max"
+              >
+                Application Form
+              </a>
+            </div>
+            <div className="mb-16 md:mb-20">
+              <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
+                BENEFITS FOR APPLICANTS & WINNERS
+              </h3>
+
+              <p className="text-base mb-8">
+                The Aqua Awards is an excellent way to promote your brand to the
+                event’s visitors and the wider audience online. Check out the
+                fantastic package for winners and applicants.
+              </p>
+            </div>
+            <div className="mb-16 md:mb-20">
+              <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
+                CRITERIA FOR JUDGING 2022 AQUA AWARD CATEGORIES:
+              </h3>
+              <div>
+                <div className="cat-item flex-col md:flex-row gap-4 flex md:gap-12 mb-12 md:mb-6">
+                  <StaticImage
+                    src="../img/aa-criteria/website.png"
+                    placeholder="none"
+                    alt="BEST WEBSITE"
+                    className="shadow-md rounded-[1rem] max-w-[162px]"
+                  />
+                  <div>
+                    <h4 className="font-bold">BEST WEBSITE</h4>
+                    <ul className="list-disc	pl-[18px]">
+                      <li>Effective navigation</li>
+                      <li>Relevant content</li>
+                      <li>Performance and speed</li>
+                      <li>Attractive and appealing design</li>
+                      <li>Inclusion of WE/National Association logo</li>
+                      <li>
+                        Promotion of the watercooler industry if appropriate
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="cat-item flex-col md:flex-row gap-4 flex md:gap-12 mb-12 md:mb-6">
+                  <StaticImage
+                    src="../img/aa-criteria/innovation.png"
+                    placeholder="none"
+                    alt="BEST PRODUCT INNOVATION"
+                    className="shadow-md rounded-[1rem] max-w-[162px]"
+                  />
+                  <div>
+                    <h4 className="font-bold">BEST PRODUCT INNOVATION</h4>
+                    <ul className="list-disc	pl-[18px]">
+                      <li>
+                        Innovative technology within the standards of the
+                        industry
+                      </li>
+                      <li>Stands out from the crowd</li>
+                      <li>A recognised benefit to the user</li>
+                      <li>
+                        Promotion of the watercooler industry if appropriate
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="cat-item flex-col md:flex-row gap-4 flex md:gap-12 mb-12 md:mb-6">
+                  <StaticImage
+                    src="../img/aa-criteria/health.png"
+                    placeholder="none"
+                    alt="BEST PROMOTION OF HEALTH & HYDRATION"
+                    className="shadow-md rounded-[1rem] max-w-[162px]"
+                  />
+                  <div>
+                    <h4 className="font-bold">
+                      BEST PROMOTION OF HEALTH & HYDRATION
+                    </h4>
+                    <ul className="list-disc	pl-[18px]">
+                      <li>Immediate positive impact on target audience</li>
+                      <li>Relevance to audience</li>
+                      <li>Lasting impression on audience of key message</li>
+                      <li>Promotion of the watercooler industry</li>
+                      <li>Inclusion of the WE/National Association logo</li>
+                      <li>Attractive and appealing design</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="cat-item flex-col md:flex-row gap-4 flex md:gap-12 mb-12 md:mb-6">
+                  <StaticImage
+                    src="../img/aa-criteria/green.png"
+                    placeholder="none"
+                    alt="BEST ENVIRONMENTAL PRACTICE/GREEN INITIATIVE"
+                    className="shadow-md rounded-[1rem] max-w-[162px]"
+                  />
+                  <div>
+                    <h4 className="font-bold">
+                      BEST ENVIRONMENTAL PRACTICE/GREEN INITIATIVE
+                    </h4>
+                    <ul className="list-disc	pl-[18px]">
+                      <li>
+                        Total commitment to the benefit of the environment
+                      </li>
+                      <li>Immediate impact on target audience</li>
+                      <li>
+                        Lasting impression on target audience to continue this
+                        initiative
+                      </li>
+                      <li>Promotion of the watercooler industry</li>
+                      <li>Inclusion of the WE/National Association logo</li>
+                      <li>Attractive and appealing design</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="cat-item flex-col md:flex-row gap-4 flex md:gap-12 mb-12 md:mb-6">
+                  <StaticImage
+                    src="../img/aa-criteria/campaign.png"
+                    placeholder="none"
+                    alt="BEST MARKETING CAMPAIGN"
+                    className="shadow-md rounded-[1rem] max-w-[162px]"
+                  />
+                  <div>
+                    <h4 className="font-bold">BEST MARKETING CAMPAIGN</h4>
+                    <ul className="list-disc	pl-[18px]">
+                      <li>Easily understood campaign message</li>
+                      <li>
+                        Immediate positive impact on target audience – to
+                        inform/persuade/remind customers of campaign message
+                      </li>
+                      <li>
+                        Lasting impression on target audience of this message
+                      </li>
+                      <li>Promotion of the watercooler industry</li>
+                      <li>Inclusion of the WE/National Association logo</li>
+                      <li>Attractive and appealing design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="md:flex mb-16 md:mb-20 ">
+              <div className="md:basis-1/2 flex flex-col justify-center	">
+                <h3 className="font-bold mb-8 mt-4 text-2xl text-pink">
+                  GALA DINNER
+                </h3>
+                <p className="text-base mb-8">
+                  WE Aqua Awards winners will be announced at the Gala Dinner to
+                  be held on{" "}
+                  <span className="text-blue font-bold">
+                    20th October 2022 in SUD Lisboa
+                  </span>{" "}
+                  – a fabulous place with a spectacular view at the Tag River.
+                  Each category winner will have their presentation shown to the
+                  assembled audience of colleagues and business partners.
+                </p>
+              </div>
+              <div className="md:basis-1/2  md:p-4">
+                <StaticImage
+                  src="../img/gala-hall.png"
+                  placeholder="none"
+                  alt="Sud Lisboa Gala Hall"
+                />
+                <p className="font-bold">SUD LISBOA</p>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row mb-16 md:mb-20 ">
+              <div className="md:basis-1/2  md:p-4 show-img order-1">
+                <StaticImage
+                  src="../img/show-1.png"
+                  placeholder="none"
+                  alt="AMAZING SHOW"
+                  className="show-1 mb-8 max-w-[300px] md:max-w-[400px]"
+                />
+                <StaticImage
+                  src="../img/show-2.png"
+                  placeholder="none"
+                  alt="AMAZING SHOW"
+                  className="show-2 max-w-[300px] md:max-w-[400px]"
+                />
+                 <StaticImage
+                  src="../img/bilet.png"
+                  placeholder="none"
+                  alt="AMAZING SHOW"
+                  className="show-3 max-w-[300px] md:max-w-[400px]"
+                />
+              </div>
+              <div className="md:basis-1/2 flex flex-col justify-center	md:order-2">
+                <div className="flex mb-8">
+                  <h3 className="font-bold  text-2xl text-pink self-end">
+                    AMAZING SHOW
+                  </h3>
+                  <StaticImage
+                    src="../img/aa-logo.png"
+                    placeholder="none"
+                    alt="Aqua Awards Logo"
+                    className="max-w-[180px] ml-auto"
+                  />
+                </div>
+
+                <p className="text-base mb-8">
+                  The Aqua Awards ceremony wouldn’t be complete without its
+                  highlight - a fabulous show! This year our guests will be
+                  taken on an amazing journey through Portuguese history and its
+                  most spectacular discoveries.
+                </p>
+                <p className="text-base mb-8">
+                  Vasco da Gama will take you for an impressive performance
+                  inspired by the sea and oceans. You will travel accompanied by
+                  the rolling of African drums, witnessing the joyful Brasilian
+                  Samba and Capoeira with a colourful Bollywood dance and with
+                  Portuguese nostalgic Fado music.{" "}
+                </p>
+                <p className="text-base mb-8">
+                  The journey will come to a close in the world of French
+                  cabaret and the famous Moulin Rouge chic. You will experience
+                  the legendary Cancan and many other unforgettable moments full
+                  of emotions and surprises.
+                </p>
+              </div>
+            </div>
+            {/*  <div className="border-t-2 border-bggray pt-8">
               <h3 className="font-bold mb-8 mt-4 text-2xl md:text-center">
                 Fantastic benefits waiting for winners
               </h3>
@@ -80,7 +417,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   <p>Publications</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* {info &&
                 info.map((item) => (
                   <div key={item.title} className="cart md:flex mb-16 md:mb-20 ">
@@ -103,7 +440,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
           </div>
         </div>
       </section>
-      <section className="bg-bggray py-20">
+      {/*     <section className="bg-bggray py-20">
         <div className="container">
           <h3 className="font-bold mb-8 mt-4 text-2xl md:text-center">
             If you believe you have a great product or the highest level of
@@ -220,13 +557,10 @@ export const AquaAwardsTemplate = ({ title, info }) => {
             </div>
           </div>
         </div>
-      </section>
-      <PageSubtitle title="Aqua Awards Application Form" />
-      <section>
-        <div className="container">
-        </div>
-      </section>
-   {/*    <section>
+      </section> */}
+      {/*  <PageSubtitle title="Aqua Awards Application Form" /> */}
+
+      {/*    <section>
         <div className="container">
           <div id="registration-form" className="my-8">
             <form
@@ -515,26 +849,6 @@ export const AquaAwardsTemplate = ({ title, info }) => {
           </div>
         </div>
       </section> */}
-      <section>
-        <div className="container">
-          
-        <a
-      href="javascript:void(
-        window.open(
-          'https://form.jotform.com/221161365793053',
-          'blank',
-          'scrollbars=yes,
-          toolbar=no,
-          width=700,
-          height=500'
-        )
-      )
-    "
-    className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-20 block text-2xl text-center w-max">
-      Application Form
-    </a>
-        </div>
-    </section>
     </div>
   );
 };
@@ -546,7 +860,10 @@ AquaAwardsTemplate.propTypes = {
 const AquaAwards = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
-    <Layout location={location.pathname}  pageName={data.markdownRemark.frontmatter.title}>
+    <Layout
+      location={location.pathname}
+      pageName={data.markdownRemark.frontmatter.title}
+    >
       <AquaAwardsTemplate title={frontmatter.title} info={frontmatter.info} />
     </Layout>
   );
