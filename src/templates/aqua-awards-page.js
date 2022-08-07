@@ -168,6 +168,68 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               </p>
             </div>
             <div className="mb-16 md:mb-20">
+              <div className="md:flex md:justify-between">
+                <div className="benefit-item max-w-[250px] mx-auto md:mx-0">
+                  <StaticImage
+                    src="../img/benefits/benefit_1.png"
+                    placeholder="none"
+                    alt=""
+                    className=""
+                  />
+                  <h3 className="font-bold mb-8 mt-4 text-lg">
+                    STATUETTE & CERTIFICATES WILL BE GIVEN TO THE WINNERS
+                  </h3>
+                </div>
+                <div className="benefit-item max-w-[250px] mx-auto md:mx-0">
+                  <StaticImage
+                    src="../img/benefits/benefit_2.png"
+                    placeholder="none"
+                    alt=""
+                    className=""
+                  />
+                  <h3 className="font-bold mb-8 mt-4 text-lg">
+                    INTERVIEW WITH THE WINNERS WILL BE PUBLISHED ON THE
+                    WATERCOOLERS EUROPE WEBSITE AND IN THE MONTHLY NEWSLETTER
+                  </h3>
+                </div>
+                <div className="benefit-item max-w-[250px] mx-auto  md:mx-0">
+                  <StaticImage
+                    src="../img/benefits/benefit_3.png"
+                    placeholder="none"
+                    alt=""
+                    className=""
+                  />
+                  <h3 className="font-bold mb-8 mt-4 text-lg">
+                    THE WINNING PRESENTATIONS WILL BE SHOWN DURING THE AQUA
+                    AWARDS CEREMONY AT THE GALA DINNER
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div className="mb-16 md:mb-20">
+              <div className="flex flex-wrap md:flex-nowrap">
+                <StaticImage
+                  src="../img/jury.png"
+                  placeholder="none"
+                  alt="Jury"
+                  className="max-w-[250px] mx-auto md:mx-0"
+                />
+                <div className="md:ml-4 flex flex-col justify-center			">
+                  <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center md:text-left">
+                    JURY
+                  </h3>
+                  <p>
+                    There is an international jury that consists of
+                    representatives nominated by WE and National Associations.
+                  </p>
+                  <p>
+                    The winners will be chosen from the votes from the jury
+                    appointed by WE (75%) and National Associations (25%).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mb-16 md:mb-20">
               <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
                 CRITERIA FOR JUDGING 2022 AQUA AWARD CATEGORIES:
               </h3>
@@ -327,7 +389,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   alt="AMAZING SHOW"
                   className="show-2 max-w-[300px] md:max-w-[400px]"
                 />
-                 <StaticImage
+                <StaticImage
                   src="../img/bilet.png"
                   placeholder="none"
                   alt="AMAZING SHOW"
