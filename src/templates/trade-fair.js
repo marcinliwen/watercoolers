@@ -59,14 +59,9 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S11</span><span>POLYMER SOLUTIONS INTERNATIONAL INC.</span>
             <span className="">S03</span><span>SIAPI</span>
             <span className="">S06</span><span>SILGAN CLOSURES</span>
-            <span className="">S27</span><span>SNC PLASTIK</span>
             <span className="">S13</span><span>VIKI PLAST</span>
             <span className="">S30</span><span>ZERICA SRL</span>
-            
-           
-            
-            
-            
+            <span className="">S27</span><span></span>
           </div>
         </div>
       </div>
@@ -116,12 +111,12 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
       </section>
 
       <PageSubtitle title="Stand Application Form" />
-      <section>
+      {/*<section>
         <div className="container">
           <h3 className="font-bold my-4 text-2xl text-center">All stands have been reserved</h3>
         </div>
-      </section>
-      <section className="inactive">
+      </section>*/}
+      <section className="">
         <div className="container">
           <div className="">
             <h3 className="font-bold my-4 text-2xl">
@@ -200,8 +195,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                  {/*  <input type="text" name="stand-no" required /> */}
                  <div className="custom-select">
                   <select name="stand-no" required>
-                   {/*  <option value="S01">S01</option>
-                    <option value="S03">S03</option> */}
+                   <option value="S27">S27</option>
+                    
                     
  
                   </select>
