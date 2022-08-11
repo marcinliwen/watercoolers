@@ -7,6 +7,22 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageSubtitle from "../components/PageSubtitle";
 import { StaticImage } from "gatsby-plugin-image";
 
+const floor_plan =
+  [
+    {"nr":21 ,"place" : "S21", "name": "ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA"},
+    {"nr":4, "place": "S04", "name":"ACUVA Technologies"},
+    {"nr":8, "place":"S08", "name":"AQUISENSE TECHNOLOGIES"},
+    {"nr":15,"place":"S15", "name":"ASE PACKAGING SOLUTIONS GMBH"},
+    {"nr":19, "place":"S19","name":"BARDI"},
+    {"nr":29, "place":"S29", "name":"BLACKHAWK MOLDING, CO., INC."},
+    {"nr":17, "place":"S17/S22", "name":"BLUPURA SRL"},
+    {"nr":26, "place":"S26", "name":"CANALETAS S.A."},
+    {"nr": 24, "place":"S24/S25","name":"COSMETAL SRL"},
+    {"nr":16, "place":"S16", "name":"CRYSTAL MOUNTAIN"}
+  ]
+;
+
+
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
  // console.log(tradefair);
   return (
@@ -28,8 +44,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           <div className="grid grid-cols-[108px_1fr] list">
             <span className="first">S21</span><span className="first">ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA</span>
             <span className="">S04</span><span>ACUVA Technologies</span>
-            <span className="">S08</span><span>AQUISENSE TECHNOLOGIES</span>
-            
+            <span className="">S08</span><span>AQUISENSE TECHNOLOGIES</span>        
             <span className="">S15</span><span>ASE PACKAGING SOLUTIONS GMBH</span>
             <span className="">S19</span><span>BARDI</span>
             <span className="">S29</span><span>BLACKHAWK MOLDING, CO., INC.</span>
@@ -38,13 +53,10 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S24/25</span><span>COSMETAL SRL</span>
             <span className="">S16</span><span>CRYSTAL MOUNTAIN</span>
             <span className="">S09</span><span>GREIF POLAND SP. Z O.O.</span>
-            <span className="">S01</span><span>ECO COOLER</span>
+            <span className="">S27</span><span>ECO COOLER</span>
             <span className="">S32</span><span >GWS R&D</span>
             <span className="">S28</span><span>H2O DIRECT LIMITED</span>
             <span className="last">S13</span><span className="last">HODMETER</span>
-           
-            
-            
           </div>
           <div className="grid grid-cols-[108px_1fr] list">
           <span className="first">S20</span><span className="first" >KLARAN BY CRYSTAL IS</span>
@@ -61,7 +73,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S06</span><span>SILGAN CLOSURES</span>
             <span className="">S13</span><span>VIKI PLAST</span>
             <span className="">S30</span><span>ZERICA SRL</span>
-            <span className="">S27</span><span></span>
+            <span className="">S01</span><span></span>
           </div>
         </div>
       </div>
@@ -195,7 +207,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                  {/*  <input type="text" name="stand-no" required /> */}
                  <div className="custom-select">
                   <select name="stand-no" required>
-                   <option value="S27">S27</option>
+                   <option value="S01">S01</option>
                     
                     
  
