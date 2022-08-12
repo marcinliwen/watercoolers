@@ -33,6 +33,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   industry in marketing, innovation and public relations, as
                   well as products and programmes which enhance sustainability
                 </p>
+                <a href="/Aqua_Awards_Brochure_2022.pdf" className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank">Aqua Awards Brochure download pdf</a>
               </div>
             </div>
             <div className="cart mb-16 md:mb-20 ">
@@ -117,7 +118,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
                 WE ARE LOOKING FOR:
               </h3>
-              <ul className="list-disc	">
+              <ul className="list-disc	pl-8">
                 <li>Dynamic and forward thinking initiatives</li>
                 <li>Marketing that promotes the industry as a whole</li>
                 <li>A clear message</li>
