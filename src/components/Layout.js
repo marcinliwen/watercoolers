@@ -2,6 +2,7 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Sponsors from "../components/Sponsors";
 /* import "./all.sass"; */
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
@@ -67,6 +68,7 @@ const descriptionPage = pageName ? pageName + " - " + description : description;
       </Helmet>
       <Navbar />
       <main>{children}</main>
+      <Sponsors />
       <Footer />
       <CookieConsent
         disableStyles={true}
@@ -75,7 +77,7 @@ const descriptionPage = pageName ? pageName + " - " + description : description;
         buttonClasses="bg-blue text-white py-2 px-6  ml-auto mt-8"
       >
         This website uses cookies to enhance the user experience.
-        Check <a href="/private-policy-we.pdf" target="_blank" className="text-pink" >PRIVACY POLICY</a>
+        Check <a href="/private-policy-we.pdf" target="_blank" rel="noreferrer" className="text-pink" >PRIVACY POLICY</a>
       </CookieConsent>
     </div>
   );

@@ -14,7 +14,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
       <section>
         <div className="container">
           <div className="py-16 is-side">
-            <div className="cart md:flex mb-16 md:mb-20 ">
+            <div className="cart md:flex mb-16 md:mb-20 separator">
               <div className="md:basis-1/2 ">
                 <StaticImage
                   src="../img/aa-logo.png"
@@ -33,7 +33,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   industry in marketing, innovation and public relations, as
                   well as products and programmes which enhance sustainability
                 </p>
-                <a href="/Aqua_Awards_Brochure_2022.pdf" className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank">Aqua Awards Brochure download pdf</a>
+                <a href="/Aqua_Awards_Brochure_2022.pdf" className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Aqua Awards Brochure download pdf</a>
               </div>
             </div>
             <div className="cart mb-16 md:mb-20 ">
@@ -105,7 +105,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               </div>
             </div>
 
-            <div className="mb-16 md:mb-20">
+            <div className="mb-16 md:mb-20 separator">
               <p className="text-base mb-8">
                 This could be your year! Have a look at the award categories and
                 see where you can best present your company’s work, services,
@@ -139,7 +139,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 <b>Submit the application form before 15th September 2022</b>
               </p>
             </div>
-            <div className="mb-16 md:mb-20">
+            <div className="mb-16 md:mb-20 separator">
               <a
                 href="javascript:void(
         window.open(
@@ -168,7 +168,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 fantastic package for winners and applicants.
               </p>
             </div>
-            <div className="mb-16 md:mb-20">
+            <div className="mb-16 md:mb-20 separator">
               <div className="md:flex md:justify-between">
                 <div className="benefit-item max-w-[250px] mx-auto md:mx-0">
                   <StaticImage
@@ -207,7 +207,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 </div>
               </div>
             </div>
-            <div className="mb-16 md:mb-20">
+            <div className="mb-16 md:mb-20 separator">
               <div className="flex flex-wrap md:flex-nowrap">
                 <StaticImage
                   src="../img/jury.png"
@@ -230,9 +230,9 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 </div>
               </div>
             </div>
-            <div className="mb-16 md:mb-20">
+            <div className="mb-16 md:mb-20 separator">
               <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
-                CRITERIA FOR JUDGING 2022 AQUA AWARD CATEGORIES:
+                CRITERIA FOR JUDGING:
               </h3>
               <div>
                 <div className="cat-item flex-col md:flex-row gap-4 flex md:gap-12 mb-12 md:mb-6">

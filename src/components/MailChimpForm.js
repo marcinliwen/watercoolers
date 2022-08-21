@@ -75,6 +75,7 @@ class MailChimpForm extends React.Component {
                           href="/private-policy-we.pdf"
                           className="text-pink"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           PRIVACY POLICY
                         </a>{" "}

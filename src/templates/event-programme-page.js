@@ -40,19 +40,26 @@ export const EventProgrammeTemplate = ({
           </div>
         </div>
       </section> */}
+     
       <section id="programm" className="bg-bggray py-12 mb-12">
         <div className="container">
           <div className="mb-12">
+          <a href="/PROGRAMME_BROCHRE.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Event Programme pdf</a>
+
             <h3 className="font-bold text-3xl text-blue mb-4">
               WEDNESDAY 19 OCTOBER 2022
             </h3>
+            <p className="mb-4">During the City Tour we will be visiting some of Lisbon’s prime attractions, such as: Avenida da Liberdade,
+Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span>15:45</span>
               <span>Pick up from the Sheraton Lisboa Hotel</span>
               <span>16:00</span>
               <span>City Tour</span>
-              <span>19:30</span>
-              <span>Dinner at the restaurant</span>
+              <span>20:00</span>
+              <span>Dinner at the local restaurant</span>
+              <span>22:00</span>
+              <span>Return to the Sheraton Lisboa Hotel</span>
             </div>
           </div>
           <div className="mb-12">
@@ -62,127 +69,113 @@ export const EventProgrammeTemplate = ({
             <h4 className="text-pink uppercase mb-4 text-xl">CONFERENCE</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span className="w-12">09:00</span>
-              <span>Registration</span>
+              <span>Registration & Refreshments</span>
               <span>09:30</span>
-              <span>Welcome</span>
-              <span>09:35</span>
-              <span>Chair’s address</span>
-              <span>09:40</span>
-              <span>
-                <strong>
-                  Latest European market and industry developments and outlook
-                </strong>
-                <br />
-                <span>Richard Hall, Zenith Global</span>
-              </span>
-              <span>10:10</span>
-              <span>
-                <strong>Sustainable Future</strong>
-                <br />
-                <span>Bill Bruce, Bill Bruce Communications</span>
-              </span>
-              <span>10:30</span>
-              <span>Hydration Break</span>
-              <span>11:00</span>
+              <span>Welcome<br/>Chair’s Address and Vision for the future
+              <br /><b>Latest European market and industry developments and outlook</b> <em>Richard Hall, Zenith Global</em>
+              <br /><b>Sustainable Future</b><em> Bill Bruce, Bill Bruce Communications</em></span>
+              
+              <span>10:50</span>
+              <span>Hydration and refreshment break </span>
+              <span>11:20</span>
               <span>
                 <strong>
                   The 21st Century Watercooler Industry – Reality and Trends
                 </strong>
                 <br />
                 <span>
-                  Gonçalo Tremoceiro: General Manager for Culligan Portugal and
+                  <em>Gonçalo Tremoceiro: General Manager for Culligan Portugal and
                   Iberian Director at Acquajet; <br />
-                  Miguel Ribeiro Ferreira: Culligan Iberia M&A Advisor
+                  Miguel Ribeiro Ferreira: Culligan Iberia M&A Advisor</em>
                 </span>
+                <br />
+                <b>Lead from the Future</b> <em>Keynote speaker: Terence Mauri</em>
               </span>
-              <span>11:30</span>
-              <span>
-                <strong>Adapt and thrive in the age of disruption</strong>
-                <br /> <span>Keynote speaker: Terence Mauri </span>
-              </span>
-              <span>12:30</span>
+              <span>12:50</span>
               <span>Lunch</span>
             </div>
 
             <h4 className="text-pink uppercase mb-4 text-xl">
               WORKSHOPS – SESSION 1 - Business Strategy
             </h4>
-            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
-              <span>13:30</span>
+            <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
+              <span>14:00 - 14:30</span>
               <span>
                 <strong>
-                  The addition of air purifiers to your marketing portfolio
+                Air Purifiers: an addition to your water dispenser business: 
                 </strong>
+                <em> Peter Hogervorst, Dolphin</em>
               </span>
-              <br />
-              <span>Peter Hogervorst, Dolphin</span>
-              <span>14:15</span>
+              
+              <span>14:40 - 15:10</span>
               <span>
                 <strong>
-                  The home water dispenser market – lessons learnt from around
-                  the world
-                </strong>
+                The home water dispenser market – lessons learnt from around the world: </strong> <em> Nick Swan, Love Water</em>
+               
               </span>
-              <br />
-              <span>Nick Swan, Love Water</span>
-              <span>14:45</span>
-              <span>Hydration break</span>
-              <span>15:00</span>
+              
+              <span>15:10 - 15:30</span>
+              <span>Hydration and refreshment break</span>
+              <span>15:30 - 16:00</span>
               <span>
                 <strong>
-                  Introducing municipal hydration into your portfolio
+                IOT (Internet of Things) technology in the Watercooler industry: Opportunities, Trends and
+Innovations 
                 </strong>
-                <br />
-                <span>Mark Cross, MIW Water Cooler Experts</span>
+                <em> Debora Screpanti, Blupura Marketing Manager</em>
+                
               </span>
-              <span>15:30</span>
-              <span>FINISH</span>
+              <span>16:00</span>
+              <span><b>FINISH</b></span>
             </div>
             <h4 className="text-pink uppercase mb-4 text-xl">
-              WORKSHOPS – SESSION 2 -{" "}
+              WORKSHOPS – SESSION 2 -
               <span className="normal-case">Technical & Sustainability</span>
             </h4>
-            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
-              <span>13:30</span>
+            <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
+              <span>14:00 - 14:30</span>
               <span>
                 <strong>
-                  How to use your system and data to prepare for the future
+                How to use your system and data to prepare for the future: 
                 </strong>
-                <br />
-                <span>Francisco dos Santos, Activewhere</span>
+                <em> Francisco dos Santos, Activewhere</em>
               </span>
-              <span>14:15</span>
+              <span>14:40 - 15:10</span>
               <span>
                 <strong>
-                  Sanitisation & microbiology in the light of Covid-19
+                Hygienic management of water dispensers: lessons learnt during the Covid-19 pandemic:
+
                 </strong>
-                <br />
-                <span>Alex Mezquida, Eden Springs</span>
+                <em>Alex Mezquida, Eden Springs and Antonio Borrell, Laboratorio Dr. Oliver Rodés</em>
+                
               </span>
-              <span>14:45</span>
-              <span>Hydration break</span>
-              <span>15:00</span>
-              <span>To be advised.</span>
-              <span>15:30</span>
-              <span>FINISH</span>
+              <span>15:10 - 15:30</span>
+              <span>Hydration and refreshment break</span>
+              <span>15:30 - 16:00</span>
+              <span> <b>Sustainable Hydration: How to introduce bottle filling stations and other solutions to your portfolio:</b><em> Mark Cross, MIW Water Cooler Experts</em>
+</span>
+              <span>16:00</span>
+              <span><b>FINISH</b></span>
             </div>
-            <h4 className="text-pink uppercase mb-4 text-xl">GALA DINNER</h4>
+            <h4 className="text-pink uppercase mb-4 text-xl">GALA DINNER & AQUA AWARDS</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
-              <span>19.30</span>
-              <span>Transfer from the Sheraton Lisboa Hotel</span>
+              <span>19:30</span>
+              <span>Transfer from the Sheraton Lisboa Hotel to SUD Lisboa by coach</span>
               <span>20:00</span>
-              <span>Gala Dinner</span>
-              <span>23:30</span>
-              <span>Transfer to the Sheraton Lisboa Hotel</span>
+              <span><b>Gala Evening with Aqua Awards</b> including pre-dinner drinks reception, 3 course meal and wine with entertainment</span>
+              <span>23:45</span>
+              <span>Return to the Sheraton Lisboa Hotel by coach</span>
             </div>
           </div>
           <div className="mb-12">
             <h3 className="font-bold text-3xl text-blue mb-4">
               FRIDAY 21 OCTOBER 2022
             </h3>
-            <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
-              <span>10:00 – 16:00</span>
-              <span>International Trade Show</span>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>10:00</span>
+              <span>Open. A buffet lunch will be served for exhibitors and visitors</span>
+              <span>16:00</span>
+              <span><b>FINISH</b></span>
             </div>
           </div>
         </div>
@@ -343,20 +336,33 @@ export const EventProgrammeTemplate = ({
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Terence Mauri
                   </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                  Keynote Speaker
+                  </span>
                   {/* <span className="text-sm text-pink leading-4 block">{item.role}</span> */}
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
                 <p className="text-blue font-bold md:flex">
-                  <span className="mr-2">Keynote Speaker:</span>{" "}
+                  <span className="mr-2">Presentation: </span>{" "}
                   <span className="uppercase">
-                    ADAPT AND THRIVE IN THE AGE OF DISRUPTION
+                  LEAD FROM THE FUTURE
                   </span>
                 </p>
+                <p className="text-blue mb-4">How do leaders harness disruption as a tailwind for learning, growth and reimagination?
+Industry disruption, new technologies, and agile business models are opening up high
+-potential opportunities for new market creation and growth and yet 3/4 leaders struggle
+to outpace the forces of disruption. New contexts demand new mindsets and brave new
+questions. What are the new leadership mindsets to lead from the future in spite of our
+current success? Terence Mauri will guide delegates on the journey to reimagine and sustain
+a growth-led, adaptive and resilient future.</p>
                 <p className="">
-                  Terence is a future trends and disruption expert who
-                  challenges leaders to innovate, adapt and thrive in the age of
-                  disruption.{" "}
+                Terence Mauri is the founder of Hack Future Lab, a global management think tank that helps
+leaders to turn headwinds and uncertainty into bold action. Terence is a visiting Professor
+at IE Business School in Madrid and Massachusetts Institute of Technology and has been
+described as ‘an outspoken and influential thinker on the future of work and leadership’ by
+Thinkers50. His new book ‘The 3D Leader: take your leadership to the next dimension’ has
+been described as a ‘powerful call to action for leaders to navigate economic headwinds’.
                 </p>
               </div>
             </div>
@@ -376,25 +382,21 @@ export const EventProgrammeTemplate = ({
                 <p className="text-blue font-bold mb-2 md:flex">
                   <span className="mr-2">Presentation:</span>{" "}
                   <span className="uppercase">
-                    LATEST EUROPEAN MARKET AND INDUSTRY DEVELOPMENTS AND OUTLOOK
+                  LATEST EUROPEAN MARKET AND INDUSTRY DEVELOPMENTS AND OUTLOOK
                   </span>
                 </p>
                 <p className="text-blue mb-4">
-                  Statistics and insights for bottled and mains-fed water
-                  dispensers as well as integrated tap systems in East and West
-                  Europe to give a full overview for future business planning.
-                  Delegates will receive a copy of a special WE member summary
-                  report at the conference.
+                Statistics and insights for bottled and mains-fed water dispensers as well as integrated
+tap systems in East and West Europe to give a full overview for future business planning.
+Delegates will receive a copy of a special WE member summary report at the conference.
                 </p>
                 <p className="mb-2">
-                  Richard Hall is an acknowledged expert on the international
-                  food and drinks sector, chairing and speaking at numerous
-                  industry conferences. In 1991 he formed Zenith as a specialist
-                  business consultancy for the food and drink industries. The
-                  company now has more than 1000 clients in over 50 countries.
-                  He also chairs FoodBev Media, which he founded in 2000. Its
-                  team publishes three business journals, including
-                  “Refreshment”, and manages the foodbev.com website.
+                Richard Hall is an acknowledged expert on the international food and drinks sector, chairing
+and speaking at numerous industry conferences. In 1991 he formed Zenith as a specialist
+business consultancy for the food and drink industries. The company now has more than
+1000 clients in over 50 countries. He also chairs FoodBev Media, which he founded in 2000.
+Its team publishes three business journals, including “Refreshment”, and manages the
+foodbev.com website.
                 </p>
               </div>
             </div>
@@ -416,53 +418,26 @@ export const EventProgrammeTemplate = ({
                   <span className="uppercase">SUSTAINABLE FUTURE</span>
                 </p>
                 <p className="mb-4 text-blue">
-                  Bill Bruce considers a ‘Sustainable future’ for the European
-                  water cooler industry, looking at: the need for a circular
-                  economy; the language we use when talking about ‘green’;
-                  carbon footprints and carbon neutrality; the realities of the
-                  environmental sustainability landscape; the effects of
-                  European legislation consumer opinion; and what the future
-                  holds…
+                Bill Bruce considers a ‘Sustainable future’ for the European water cooler industry, looking at:
+the need for a circular economy; the language we use when talking about ‘green’; carbon
+footprints and carbon neutrality; the realities of the environmental sustainability landscape;
+the effects of European legislation consumer opinion; and what the future holds…
                 </p>
                 <p className="mb-2">
-                  Bill Bruce has a long history of working in the watercooler
-                  sector, having been the editor of Europe’s first dedicated
-                  sector magazine: H20 Europe (over 20 years ago), and more
-                  recent sector publications such as The Point, Cooler
-                  Innovation, Cooler Plus and Refreshment.
+                Bill Bruce has a long history of working in the watercooler sector, having been the editor of
+Europe’s first dedicated sector magazine: H20 Europe (over 20 years ago), and more recent
+sector publications such as The Point, Cooler Innovation, Cooler Plus and Refreshment.
+Bill left FoodBev in 2016 and now runs his own PR, communications and marketing
+consultancy, specialising in clients in the food and beverage, and food packaging industries.
+With 40 years’ experience, Bill Bruce is an all-rounder who started his career as a graphic
+designer, before moving into marketing, PR and journalism. For the past 25 years his main
+focus has been the food and beverage industry with a particular interest in packaging and
+environmental sustainability
                 </p>
-                <p className="mb-2">
-                  Bill left FoodBev in 2016 and now runs his own PR,
-                  communications and marketing consultancy, specialising in
-                  clients in the food and beverage, and food packaging
-                  industries.
-                </p>
-                <p className="mb-2">
-                  With 40 years’ experience, Bill Bruce is an all-rounder who
-                  started his career as a graphic designer, before moving into
-                  marketing, PR and journalism. For the past 25 years his main
-                  focus has been the food and beverage industry with a
-                  particular interest in packaging and environmental
-                  sustainability.
-                </p>
+                
               </div>
             </div>
-            <div className="speacer-person  mb-16">
-              <div className="md:flex-1 ">
-                <p className="text-blue font-bold mb-2 md:flex">
-                  <span className="mr-2">Presentation:</span>
-                  <span className="uppercase">
-                    THE 21ST CENTURY WATERCOOLER INDUSTRY – REALITY AND TRENDS
-                  </span>
-                </p>
-                <p className="text-blue">
-                  How is the watercooler industry adapting to the technologies
-                  of other industries and what are the trends? How are Acquajet
-                  and Fonte Viva managing their businesses with the support of
-                  technology?
-                </p>
-              </div>
-            </div>
+            
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" placeholder="none" alt="Gonçalo Tremoceiro"/>
@@ -477,22 +452,22 @@ export const EventProgrammeTemplate = ({
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
-                <u className="list-disc">
-                  <li>
-                    Executive Board Member | General Manager for Culligan
-                    Portugal and Iberian Director at Acquajet
-                  </li>
-                  <li>Fonte Viva General Manager from 2010 to 2021.</li>
-                  <li>
-                    B2B Commercial Manager at Nespresso Portugal from 2008 to
-                    2010
-                  </li>
-                  <li>
-                    Sales & Marketing Manager at Grupo Sumol (Pepsi bottler)
-                    from 2002 to 2008
-                  </li>
-                  <li>Brand Manager at L'Oréal Portugal from 1999 to 2002</li>
-                </u>
+              <p className="text-blue font-bold mb-2 md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">
+                  THE 21ST CENTURY WATERCOOLER INDUSTRY – REALITY AND TRENDS
+                  </span>
+                </p>
+                <p className="text-blue mb-4">
+                How is the watercooler industry adapting to the technologies of other industries and what are
+the trends? How are Acquajet and Fonte Viva managing their businesses with the support of
+technology?
+                </p>
+                <p>Executive Board Member | General Manager for Culligan Portugal and Iberian Director at
+Acquajet. Fonte Viva General Manager from 2010 to 2021. B2B Commercial Manager at
+Nespresso Portugal from 2008 to 2010. Sales & Marketing Manager at Grupo Sumol (Pepsi
+bottler) from 2002 to 2008. Brand Manager at L’Oréal Portugal from 1999 to 2002</p>
+                
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
@@ -508,25 +483,12 @@ export const EventProgrammeTemplate = ({
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
-                <u className="list-disc">
-                  <li>Culligan Iberia M&A Advisor</li>
-                  <li>
-                    Pioneer in the Watercooler business in Portugal and Spain
-                  </li>
-                  <li>Founding partner of Bebágua (Portugal) in 1996</li>
-                  <li>
-                    Chairman of Acquajet (Spain) from 2000 to 2021 and Fonte
-                    Viva (Portugal) from 2005 to 2021
-                  </li>
-                  <li>
-                    Business Angel and Investor in various fields of activity,
-                    namely in the areas of Real Estate development, Start-Ups of
-                    various activities, industry;
-                  </li>
-                  <li>
-                    Participates in various social responsibility projects.
-                  </li>
-                </u>
+                <p>Culligan Iberia M&A Advisor. Pioneer in the Watercooler business in Portugal and Spain
+Founding partner of Bebágua (Portugal) in 1996. Chairman of Acquajet (Spain) from 2000
+to 2021 and Fonte Viva (Portugal) from 2005 to 2021. Business Angel and Investor in
+various fields of activity, namely in the areas of Real Estate development, Start-Ups of various
+activities, industry; Participates in various social responsibility projects.</p>
+                
               </div>
             </div>
 
@@ -576,16 +538,31 @@ export const EventProgrammeTemplate = ({
                 <p className="text-blue font-bold md:flex">
                   <span className="mr-2">Presentation:</span>
                   <span className="uppercase">
-                  Air cleaners; an addition to your water dispenser business
+                  AIR PURIFIERS; AN ADDITION TO YOUR WATER DISPENSER BUSINESS
                   </span>
                 </p>
-                <p className="text-blue mb-2">Indoor air quality is affected by many factors and activities. The presence of several people in poorly ventilated indoor rooms quickly leads to 'stale air' Air purifiers offer a simple, effective and inexpensive solution to significantly improve indoor air quality. This will lead to more concentrated and fitter employees and fewer problems with respiratory problems such as asthma and allergies. The business model is comparable to the water cooler business model.  Air cleaners only need a power socket, can be sold or rented, and filter change.</p>
-                <p className="mb-2">Peter Hogervorst has spent all his working life in bottling. Starting at Heineken in 1987 and moving to the 5 Gallon industry with Dolphin in 2000, he has experience in bottling beer, soft drinks and, of course, water. In 2007 he completed the acquisition of Dolphin Production in Mierlo, Netherlands. In 2012 he acquired Porla Brunn, Sweden. In 2015 the German branch was founded in a joint venture with family owned Teamblue resulting in Teamblue Dolphin with more than 100 years of experience in the watercooler industry, especially in bottling. In 2021 the former Kalimba spring in Lanaken, Belgium was acquired and Dolphin Bottling Belgium was founded.  Every year around 100 million litres of water are filled by the group for more than 50 distributors in 9 countries from the North Cape to the Alps. In 2020 Teamblue Dolphin started with the sale of Air Cleaners in Germany, the Netherlands and Belgium resulting in over 1500 installations.</p>
+                <p className="text-blue mb-2">Indoor air quality is affected by many factors and activities. The presence of several people in
+poorly ventilated indoor rooms quickly leads to ‚stale air’ Air purifiers offer a simple, effective
+and inexpensive solution to significantly improve indoor air quality. This will lead to more
+concentrated and fitter employees and fewer problems with respiratory problems such as
+asthma and allergies. The business model is comparable to the water cooler business model.
+Air cleaners only need a power socket, can be sold or rented, and filter change.</p>
+                <p className="mb-2">Peter Hogervorst has spent all his working life in bottling. Starting at Heineken in 1987 and
+moving to the 5 Gallon industry with Dolphin in 2000, he has experience in bottling beer, soft
+drinks and, of course, water. In 2007 he completed the acquisition of Dolphin Production in
+Mierlo, Netherlands. In 2012 he acquired Porla Brunn, Sweden. In 2015 the German branch
+was founded in a joint venture with family owned Teamblue resulting in Teamblue Dolphin with
+more than 100 years of experience in the watercooler industry, especially in bottling. In 2021
+the former Kalimba spring in Lanaken, Belgium was acquired and Dolphin Bottling Belgium was
+founded. Every year around 100 million litres of water are filled by the group for more than 50
+distributors in 9 countries from the North Cape to the Alps. In 2020 Teamblue Dolphin started
+with the sale of Air Cleaners in Germany, the Netherlands and Belgium resulting in over 1500
+installations.</p>
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
               <div className="md:basis-48 mb-8 md:mb-0">
-                {/* <StaticImage src="../img/speakers/no-person.png" /> */}
+                <StaticImage src="../img/speakers/Nick-Swan.png" alt="Nick Swan"/> 
                 <div className="md:pl-0 flex flex-col justify-end md:block">
                   <h4 className="font-bold text-pink leading-4 mt-2">
                     Nick Swan
@@ -623,7 +600,7 @@ export const EventProgrammeTemplate = ({
                   <li>Impact from the Pandemic</li>
                   <li>The future</li>
                 </ul>
-                <p className="mb-2">
+                <p className="">
                   Nick entered the water dispenser industry in 1985 when he
                   joined Ionics/Aquacool in a sales and marketing role to help
                   build a new business supplying homes and businesses in Bahrain
@@ -631,7 +608,7 @@ export const EventProgrammeTemplate = ({
                   operation in Jeddah, Saudi Arabia, and eventually working in
                   the US running their Baltimore operation.
                 </p>
-                <p className="mb-2">
+                <p className="">
                   When Nick decided to head back to the UK, it was in the early
                   days of the industry there in 1990. He joined a small London
                   business called Aquaporte as Sales & Marketing Director. This
@@ -640,7 +617,7 @@ export const EventProgrammeTemplate = ({
                   This was sold in 2004, and after a few years Nick re-entered
                   the industry starting Love Water.
                 </p>
-                <p className="mb-2">
+                <p className="">
                   Love Water was originally geared towards building a home
                   customer base but over time this has expanded into B2B, but
                   the home customers still retain over 25% of the business
@@ -653,6 +630,153 @@ export const EventProgrammeTemplate = ({
                   why in today’s Hybrid workforce, there has never been a better
                   time to market to this sector.
                 </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/Debora-Screpanti.png"  alt="Debora Screpanti"/> 
+                <div className="md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                  Debora Screpanti
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                  Marketing Managera, <br/>Blupura
+                  </span>
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">IOT (INTERNET OF THINGS) TECHNOLOGY IN THE WATERCOOLER
+INDUSTRY: OPPORTUNITIES, TRENDS AND INNOVATIONS</span>
+                </p>
+                <p className="text-blue mb-4">More and more companies are looking for innovative solutions to optimize their service and offer
+to their customers real time assistance in the most sustainable way: is the IoT their future?
+This presentation covers the advantages for customers and for service companies, in terms of
+opportunities, savings and image.</p>
+                <p className="mb-2">Blupura is an Italian manufacturing company of mains-fed water dispensers. With a Masters
+Degree in International Economics and Business, Debora joined Blupura in 2013. She is now
+one of the most longstanding employees of Blupura and has actively contributed to its development; one of the major players of the water dispenser industry.</p>
+              </div>
+            </div>
+            <p className="text-blue font-bold mb-4 text-xl">
+              SESSION 2 - TECHNICAL & SUSTAINABILITY
+            </p>
+            
+            
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none" alt="Francisco dos Santos"/>
+                <div className="md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Francisco dos Santos
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                  Co-Founder and Managing
+Director, Activewhere
+                  </span>
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">
+                  HOW TO USE YOUR IT SYSTEM AND DATA TO PREPARE FOR THE FUTURE
+                  </span>
+                </p>
+                <p className="text-blue mb-4">Whatever your plan is for the future: be it growing your business, improving processes or
+even preparing to sell sometime in the future, the quality and clarity of your data is vital and
+will make a huge difference.
+Sometimes, you need to hire experts to cleanse data and your processes. Other times your
+team needs to capture the right information, at the right time, ensuring information is up to
+date and helpful; allowing your team and business to be ready for the next level.
+It doesn’t matter if you know your business by heart, if your systems don’t allow you to sell
+your story</p>
+<p className="mb-2">Francisco is Co-founder and Managing Director of Activewhere since 1998. He has managed
+project after project, analyzing and coordinating the development and the implementation
+of thousands of ideas, from hundreds of people, from many world regions, all of them
+operating in the Water industry. Looking into the data and business processes of customers
+and prospects to find ways to take advantage of the historical data and the culture of the
+organisations, converting the software implementation projects into change and improvement.
+Activewhere has worked with some of the most important players in the world in the Water
+Industry, in more than thirty countries. Activewhere and their customers have liaised and
+worked closely to achieve the best results for the future.</p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/Alex-Mezquida.png" alt="Alex Mezquida" />
+                <div className="md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Alex Mezquida
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    Group Quality Director <br />
+                    Eden Springs
+                  </span>
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">
+                  HYGIENIC MANAGEMENT OF WATER DISPENSERS DURING COVID-19 PANDEMIC
+                  </span>
+                </p>
+                <p className="text-blue mb-4">The recent pandemic had a far-reaching global effect on the population and business. This
+workshop will provide a theoretical and practical overview of Covid-19 in Watercooler Industry.
+Toni will give a general overview focusing on the virus characteristics and what is needed to
+implement precautionary measures.
+Alex will share some practical experiences implementing measures in different countries in
+Europe during the pandemic. He will share how the virus can evolve and how these experiences
+may be useful for any similar situation in the future. This will include work carried out by
+Watercoolers Europe to prevent a watercooler ban in some markets during the pandemic.</p>
+<p className="mb-2">Alex is based in Barcelona, Spain. He has extensive experience in food and water quality
+systems. In March 2020, at the beginning of the pandemic in Spain, he was nominated
+President of Eden Continental Europe Covid-19 Crisis Committee, working closely with Primo
+Global Covid-19 Crisis team. He was in charge of the creation and implementation of
+all Eden-Primo Covid19 Continental Europe Anti-covid procedures to protect Eden Springs
+associates and customers against the virus.
+Alex serves as writer or co-writer of different Audit Quality Checklists, Technical Manuals,
+Sanitation Validation Protocols for different local and European associations. He has been
+Vice-Chair of a number of Standards Committees for local and European Associations.
+Currently he is Chair of the WE Standards & Technical Committee and a co-opted WE Board
+member since April 2010.
+Alex holds University degrees in Pharmacy and Food Science & Technology from the
+University of Barcelona (Spain) and a PDD Executive Education from IESE Business School
+University of Navarra (Spain) and MRPharmS UK from 1998 to 2001.
+Prior to joining Eden Springs – Primo Water Europe as a Group Quality Director, he worked for
+14 years with Oliver Rodés Laboratory, Barcelona (Spain) where he had many roles: Bottled
+Water & Spas Manager, Quality Manager, Training and Audit Manager, R&D Project Manager,
+Product Development Director and Management Committee Member. After that he joined NSF
+as Technical Director for 2 years providing auditing services for beverage, water contact and
+food and dietary supplements programmes. </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16">
+              <div className="md:basis-48 mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/Antonio-Borrell.png"  alt="Dr. Antonio Borrell"/> 
+                <div className="md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                  Dr. Antonio Borrell
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                  Scientific & Innovation
+Director
+Laboratorio Dr Oliver
+Rodés
+                  </span>
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+               <p className="mb-2">Toni has a degree and PhD in Pharmacy, Masters in Technology & Science Food.
+He has been working for Laboratorio Dr. Oliver Rodés as a Bottled Water Manager since 2001.
+Toni is a Member of the Quality & Regulatory Committee of Natural Mineral Waters Europe,
+he is Deputy Chair of the WE Standards & Technical Committee and a member of the WE
+Education & Audit Committee. He has given various lectures about water at meetings and
+congresses. He has participated in research projects as a main researcher in relation to
+bottled water and packaging, and he has published several scientific papers. He has
+participated in many interviews on the radio and TV related bottled water.</p>
               </div>
             </div>
             <div className="speacer-person md:flex mb-16">
@@ -676,53 +800,7 @@ export const EventProgrammeTemplate = ({
                 <p className="mb-2">Mark is incredibly enthusiastic about the water dispenser industry.  He has over 20 years commercial experience in the UK water dispenser market, starting with Aquacool and Angel Springs, now with Waterlogic.    Having worked in field sales, key account management, inside sales, digital, CRM, PPC and SEO he now heads up Waterlogic UK sales and marketing and is Managing Director of MIW Water Cooler Experts.  </p>
               </div>
             </div>
-            <p className="text-blue font-bold mb-4 text-xl">
-              SESSION 1 - Business Strategy
-            </p>
-            <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none" alt="Francisco dos Santos"/>
-                <div className="md:pl-0 flex flex-col justify-end md:block">
-                  <h4 className="font-bold text-pink leading-4 mt-2">
-                    Francisco dos Santos
-                  </h4>
-                  <span className="text-sm text-pink leading-4 block">
-                    IT – Activewhere
-                  </span>
-                </div>
-              </div>
-              <div className="md:flex-1 md:pl-4">
-                <p className="text-blue font-bold md:flex">
-                  <span className="mr-2">Presentation:</span>
-                  <span className="uppercase">
-                    How to use your IT system and data to prepare for the future
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 mb-8 md:mb-0">
-                {/* <StaticImage src="../img/speakers/no-person.png" /> */}
-                <div className="md:pl-0 flex flex-col justify-end md:block">
-                  <h4 className="font-bold text-pink leading-4 mt-2">
-                    Alex Mezquida
-                  </h4>
-                  <span className="text-sm text-pink leading-4 block">
-                    Group Quality Director <br />
-                    Eden Springs
-                  </span>
-                </div>
-              </div>
-              <div className="md:flex-1 md:pl-4">
-                <p className="text-blue font-bold md:flex">
-                  <span className="mr-2">Presentation:</span>
-                  <span className="uppercase">
-                    Sanitisation & microbiology in the light of Covid-19
-                  </span>
-                </p>
-              </div>
-            </div>
-
+           
             {/*  {workshops &&
               workshops.map((item) => (
                 <div key={item.title} className="speacer-person md:flex mb-16">

@@ -369,3 +369,11 @@ section.inactive {
 .show-img{
   order: 1;
 }
+.speacer-person {
+  border-bottom: 1px solid #cdcbcb;
+  padding-bottom: 64px;
+}
+.separator {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #cdcbcb;
+}
