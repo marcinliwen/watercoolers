@@ -44,7 +44,7 @@ export const EventProgrammeTemplate = ({
       <section id="programm" className="bg-bggray py-12 mb-12">
         <div className="container">
           <div className="mb-12">
-          <a href="/PROGRAMME_BROCHRE.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Event Programme pdf</a>
+          <a href="/PROGRAMME_BROCHURE.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Event Programme pdf</a>
 
             <h3 className="font-bold text-3xl text-blue mb-4">
               WEDNESDAY 19 OCTOBER 2022
