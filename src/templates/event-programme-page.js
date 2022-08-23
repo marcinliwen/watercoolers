@@ -89,7 +89,7 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p>
                   Miguel Ribeiro Ferreira: Culligan Iberia M&A Advisor</em>
                 </span>
                 <br />
-                <b>Lead from the Future</b> <em>Keynote speaker: Terence Mauri</em>
+                <b>Lead from the future: Growth, opportunity and resilience in the 21st Century Watercooler Industry </b> <em>Keynote speaker: Terence Mauri</em>
               </span>
               <span>12:50</span>
               <span>Lunch</span>
@@ -98,8 +98,8 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p>
             <h4 className="text-pink uppercase mb-4 text-xl">
               WORKSHOPS – SESSION 1 - Business Strategy
             </h4>
-            <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
-              <span>14:00 - 14:30</span>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>14:00</span>
               <span>
                 <strong>
                 Air Purifiers: an addition to your water dispenser business: 
@@ -107,16 +107,16 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p>
                 <em> Peter Hogervorst, Dolphin</em>
               </span>
               
-              <span>14:40 - 15:10</span>
+              <span>14:40</span>
               <span>
                 <strong>
                 The home water dispenser market – lessons learnt from around the world: </strong> <em> Nick Swan, Love Water</em>
                
               </span>
               
-              <span>15:10 - 15:30</span>
+              <span>15:10</span>
               <span>Hydration and refreshment break</span>
-              <span>15:30 - 16:00</span>
+              <span>15:30</span>
               <span>
                 <strong>
                 IOT (Internet of Things) technology in the Watercooler industry: Opportunities, Trends and
@@ -132,15 +132,15 @@ Innovations
               WORKSHOPS – SESSION 2 -
               <span className="normal-case">Technical & Sustainability</span>
             </h4>
-            <div className="grid grid-cols-[120px_1fr] gap-y-2 mb-8">
-              <span>14:00 - 14:30</span>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>14:00</span>
               <span>
                 <strong>
                 How to use your system and data to prepare for the future: 
                 </strong>
                 <em> Francisco dos Santos, Activewhere</em>
               </span>
-              <span>14:40 - 15:10</span>
+              <span>14:40</span>
               <span>
                 <strong>
                 Hygienic management of water dispensers: lessons learnt during the Covid-19 pandemic:
@@ -149,9 +149,9 @@ Innovations
                 <em>Alex Mezquida, Eden Springs and Antonio Borrell, Laboratorio Dr. Oliver Rodés</em>
                 
               </span>
-              <span>15:10 - 15:30</span>
+              <span>15:10</span>
               <span>Hydration and refreshment break</span>
-              <span>15:30 - 16:00</span>
+              <span>15:30</span>
               <span> <b>Sustainable Hydration: How to introduce bottle filling stations and other solutions to your portfolio:</b><em> Mark Cross, MIW Water Cooler Experts</em>
 </span>
               <span>16:00</span>
@@ -329,7 +329,7 @@ Innovations
             <h2 className="text-pink uppercase text-3xl mb-4">
               Conference speakers
             </h2>
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48  mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Terence-Mauri.jpg" placeholder="none" alt="Terence Mauri"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -337,7 +337,7 @@ Innovations
                     Terence Mauri
                   </h4>
                   <span className="text-sm text-pink leading-4 block">
-                  Keynote Speaker
+                  Author <em>How To Win In The Age of Disruption</em>
                   </span>
                   {/* <span className="text-sm text-pink leading-4 block">{item.role}</span> */}
                 </div>
@@ -346,7 +346,7 @@ Innovations
                 <p className="text-blue font-bold md:flex">
                   <span className="mr-2">Presentation: </span>{" "}
                   <span className="uppercase">
-                  LEAD FROM THE FUTURE
+                  Lead from the future: Growth, opportunity and resilience in the 21st Century Watercooler Industry 
                   </span>
                 </p>
                 <p className="text-blue mb-4">How do leaders harness disruption as a tailwind for learning, growth and reimagination?
@@ -366,7 +366,7 @@ been described as a ‘powerful call to action for leaders to navigate economic 
                 </p>
               </div>
             </div>
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48  mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Richard.png" placeholder="none" alt="Richard Hall"/>
                 <div className=" md:pl-0 flex flex-col justify-end md:block">
@@ -400,7 +400,7 @@ foodbev.com website.
                 </p>
               </div>
             </div>
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Bill-Bruce.png" placeholder="none" alt=" Bill Bruce"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -438,7 +438,7 @@ environmental sustainability
               </div>
             </div>
             
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 ">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Goncalo-Tremoceiro.png" placeholder="none" alt="Gonçalo Tremoceiro"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -522,7 +522,7 @@ activities, industry; Participates in various social responsibility projects.</p
             <p className="text-blue font-bold mb-4 text-xl">
               SESSION 1 - Business Strategy
             </p>
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Peter-Hogervorst.png" placeholder="none" alt="Peter Hogervorst"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -560,7 +560,7 @@ with the sale of Air Cleaners in Germany, the Netherlands and Belgium resulting 
 installations.</p>
               </div>
             </div>
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Nick-Swan.png" alt="Nick Swan"/> 
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -632,7 +632,7 @@ installations.</p>
                 </p>
               </div>
             </div>
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/Debora-Screpanti.png"  alt="Debora Screpanti"/> 
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -663,8 +663,28 @@ one of the most longstanding employees of Blupura and has actively contributed t
               SESSION 2 - TECHNICAL & SUSTAINABILITY
             </p>
             
-            
-            <div className="speacer-person md:flex mb-16">
+            <div className="speacer-person md:flex mb-16 person-separator">
+              <div className="md:basis-48 mb-8 md:mb-0">
+                <StaticImage src="../img/speakers/MarkCross.png"  alt="Mark Cross"/> 
+                <div className="md:pl-0 flex flex-col justify-end md:block">
+                  <h4 className="font-bold text-pink leading-4 mt-2">
+                    Mark Cross
+                  </h4>
+                  <span className="text-sm text-pink leading-4 block">
+                    Managing Director, MIW Water Cooler Experts
+                  </span>
+                </div>
+              </div>
+              <div className="md:flex-1 md:pl-4">
+                <p className="text-blue font-bold md:flex">
+                  <span className="mr-2">Presentation:</span>
+                  <span className="uppercase">1 Million a Minute – Be part of the solution</span>
+                </p>
+                <p className="text-blue mb-4">We have long since known that single-use plastic bottles have had a huge impact on our environment and a major contributor to the 380 million metric tonnes of plastic produced annually.  But could there be a way to encourage reuse with a refill revolution?  Hydration Solution expert, Mark Cross, talks through some examples of ingenious bottle filling products and initiatives, showing that small changes businesses are making to reach their sustainability goals can have a huge impact.</p>
+                <p className="mb-2">Mark is incredibly enthusiastic about the water dispenser industry.  He has over 20 years commercial experience in the UK water dispenser market, starting with Aquacool and Angel Springs, now with Waterlogic.    Having worked in field sales, key account management, inside sales, digital, CRM, PPC and SEO he now heads up Waterlogic UK sales and marketing and is Managing Director of MIW Water Cooler Experts.  </p>
+              </div>
+            </div>
+            <div className="speacer-person md:flex mb-16 person-separator">
               <div className="md:basis-48 mb-8 md:mb-0">
                 <StaticImage src="../img/speakers/FranciscoDosSantos.png" placeholder="none" alt="Francisco dos Santos"/>
                 <div className="md:pl-0 flex flex-col justify-end md:block">
@@ -779,27 +799,7 @@ bottled water and packaging, and he has published several scientific papers. He 
 participated in many interviews on the radio and TV related bottled water.</p>
               </div>
             </div>
-            <div className="speacer-person md:flex mb-16">
-              <div className="md:basis-48 mb-8 md:mb-0">
-                <StaticImage src="../img/speakers/MarkCross.png"  alt="Mark Cross"/> 
-                <div className="md:pl-0 flex flex-col justify-end md:block">
-                  <h4 className="font-bold text-pink leading-4 mt-2">
-                    Mark Cross
-                  </h4>
-                  <span className="text-sm text-pink leading-4 block">
-                    Managing Director, MIW Water Cooler Experts
-                  </span>
-                </div>
-              </div>
-              <div className="md:flex-1 md:pl-4">
-                <p className="text-blue font-bold md:flex">
-                  <span className="mr-2">Presentation:</span>
-                  <span className="uppercase">1 Million a Minute – Be part of the solution</span>
-                </p>
-                <p className="text-blue mb-4">We have long since known that single-use plastic bottles have had a huge impact on our environment and a major contributor to the 380 million metric tonnes of plastic produced annually.  But could there be a way to encourage reuse with a refill revolution?  Hydration Solution expert, Mark Cross, talks through some examples of ingenious bottle filling products and initiatives, showing that small changes businesses are making to reach their sustainability goals can have a huge impact.</p>
-                <p className="mb-2">Mark is incredibly enthusiastic about the water dispenser industry.  He has over 20 years commercial experience in the UK water dispenser market, starting with Aquacool and Angel Springs, now with Waterlogic.    Having worked in field sales, key account management, inside sales, digital, CRM, PPC and SEO he now heads up Waterlogic UK sales and marketing and is Managing Director of MIW Water Cooler Experts.  </p>
-              </div>
-            </div>
+            
            
             {/*  {workshops &&
               workshops.map((item) => (

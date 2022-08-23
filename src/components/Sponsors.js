@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Sponsors = class extends React.Component {
   render() {
     return (
-      <section id="sponsors" className="bg-bggray">
+      <section id="sponsors" className="">
         <div className="container">
             <div className="flex flex-col md:flex-row my-12">
           <div className="">

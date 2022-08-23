@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Sponsors from "../components/Sponsors";
+import Bannerslider from "./Bannerslider";
 /* import "./all.sass"; */
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
@@ -69,6 +70,7 @@ const descriptionPage = pageName ? pageName + " - " + description : description;
       <Navbar />
       <main>{children}</main>
       <Sponsors />
+      <Bannerslider />
       <Footer />
       <CookieConsent
         disableStyles={true}
