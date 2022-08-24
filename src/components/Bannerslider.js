@@ -12,7 +12,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const Bannerslider = () =>{
     return(
         <section>
-            <div className="container !p-0 md:!px-4">
+            <div className="container !p-0 md:!px-4 md:mb-12">
             <StaticImage
                   src="../img/banners/banner-blupura.png"
                   alt="Blupura"
