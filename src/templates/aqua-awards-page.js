@@ -161,8 +161,13 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
                 BENEFITS FOR APPLICANTS & WINNERS
               </h3>
-
-              <p className="text-base mb-8">
+              <StaticImage
+                    src="../img/gala-dinner.jpeg"
+                    placeholder="none"
+                    alt="Gala Dinner"
+                    className=""
+                  />
+              <p className="text-base my-8">
                 The Aqua Awards is an excellent way to promote your brand to the
                 event’s visitors and the wider audience online. Check out the
                 fantastic package for winners and applicants.
