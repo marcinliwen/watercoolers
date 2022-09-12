@@ -678,7 +678,7 @@ one of the most longstanding employees of Blupura and has actively contributed t
               <div className="md:flex-1 md:pl-4">
                 <p className="text-blue font-bold md:flex">
                   <span className="mr-2">Presentation:</span>
-                  <span className="uppercase">1 Million a Minute – Be part of the solution</span>
+                  <span className="uppercase">Sustainable Hydration: How to introduce bottle filling stations and other solutions to your portfolio.</span>
                 </p>
                 <p className="text-blue mb-4">We have long since known that single-use plastic bottles have had a huge impact on our environment and a major contributor to the 380 million metric tonnes of plastic produced annually.  But could there be a way to encourage reuse with a refill revolution?  Hydration Solution expert, Mark Cross, talks through some examples of ingenious bottle filling products and initiatives, showing that small changes businesses are making to reach their sustainability goals can have a huge impact.</p>
                 <p className="mb-2">Mark is incredibly enthusiastic about the water dispenser industry.  He has over 20 years commercial experience in the UK water dispenser market, starting with Aquacool and Angel Springs, now with Waterlogic.    Having worked in field sales, key account management, inside sales, digital, CRM, PPC and SEO he now heads up Waterlogic UK sales and marketing and is Managing Director of MIW Water Cooler Experts.  </p>

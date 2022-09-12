@@ -136,7 +136,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <p className="text-base mb-8">
                 Please complete the form below and ensure that each nomination
                 is sent with the appropriate attachments.{" "}
-                <b>Submit the application form before 15th September 2022</b>
+                <b>Submit the application form before 30th September 2022</b>
               </p>
             </div>
             <div className="mb-16 md:mb-20 separator">
