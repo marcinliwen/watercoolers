@@ -3,26 +3,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { StaticImage } from "gatsby-plugin-image";
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+//import "./styles.css";
 
-import { Autoplay, Pagination, Navigation } from "swiper";
-
+  // import required modules
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
 const Bannerslider = () =>{
     return(
         <section>
             <div className="container !p-0 md:!px-4 md:mb-12">
-            <StaticImage
+            {/* <StaticImage
                   src="../img/banners/banner-blupura.png"
                   alt="Blupura"
                   placeholder="none"
-                />
-            {/* <Swiper
+                /> */}
+            <Swiper
              spaceBetween={30}
              centeredSlides={true}
+             speed={1000}
              autoplay={{
-               delay: 2500,
+               delay: 4000,
                disableOnInteraction: false,
              }}
              pagination={{
@@ -38,11 +41,11 @@ const Bannerslider = () =>{
                   placeholder="none"
                 /></SwiperSlide>
                  <SwiperSlide> <StaticImage
-                  src="../img/banners/banner-blupura.png"
-                  alt="Blupura"
+                  src="../img/banners/banner-activewhere.png"
+                  alt="Activewhere"
                   placeholder="none"
                 /></SwiperSlide>
-        </Swiper> */}
+        </Swiper>
             </div>
         
       </section>
