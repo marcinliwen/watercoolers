@@ -45,6 +45,11 @@ const Bannerslider = () =>{
                   alt="Activewhere"
                   placeholder="none"
                 /></SwiperSlide>
+                 <SwiperSlide> <StaticImage
+                  src="../img/banners/banner-definitivo.png"
+                  alt="Activewhere"
+                  placeholder="none"
+                /></SwiperSlide>
         </Swiper>
             </div>
         
