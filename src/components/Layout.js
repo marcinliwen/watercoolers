@@ -75,7 +75,7 @@ const descriptionPage = pageName ? pageName + " - " + description : description;
       <CookieConsent
         disableStyles={true}
         location="none"
-        containerClasses={` ${cookie ? 'bottom-8': 'bottom-[-100%]'} ease-in-out duration-300 delay-500 fixed bottom-4 left-4 right-4  md:w-[450px] md:left-8 md:right-auto bg-white text-blue p-5 flex flex-col items-end shadow-xl`}
+        containerClasses={` ${cookie ? 'bottom-8': 'bottom-[-100%]'} z-1000 ease-in-out duration-300 delay-500 fixed bottom-4 left-4 right-4  md:w-[450px] md:left-8 md:right-auto bg-white text-blue p-5 flex flex-col items-end shadow-xl`}
         buttonClasses="bg-blue text-white py-2 px-6  ml-auto mt-8"
       >
         This website uses cookies to enhance the user experience.

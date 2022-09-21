@@ -123,12 +123,12 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
       </section>
 
       <PageSubtitle title="Stand Application Form" />
-      {/*<section>
+      <section>
         <div className="container">
           <h3 className="font-bold my-4 text-2xl text-center">All stands have been reserved</h3>
         </div>
-      </section>*/}
-      <section className="">
+      </section>
+      <section className="inactive">
         <div className="container">
           <div className="">
             <h3 className="font-bold my-4 text-2xl">
