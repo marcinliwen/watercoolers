@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/we-logo.png";
 import phone from "../img/phone.svg";
-import subscribe from "../img/subscribe.svg";
 import MailChimpForm from "../components/MailChimpForm"
 
 const Navbar = class extends React.Component {
@@ -79,7 +78,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu pb-6  ${this.state.navBarActiveClass}`}
           >
-            <div className={`navbar-close md:hidden`} onKeyPress={() => this.toggleHamburger()}
+            <div role="button" className={`navbar-close md:hidden`} tabIndex={0} onKeyPress={() => this.toggleHamburger()}
                 onClick={() => this.toggleHamburger()}>
                    <span />
                 <span />

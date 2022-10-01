@@ -1,26 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageSubtitle from "../components/PageSubtitle";
 import { StaticImage } from "gatsby-plugin-image";
-
-const floor_plan =
-  [
-    {"nr":21 ,"place" : "S21", "name": "ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA"},
-    {"nr":4, "place": "S04", "name":"ACUVA Technologies"},
-    {"nr":8, "place":"S08", "name":"AQUISENSE TECHNOLOGIES"},
-    {"nr":15,"place":"S15", "name":"ASE PACKAGING SOLUTIONS GMBH"},
-    {"nr":19, "place":"S19","name":"BARDI"},
-    {"nr":29, "place":"S29", "name":"BLACKHAWK MOLDING, CO., INC."},
-    {"nr":17, "place":"S17/S22", "name":"BLUPURA SRL"},
-    {"nr":26, "place":"S26", "name":"CANALETAS S.A."},
-    {"nr": 24, "place":"S24/S25","name":"COSMETAL SRL"},
-    {"nr":16, "place":"S16", "name":"CRYSTAL MOUNTAIN"}
-  ]
-;
 
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
@@ -69,6 +53,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S23</span><span>PETAINER</span>
             <span className="">S02</span><span>PITKIT LTD</span>
             <span className="">S11</span><span>POLYMER SOLUTIONS INTERNATIONAL INC.</span>
+            <span>S33</span><span>SC CONTEC PARK SRL</span>
             <span className="">S03</span><span>SIAPI</span>
             <span className="">S06</span><span>SILGAN CLOSURES</span>
             <span className="">S27</span><span>S.P IMPORT COMPANY</span>
@@ -213,8 +198,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                     
  
                   </select>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-down-short" viewBox="0 0 16 16">
+  <path fillRule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
 </svg>
                   </div>
                 </label>
@@ -228,8 +213,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
 
                     <option disabled value="22,5 m2 table top">22,5 m&sup2; table top</option>
                   </select>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-down-short" viewBox="0 0 16 16">
+  <path fillRule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
 </svg>
 </div>
                 </label>
@@ -273,7 +258,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 <p className="">
                   Please refer any queries concerning the above requirements to
                   the exhibition organiser: 
-                  <a rel="nofollow" href="mailto:office@ideamarketing.pl" className="ml-1">
+                  <a rel="noreferrer" href="mailto:office@ideamarketing.pl" className="ml-1">
                      office@ideamarketing.pl
                   </a>
                 </p>
@@ -281,7 +266,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               <div>
                 <label>
                 <input type="checkbox" name="accept_terms_and_conditions" value="yes" required/>
-                <span className="ml-2">I hereby accept the <a rel="nofollow"  href="/terms-and-conditions"  className="text-pink" target="_blank"  >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
+                <span className="ml-2">I hereby accept the <a  rel="noreferrer"  href="/terms-and-conditions"  className="text-pink" target="_blank"  >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
                 </label>
               </div>
               <button type="submit" className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl">

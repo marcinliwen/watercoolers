@@ -306,10 +306,11 @@ export default class Index extends React.Component {
                       <span className="ml-2">
                         I hereby accept the{" "}
                         <a
-                        rel="nofollow" 
+                        rel="noreferrer"
                           href="/private-policy-we.pdf"
                           className="text-pink"
                           target="_blank"
+                         
                         >
                           PRIVACY POLICY
                         </a>{" "}

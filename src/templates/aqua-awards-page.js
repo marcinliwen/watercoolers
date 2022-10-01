@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { getImage, StaticImage } from "gatsby-plugin-image";
+import {  StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import PageSubtitle from "../components/PageSubtitle";
 
 export const AquaAwardsTemplate = ({ title, info }) => {
   return (

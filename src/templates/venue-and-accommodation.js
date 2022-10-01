@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import PageSubtitle from "../components/PageSubtitle";
 
 export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
 
@@ -57,7 +55,7 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
               t: +351 21 312 0000
             </p>
             <a
-              rel="nofollow" 
+               rel="noreferrer" 
               className="my-2 block font-bold hover:text-blue ease-in-out duration-300"
               href="https://www.marriott.com/hotels/travel/lissi-sheraton-lisboa-hotel-and-spa/"
               target="_blank"
@@ -75,7 +73,7 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
       </section>
       <section className="bg-blue text-white text-center py-8">
         <div className="container">
-          <h2 className="text-4xl"><a rel="nofollow"  className="hover:underline ease-in-out duration-300"  href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1652979882546&key=GRP&app=resvlink" target="_blank">Book now</a></h2>
+          <h2 className="text-4xl"><a  rel="noreferrer"  className="hover:underline ease-in-out duration-300"  href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1652979882546&key=GRP&app=resvlink" target="_blank">Book now</a></h2>
         </div>
       </section>
      {/*  <section><div className="container">

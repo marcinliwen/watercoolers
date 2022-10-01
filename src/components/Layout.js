@@ -19,7 +19,7 @@ const TemplateWrapper = ({ location, pageName,  children }) => {
     }, 500)
     
   })
-console.log(pageName)
+//console.log(pageName)
 const descriptionPage = pageName ? pageName + " - " + description : description;
   return (
     <div className="h-full grid grid-rows-layout">

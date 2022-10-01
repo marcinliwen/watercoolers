@@ -1,4 +1,4 @@
-import React,  { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -6,10 +6,8 @@ import { StaticImage } from "gatsby-plugin-image";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-//import "./styles.css";
-
-  // import required modules
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+// import required modules
+import  { Autoplay, Pagination, Navigation } from "swiper";
 
 const Bannerslider = () =>{
     return(
