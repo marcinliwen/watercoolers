@@ -31,7 +31,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   industry in marketing, innovation and public relations, as
                   well as products and programmes which enhance sustainability
                 </p>
-             {/*    <a href="/Aqua_Awards_Brochure_2022.pdf" className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Aqua Awards Brochure download pdf</a> */}
+            <a href="/Aqua_Awards_Brochure_2022.pdf" className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Aqua Awards Brochure download pdf</a>
               </div>
             </div>
             <div className="cart mb-16 md:mb-20 ">
@@ -134,10 +134,10 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <p className="text-base mb-8">
                 Please complete the form below and ensure that each nomination
                 is sent with the appropriate attachments.{" "}
-                <b>Submit the application form before 30th September 2022</b>
+                <b>Submit the application form before 7th October 2022</b>
               </p>
             </div>
-            {/* <div className="mb-16 md:mb-20 separator">
+            <div className="mb-16 md:mb-20 separator">
               <a
                 href="javascript:void(
         window.open(
@@ -150,12 +150,11 @@ export const AquaAwardsTemplate = ({ title, info }) => {
         )
       )
     " 
-    href="javascript:void(0)"
                 className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-20 block text-2xl text-center w-max"
               >
                 Application Form
               </a>
-            </div> */}
+            </div>
             <div className="mb-16 md:mb-20">
               <h3 className="font-bold mb-8 mt-4 text-2xl text-pink text-center">
                 BENEFITS FOR APPLICANTS & WINNERS
