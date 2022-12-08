@@ -1,12 +1,11 @@
 ---
 templateKey: index-page
 title: Home Page
-image: /img/home-banner.png
+image: /img/home-banner-2023.png
 category:
-  - image: /img/sheraton.png
+  - image: /img/intercontinental.png
     title: Venue & Accommodation
-    description: A central Lisbon location in one of the city’s most luxurius venues
-      - the Sheraton Lisboa Hotel & Spa.
+    description: WE 2023 Conference and Trade Show will take place in Vienna in the InterContinental hotel.
     link: /venue-and-accommodation
   - image: /img/tradefare.png
     title: Trade Fair

@@ -8,7 +8,7 @@ tradefair:
     show your products and services to a targeted, industry specific,
     Europe-wide audience. Strengthen your business relationship and reach out to
     new partners and contact.
-  image: /img/floor-plan.png
+  image: /img/floor_plan_vienna_2023.png
 fees:
   image: /img/fees.png
 ---

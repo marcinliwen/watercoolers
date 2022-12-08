@@ -3,7 +3,7 @@ templateKey: venue-and-accommodation
 path: /venue-and-accommodation
 title: Venue & Accommodation
 venue:
-  title: Venue - Sheraton Lisboa Hotel & Spa
+  title: Venue – InterContinental hotel
   description:
     - central city location in the gorgeous ancient capital of Portugal
     - unbeatable access to the city's finest dining, cultural and historic
@@ -15,7 +15,7 @@ venue:
     - elegant outdoor pool
     - day spa
     - conference center
-  image: /img/venue-1.png
+  image: /img/intercontinental.png
   body: >-
     central city location in the gorgeous ancient capital of Portugal
 
