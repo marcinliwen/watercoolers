@@ -38,91 +38,76 @@ export const EventProgrammeTemplate = ({
       <section id="programm" className="bg-bggray py-12 mb-12">
         <div className="container">
           <div className="mb-12">
-          <a href="/PROGRAMME_BROCHURE.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Event Programme pdf</a>
-
+{/*           <a href="/PROGRAMME_BROCHURE.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Event Programme pdf</a>
+ */}
             <h3 className="font-bold text-3xl text-blue mb-4">
-              WEDNESDAY 19 OCTOBER 2022
+            TUESDAY 24 OCTOBER 2023
             </h3>
-            <p className="mb-4">During the City Tour we will be visiting some of Lisbon’s prime attractions, such as: Avenida da Liberdade,
-Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p>
+            {/* <p className="mb-4">During the City Tour we will be visiting some of Lisbon’s prime attractions, such as: Avenida da Liberdade,
+Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>15:00</span>
+              <span>EXECO meeting</span>
+              <span>20:00</span>
+              <span>City dinner</span>
+            </div>
+            <h3 className="font-bold text-3xl text-blue mb-4">
+            WEDNESDAY 25 OCTOBER 2023
+            </h3>
+            <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
+              <span>10:00</span>
+              <span>Committee meetings</span>
               <span>15:45</span>
-              <span>Pick up from the Sheraton Lisboa Hotel</span>
+              <span>Pick up from the InterContinental hotel</span>
               <span>16:00</span>
               <span>City Tour</span>
               <span>20:00</span>
-              <span>Dinner at the local restaurant</span>
+              <span>Dinner at the local restaurant for the city tour participants</span>
               <span>22:00</span>
-              <span>Return to the Sheraton Lisboa Hotel</span>
+              <span>Return to the InterContinental hotel</span>
             </div>
           </div>
           <div className="mb-12">
             <h3 className="font-bold text-3xl text-blue mb-4">
-              THURSDAY 20 OCTOBER 2022
+            THURSDAY 26 OCTOBER 2023
             </h3>
             <h4 className="text-pink uppercase mb-4 text-xl">CONFERENCE</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span className="w-12">09:00</span>
-              <span>Registration & Refreshments</span>
+              <span>Registration & refreshments</span>
               <span>09:30</span>
-              <span>Welcome<br/>Chair’s Address and Vision for the future
-              <br /><b>Latest European market and industry developments and outlook</b> <em>Richard Hall, Zenith Global</em>
-              <br /><b>Sustainable Future</b><em> Bill Bruce, Bill Bruce Communications</em></span>
+              <span>Welcome</span>
               
-              <span>10:50</span>
-              <span>Hydration and refreshment break </span>
-              <span>11:20</span>
+              <span>09:40</span>
+              <span>Presentations - part 1</span>
+              <span>10:50 </span>
               <span>
-                <strong>
-                  The 21st Century Watercooler Industry – Reality and Trends
-                </strong>
-                <br />
-                <span>
-                  <em>Gonçalo Tremoceiro: General Manager for Culligan Portugal and
-                  Iberian Director at Acquajet; <br />
-                  Miguel Ribeiro Ferreira: Culligan Iberia M&A Advisor</em>
-                </span>
-                <br />
-                <b>Lead from the future: Growth, opportunity and resilience in the 21st Century Watercooler Industry </b> <em>Keynote speaker: Terence Mauri</em>
+              Hydration & refreshment break
               </span>
-              <span>12:50</span>
+              <span>11:20</span>
+              <span>Presentations - part 2</span>
+              <span>13:00</span>
               <span>Lunch</span>
             </div>
 
             <h4 className="text-pink uppercase mb-4 text-xl">
-              WORKSHOPS – SESSION 1 - Business Strategy
+            WORKSHOPS SESSIONS
             </h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span>14:00</span>
               <span>
-                <strong>
-                Air Purifiers: an addition to your water dispenser business: 
-                </strong>
-                <em> Peter Hogervorst, Dolphin</em>
+              Presentations – part 1
               </span>
               
-              <span>14:40</span>
-              <span>
-                <strong>
-                The home water dispenser market – lessons learnt from around the world: </strong> <em> Nick Swan, Love Water</em>
-               
-              </span>
+              <span>15:00</span>
+              <span>Hydration & refreshment break </span>
               
-              <span>15:10</span>
-              <span>Hydration and refreshment break</span>
               <span>15:30</span>
-              <span>
-                <strong>
-                IOT (Internet of Things) technology in the Watercooler industry: Opportunities, Trends and
-Innovations 
-                </strong>
-                <em> Debora Screpanti, Blupura Marketing Manager</em>
-                
-              </span>
+              <span>Presentations – part 2</span>
               <span>16:00</span>
               <span><b>FINISH</b></span>
             </div>
-            <h4 className="text-pink uppercase mb-4 text-xl">
+           {/*  <h4 className="text-pink uppercase mb-4 text-xl">
               WORKSHOPS – SESSION 2 -
               <span className="normal-case">Technical & Sustainability</span>
             </h4>
@@ -150,24 +135,24 @@ Innovations
 </span>
               <span>16:00</span>
               <span><b>FINISH</b></span>
-            </div>
+            </div> */}
             <h4 className="text-pink uppercase mb-4 text-xl">GALA DINNER & AQUA AWARDS</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span>19:30</span>
-              <span>Transfer from the Sheraton Lisboa Hotel to SUD Lisboa by coach</span>
+              <span>Transfer from the InterContinental hotel to the Gala Dinner Venue</span>
               <span>20:00</span>
-              <span><b>Gala Evening with Aqua Awards</b> including pre-dinner drinks reception, 3 course meal and wine with entertainment</span>
-              <span>23:45</span>
-              <span>Return to the Sheraton Lisboa Hotel by coach</span>
+              <span><b>Gala Dinner with Aqua Awards</b> including pre-dinner drinks reception, 4 course meal with wine and entertainment</span>
+              <span>00:00</span>
+              <span>Return to the InterContinental hotel</span>
             </div>
           </div>
           <div className="mb-12">
             <h3 className="font-bold text-3xl text-blue mb-4">
-              FRIDAY 21 OCTOBER 2022
+            FRIDAY 27 OCTOBER 2023
             </h3>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
-              <span>10:00</span>
-              <span>Open. A buffet lunch will be served for exhibitors and visitors</span>
+              <span>09:00</span>
+              <span>Open. A buffet lunch will be served for exhibitors & visitors</span>
               <span>16:00</span>
               <span><b>FINISH</b></span>
             </div>
@@ -179,32 +164,20 @@ Innovations
           <div className="plan-content">
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/lizbona.png" alt="Lisboa"/>
+                <StaticImage src="../img/programm/vienna-tour.png" alt="Vienna"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                  19 October - City Tour
+                24 October - City Tour
                 </h3>
                 <p className="text-base mb-2 ">
-                  Lisbon is just waiting to be explored by you!{" "}
+                Vienna is just waiting to be explored by you!{" "}
                 </p>
                 <p className="mb-2">
-                  Join our amazing city tour and discover one of the most
-                  spectacular cities in the world and its breathtaking
-                  monuments:{" "}
+                Join our amazing city tour and discover one of the most spectacular cities in the world and its breathtaking monuments.
                 </p>
-                <ul className="list-disc pl-6 text-sm mb-2">
-                  <li>Avenida da Liberdade</li>
-                  <li>Baixa Pombalina</li>
-                  <li>Belém area</li>
-                  <li>Torre de Belém</li>
-                  <li>Padrão dos Descobrimentos</li>
-                  <li>Pastéis de Belém </li>
-                  <li>Mosteiro dos Jerónimos</li>
-                </ul>
                 <p>
-                  In the evening, together with the other tour participants, you
-                  can enjoy a dinner in one of the finest local restaurant.
+                In the evening, together with the other tour participants, you can enjoy a dinner in one of the finest local restaurant.
                 </p>
               </div>
             </div>
@@ -214,7 +187,7 @@ Innovations
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                  20 October- Conference
+                  26 October- Conference
                 </h3>
                 <p className="text-base mb-2 ">
                   Take part in the high-quality conference programme that will
@@ -236,7 +209,7 @@ Innovations
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                  20 October - Workshops
+                  26 October - Workshops
                 </h3>
                 <p className="text-base mb-2 ">
                   Workshops will help you grow and improve your business.
@@ -253,7 +226,7 @@ Innovations
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                  20 October - Aqua Awards & Gala Dinner
+                  26 October - Aqua Awards & Gala Dinner
                 </h3>
                 <p className="text-base mb-2 ">
                   Don’t miss the highlight moment of the WE event.
@@ -266,10 +239,6 @@ Innovations
                   The winners of the Aqua Awards competition will be announced
                   at the Gala Dinner.
                 </p>
-                <p className="text-base mb-2 ">
-                  This year the ceremony will be held in the magnificent SUD
-                  LISBOA - one of the most beautiful location in Lisbon.
-                </p>
               </div>
             </div>
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
@@ -278,17 +247,13 @@ Innovations
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                  21 October - Trade Fair
+                  24 October - Trade Fair
                 </h3>
                 <p className="text-base mb-2 ">
-                  After 3 years break caused by COVID-19 pandemic it is a great
-                  opportunity to meet in person with your customers and business
-                  partners, show your products and services to a targeted,
-                  industry specific, Europe-wide audience.
+                WE International Trade Fair is a great opportunity to meet in person with your customers and business partners, show your products and services to a targeted, industry specific, Europe-wide audience.
                 </p>
                 <p className="text-base mb-2 ">
-                  Strengthen your business relationship and reach out to new
-                  partners and contact.
+                Strengthen your business relationship and reach out to new partners and contact.
                 </p>
               </div>
             </div>
@@ -317,7 +282,7 @@ Innovations
       <PageSubtitle title="Registration Fees" />
       <Fee />
       <PageSubtitle title="Presentations & Speakers" />
-      <section>
+    {/*   <section>
         <div className="container">
           <div className="py-16">
             <h2 className="text-pink uppercase text-3xl mb-4">
@@ -333,7 +298,7 @@ Innovations
                   <span className="text-sm text-pink leading-4 block">
                   Author <em>How To Win In The Age of Disruption</em>
                   </span>
-                  {/* <span className="text-sm text-pink leading-4 block">{item.role}</span> */}
+                  
                 </div>
               </div>
               <div className="md:flex-1 md:pl-4">
@@ -486,30 +451,7 @@ activities, industry; Participates in various social responsibility projects.</p
               </div>
             </div>
 
-            {/* {conference &&
-            conference.map((item) => (
-              <div key={item.title} className="speacer-person md:flex mb-16">
-                <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                  {item.image && (
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: item.image,
-                        alt: item.name,
-                      }}
-                    />
-                  )}
-                  <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                  <h4 className="font-bold text-pink leading-4 mt-2">{item.name}</h4>
-                  <span className="text-sm text-pink leading-4 block">{item.role}</span>
-                  </div>
-                </div>
-                <div className="md:flex-1 md:pl-4">
-                  <p className="mb-8">{item.resume}</p>
-                  <p className="text-blue font-bold md:flex"><span className="mr-2">Presentation:</span> <span className="uppercase">{item.title}</span></p>
-                  <p className="text-blue">{item.description}</p>
-                </div>
-              </div>
-            ))} */}
+           
             <h2 className="text-pink uppercase text-3xl mb-4">
               Workshops speakers
             </h2>
@@ -795,40 +737,10 @@ participated in many interviews on the radio and TV related bottled water.</p>
             </div>
             
            
-            {/*  {workshops &&
-              workshops.map((item) => (
-                <div key={item.title} className="speacer-person md:flex mb-16">
-                  <div className="md:basis-48 flex  md:block mb-8 md:mb-0">
-                    {item.image && (
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: item.image,
-                          alt: item.name,
-                        }}
-                      />
-                    )}
-                    <div className="pl-4 md:pl-0 flex flex-col justify-end md:block">
-                      <h4 className="font-bold text-pink leading-4 mt-2">
-                        {item.name}
-                      </h4>
-                      <span className="text-sm text-pink leading-4 block">
-                        {item.role}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="md:flex-1 md:pl-4">
-                    <p className="mb-8">{item.resume}</p>
-                    <p className="text-blue font-bold md:flex">
-                      <span className="mr-2">Presentation:</span>
-                      <span className="uppercase">{item.title}</span>
-                    </p>
-                    <p className="text-blue">{item.description}</p>
-                  </div>
-                </div>
-              ))} */}
+            
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

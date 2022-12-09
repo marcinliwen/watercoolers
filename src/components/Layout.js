@@ -69,8 +69,8 @@ const descriptionPage = pageName ? pageName + " - " + description : description;
       </Helmet>
       <Navbar />
       <main>{children}</main>
-      <Sponsors />
-      <Bannerslider />
+     {/*  <Sponsors />
+      <Bannerslider /> */}
       <Footer />
       <CookieConsent
         disableStyles={true}

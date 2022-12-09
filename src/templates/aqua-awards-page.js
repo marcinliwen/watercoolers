@@ -134,7 +134,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
               <p className="text-base mb-8">
                 Please complete the form below and ensure that each nomination
                 is sent with the appropriate attachments.{" "}
-                <b>Submit the application form before 7th October 2022</b>
+                <b>Submit the application form before 6th October 2023</b>
               </p>
             </div>
             {/* <div className="mb-16 md:mb-20 separator">
@@ -160,7 +160,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                 BENEFITS FOR APPLICANTS & WINNERS
               </h3>
               <StaticImage
-                    src="../img/gala-dinner.jpeg"
+                    src="../img/gala-dinner.png"
                     placeholder="none"
                     alt="Gala Dinner"
                     className=""
@@ -226,10 +226,10 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                     There is an international jury that consists of
                     representatives nominated by WE and National Associations.
                   </p>
-                  <p>
+                 {/*  <p>
                     The winners will be chosen from the votes from the jury
                     appointed by WE (75%) and National Associations (25%).
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -360,26 +360,25 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   GALA DINNER
                 </h3>
                 <p className="text-base mb-8">
-                  WE Aqua Awards winners will be announced at the Gala Dinner to
-                  be held on{" "}
+                WE Aqua Awards winners will be announced at the Gala Dinner to be held on {" "}
                   <span className="text-blue font-bold">
-                    20th October 2022 in SUD Lisboa
+                  26th October 2023.
                   </span>{" "}
-                  – a fabulous place with a spectacular view at the Tag River.
-                  Each category winner will have their presentation shown to the
-                  assembled audience of colleagues and business partners.
+                </p>
+                <p>
+                  Each category winner will have their presentation shown to the assembled audience of colleagues and business partners.
                 </p>
               </div>
-              <div className="md:basis-1/2  md:p-4">
+              {/* <div className="md:basis-1/2  md:p-4">
                 <StaticImage
                   src="../img/gala-hall.png"
                   placeholder="none"
                   alt="Sud Lisboa Gala Hall"
                 />
                 <p className="font-bold">SUD LISBOA</p>
-              </div>
+              </div> */}
             </div>
-            <div className="flex flex-col md:flex-row mb-16 md:mb-20 ">
+          {/*   <div className="flex flex-col md:flex-row mb-16 md:mb-20 ">
               <div className="md:basis-1/2  md:p-4 show-img order-1">
                 <StaticImage
                   src="../img/show-1.png"
@@ -433,7 +432,7 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   of emotions and surprises.
                 </p>
               </div>
-            </div>
+            </div> */}
             {/*  <div className="border-t-2 border-bggray pt-8">
               <h3 className="font-bold mb-8 mt-4 text-2xl md:text-center">
                 Fantastic benefits waiting for winners

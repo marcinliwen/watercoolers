@@ -65,7 +65,7 @@ const Navbar = class extends React.Component {
               </div>
             </div>
             <div className="hidden md:flex gap-4 ">
-              <MailChimpForm />
+              {/* <MailChimpForm /> */}
               {/* <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
                 <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2 "/>
                 Newsletter
@@ -96,7 +96,8 @@ const Navbar = class extends React.Component {
               <Link className="py-3 px-4 block  hover:text-blue ease-in-out duration-300" to="/aqua-awards">
                 Aqua Awards & Gala Dinner
               </Link>
-              <a className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300" href="https://systemcoffee.pl/?lang=en&go2rej=1&kid=1316" target="_blank" rel="noreferrer"> Registration</a>
+             {/*  <a className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300" href="https://systemcoffee.pl/?lang=en&go2rej=1&kid=1316" target="_blank" rel="noreferrer"> Registration</a> */}
+              <span className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300">Registration will be open soon</span>
             </div>
           </div>
         </div>

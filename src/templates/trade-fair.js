@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PageSubtitle from "../components/PageSubtitle";
 import { StaticImage } from "gatsby-plugin-image";
-
+import StandTemplate from "../data/standtemplate.json"
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
  // console.log(tradefair);
@@ -24,7 +24,27 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           <h3 className="font-bold my-4 text-2xl">Floor Plan</h3>
           <StaticImage src="../img/floor_plan_stage.png" placeholder="none" alt="Floor plan"/>
         </div>
-        <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
+        {StandTemplate && 
+        <div className="plan-nr  mb-8">
+        <ul className=" md:columns-2 gap-0 list">
+        {StandTemplate.map((item, index, list)=>{
+            console.log(list.length / 2);
+            console.log(index)
+          return(
+          <li 
+            key={item.stand} 
+            className={`
+              flex w-full 
+              ${Math.floor(list.length / 2) === index ? 'md:break-after-column' : ''}
+              `}>
+              <span className="w-[108px]">{item.stand}</span>
+              <span className="block text-left  flex-1">{item.name}</span>
+          </li>
+        )})}
+        </ul>
+        </div>
+        }
+      {/*   <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
           <div className="grid grid-cols-[108px_1fr] list">
             <span className="first">S21</span><span className="first">ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA</span>
             <span className="">S04</span><span>ACUVA Technologies</span>
@@ -61,48 +81,55 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <span className="">S01</span><span>WATNEXT INDUSTRIES SRL</span>
             <span className="">S30</span><span>ZERICA SRL</span>
           </div>
-        </div>
+        </div> */}
       </div>
       <PageSubtitle title="Stand Fees" />
       <section>
         <div className="container">
-          <h3 className="font-bold mt-4 text-2xl">Sand Fees (0% VAT)</h3>
+          <h3 className="font-bold mt-4 text-2xl">Stand Fees</h3>
           <p className="font-extrabold mb-8">
-            6% VAT ON ONE SINGLE BEDROOM PRICE WILL BE ADDED TO THE STAND FEE
-            (10.50 EUR)
+          VAT CAN BE ADDED IF APPLICABLE
           </p>
 
-          <div className="prices-container uppercase font-bold grid grid-cols-2 mb-12">
-            <div className="py-4 px-6 bg-bgblue">Member status</div>
-            <div className="py-4 px-6 bg-bgblue">Stand Fee</div>
-            <div className="text-pink py-4 px-6 bg-bggray">
-              INTERNATIONAL SUPPLIER MEMBERS
-            </div>
-            <div className="text-gray py-4 px-6 bg-bggray">€ 3 530</div>
-            <div className="text-pink py-4 px-6 bg-bggray">
-              NATIONAL ASSOCIATION MEMBERS
-            </div>
-            <div className="text-gray py-4 px-6 bg-bggray">€ 3 950</div>
-            <div className="text-pink py-4 px-6 bg-bggray">NON-WE MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bggray">€ 4 330</div>
+          <div className="prices-container uppercase font-bold grid grid-cols-5 mb-12">
+            <div className="py-4 px-6  row-span-2"></div>
+            <div className="py-4 px-6 bg-bgblue col-span-2 uppercase text-center border-r-4 border-blue">Early bird</div>
+            <div className="py-4 px-6 bg-bggray col-span-2 uppercase text-center">standard</div>
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4  border-blue">9m2</div>
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">12m2</div>
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">9m2</div>
+            <div className="py-4 px-6 bg-bgblue uppercase text-center border-t-4 border-blue">12m2</div>
+            <div className="text-pink py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue text-sm">INTERNATIONAL SUPPLIER MEMBERS</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 3 440</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 590</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 060</div>
+            <div className="text-gray py-4 px-6 bg-bggray  border-t-4 border-blue flex items-center justify-center">€ 5 415</div>
+            <div className="text-pink py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue text-sm">NATIONAL ASSOCIATION MEMBERS</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 3 840</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 5 120</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 540</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-blue flex items-center justify-center">€ 6 060</div>
+            <div className="text-pink py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue text-sm">NON-WE MEMBERS</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 220</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center" >€ 6 530</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 980</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-blue flex items-center justify-center">€ 6 640</div>
           </div>
           <div className="  mb-12">
             <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
             <ul className="list-disc text-sm pl-6 mb-4">
               <li>
-                7,5 m<sup>2</sup> table top stand: to be dressed individually by the
-                exhibitors
+              space only stand to be dressed individually by the exhibitors
               </li>
               <li>
-                One night accommodation (single room) on 20 October 2022 at the
-                Sheraton Lisboa Hotel &amp; Spa
+              power supply (3 sockets – 220 V)
               </li>
-              <li>Listing in the Fair Catalogue</li>
+              <li>one night accommodation (single room with breakfast) on 26 October 2023 at the InterContinental Vienna Hotel</li>
+              <li>listing in the Fair Catalogue</li>
             </ul>
             <h3 className="font-bold my-4 text-2xl">Payment deadlines:</h3>
             <p className="">
-              Deposit payment within 14 days of stand reservation/application
-              form. Balance payment by <strong>31 August 2022</strong>
+            Deposit payment within 14 days of stand reservation/application form. Balance payment by <strong>31 August 2023</strong>
             </p>
           </div>
         </div>
@@ -111,10 +138,10 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
       <PageSubtitle title="Stand Application Form" />
       <section>
         <div className="container">
-          <h3 className="font-bold my-4 text-2xl text-center">All stands have been reserved</h3>
+          {/* <h3 className="font-bold my-4 text-2xl text-center">All stands have been reserved</h3> */}
         </div>
       </section>
-      <section className="inactive">
+      <section className="">
         <div className="container">
           <div className="">
             <h3 className="font-bold my-4 text-2xl">
@@ -126,7 +153,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                 location
               </li>
               <li>
-                Send a NON-REFUNDABLE pre-payment of € 1,500 (bank transfer with
+                Send a NON-REFUNDABLE pre-payment of € 1,700 (bank transfer with
                 ALL bank charges to be paid by the Payer).
               </li>
             </ul>
@@ -136,7 +163,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <p className="pt-8">
               Exhibition stands will be allocated on a ‘first-come first-served’
               basis subject to space availability. Full payment is due by
-              <strong> 31 August 2022</strong>. Cancellation after that date
+              <strong> 31 August 2023</strong>. Cancellation after that date
               will entail 100% of the stand price plus VAT being due and
               payable.
             </p>
@@ -193,8 +220,8 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                  {/*  <input type="text" name="stand-no" required /> */}
                  <div className="custom-select">
                   <select name="stand-no" required>
-                   <option value="S01">S01</option>
-                    
+                   <option value="S08">S08</option>
+                   <option value="S07">S07</option>
                     
  
                   </select>
@@ -207,11 +234,11 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                   <span className="mr-2">AVAILABLE EXHIBITION STANDS:<span className="text-red-600">*</span></span>
                   <div className="custom-select">
                   <select name="standsize">
-                    <option value="7,5 m2 table top">7,5 m&sup2; table top</option>
+                    <option value="9 m2 table top">9 m&sup2; table top</option>
 
-                    <option disabled value="15 m2 table top">15 m&sup2; table top</option>
+                    <option  value="12 m2 table top">12 m&sup2; table top</option>
 
-                    <option disabled value="22,5 m2 table top">22,5 m&sup2; table top</option>
+      
                   </select>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-down-short" viewBox="0 0 16 16">
   <path fillRule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>

@@ -41,7 +41,7 @@ const Footer = class extends React.Component {
                 REGON: 388439940
               </p>
             </div>
-            <div className="md:ml-12 mr-auto">
+            {/* <div className="md:ml-12 mr-auto">
               <p className="text-white text-sm font-light">MEDIA PARTNER:</p>
               <StaticImage
                   src="../img/foodbev.png"
@@ -49,8 +49,8 @@ const Footer = class extends React.Component {
                   alt="Foodbev media logo"
                   className="max-w-[100px] mt-2"
                 />
-            </div>
-            <div className="basis-[168px]">
+            </div> */}
+            <div className="basis-[168px] md:ml-auto">
               <img
                 src={logo}
                 alt="We"
