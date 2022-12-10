@@ -281,7 +281,7 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
       </section>
       <PageSubtitle title="Registration Fees" />
       <Fee />
-      <PageSubtitle title="Presentations & Speakers" />
+    {/*   <PageSubtitle title="Presentations & Speakers" /> */}
     {/*   <section>
         <div className="container">
           <div className="py-16">

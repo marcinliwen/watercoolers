@@ -12,7 +12,11 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
   return (
     <div>
       <PageTitle title={title} />
+      
       <div className="container">
+      <div className="my-8" >
+      <a href="/EXHIBITOR_BROCHURE_VIENNA_2023.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Exhibitor Brochure  pdf</a>
+      </div>
         {/* <h3 className="font-bold mt-8  mb-6 text-2xl text-center">
           Don’t miss the next Watercoolers Europe annula event. Book now in your
           calendar.

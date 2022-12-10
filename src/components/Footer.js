@@ -16,10 +16,10 @@ const Footer = class extends React.Component {
           <div className="flex flex-col md:flex-row">
             <div className="text-white text-sm font-light flex flex-col gap-1  mb-12 md:mb-0">
               <Link to="/contact">CONTACT</Link>
-              <a href="/terms-and-conditions" target="_blank" rel="noreferrer">
+              <a href="/EXHIBITION_TERMS_&_CONDITION_VIENNA_2023.pdf" target="_blank" rel="noreferrer">
                 TERMS & CONDITIONS FOR EXHIBITORS
               </a>
-              <a href="/GENERAL_INFORMATION_LISBON_2022.pdf" target="_blank" rel="noreferrer">
+              <a href="/GENERAL_INFORMATION_VIENNA_2023.pdf" target="_blank" rel="noreferrer">
                 GENERAL INFORMATION
               </a>
               <a href="/private-policy-we.pdf" target="_blank" rel="noreferrer">

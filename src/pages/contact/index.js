@@ -295,10 +295,6 @@ export default class Index extends React.Component {
                       />
                     </div>
                   </div>
-                  <label>
-      <span>Add file:</span>
-      <input name="file" type="file" onChange={this.handleChange} if={'file'}/>
-    </label>
                   <div className="my-12">
                     <label>
                       <input

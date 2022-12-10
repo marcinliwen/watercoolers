@@ -69,20 +69,20 @@ const Fee = () => {
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">CITY TOUR</span>
-              <span className=" ">79 €</span>
-              <span className=" ">87 €</span>
+              <span className=" ">90 €</span>
+              <span className=" ">100 €</span>
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">CONFERENCE</span>
-              <span className=" ">169 €</span>
-              <span className=" ">205 €</span>
+              <span className=" ">195 €</span>
+              <span className=" ">235 €</span>
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">
                 GALA DINNER{" "}
               </span>
-              <span className=" ">149 €</span>
               <span className=" ">175 €</span>
+              <span className=" ">200 €</span>
             </div>
 
             <div className="fee-row md:h-[84px] md:items-center	">
@@ -92,8 +92,8 @@ const Fee = () => {
                   CONFERENCE, WORKSHOPS
                 </span>
               </span>
-              <span className=" ">279 €</span>
-              <span className=" ">321 €</span>
+              <span className=" ">320 €</span>
+              <span className=" ">370 €</span>
             </div>
             <div className="fee-row md:h-[108px] md:items-center">
               <span className="col-span-1 text-left font-bold">
@@ -103,8 +103,8 @@ const Fee = () => {
                   CONFERENCE, WORKSHOPS, GALA DINNER
                 </span>
               </span>
-              <span className=" ">409 €</span>
-              <span className=" ">467 €</span>
+              <span className=" ">470 €</span>
+              <span className=" ">540 €</span>
             </div>
           </div>
           <div className="fee-col">
@@ -130,20 +130,20 @@ const Fee = () => {
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">CITY TOUR</span>
-              <span className=" ">79 €</span>
-              <span className=" ">87 €</span>
+              <span className=" ">90 €</span>
+              <span className=" ">100 €</span>
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">CONFERENCE</span>
-              <span className=" ">198 €</span>
-              <span className=" ">228 €</span>
+              <span className=" ">230 €</span>
+              <span className=" ">265 €</span>
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">
                 GALA DINNER{" "}
               </span>
-              <span className=" ">149 €</span>
               <span className=" ">175 €</span>
+              <span className=" ">200 €</span>
             </div>
             <div className="fee-row md:h-[84px] md:items-center">
               <span className="col-span-1 text-left font-bold ">
@@ -152,8 +152,8 @@ const Fee = () => {
                   CONFERENCE, WORKSHOPS
                 </span>
               </span>
-              <span className=" ">339 €</span>
-              <span className=" ">392 €</span>
+              <span className=" ">390 €</span>
+              <span className=" ">450 €</span>
             </div>
             <div className="fee-row md:h-[108px] md:items-center">
               <span className="col-span-1 text-left font-bold">
@@ -163,8 +163,8 @@ const Fee = () => {
                   CONFERENCE, WORKSHOPS, GALA DINNER
                 </span>
               </span>
-              <span className=" ">489 €</span>
-              <span className=" ">567 €</span>
+              <span className=" ">560 €</span>
+              <span className=" ">650 €</span>
             </div>
           </div>
           <div className="fee-col">
@@ -190,20 +190,20 @@ const Fee = () => {
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">CITY TOUR</span>
-              <span className=" ">91 €</span>
               <span className=" ">105 €</span>
+              <span className=" ">120 €</span>
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">CONFERENCE</span>
-              <span className=" ">223 €</span>
-              <span className=" ">257 €</span>
+              <span className=" ">255 €</span>
+              <span className=" ">295 €</span>
             </div>
             <div className="fee-row">
               <span className="col-span-1 text-left font-bold">
                 GALA DINNER{" "}
               </span>
-              <span className=" ">198 €</span>
-              <span className=" ">228 €</span>
+              <span className=" ">230 €</span>
+              <span className=" ">265 €</span>
             </div>
 
             <div className="fee-row md:h-[84px] md:items-center">
@@ -213,8 +213,8 @@ const Fee = () => {
                   CONFERENCE, WORKSHOPS
                 </span>
               </span>
-              <span className=" ">369 €</span>
-              <span className=" ">421 €</span>
+              <span className=" ">425 €</span>
+              <span className=" ">485 €</span>
             </div>
             <div className="fee-row md:h-[108px] md:items-center">
               <span className="col-span-1 text-left font-bold">
@@ -224,8 +224,8 @@ const Fee = () => {
                   CONFERENCE, WORKSHOPS, GALA DINNER
                 </span>
               </span>
-              <span className=" ">531 €</span>
-              <span className=" ">613 €</span>
+              <span className=" ">610 €</span>
+              <span className=" ">705 €</span>
             </div>
           </div>
         </div>
