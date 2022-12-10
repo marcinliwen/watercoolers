@@ -229,13 +229,12 @@ const Fee = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
       <div className="container">
         <div className="addition-header mt-12 py-4 px-6 text-white bg-blue font-bold text-center">
           SUPER PACKAGES
         </div>
-        <div className="addition-tab grid grid-cols-8 bg-bggray">
+        <div className="addition-tab grid grid-cols-8 bg-bggray mb-8">
           <span className="col-span-2 text-left py-4 px-6 text-blue font-bold">
             GALA DINNER PACKAGE 5+
           </span>
