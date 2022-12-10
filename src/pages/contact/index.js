@@ -329,6 +329,27 @@ export default class Index extends React.Component {
             </div>
           </div>
         </section>
+        <section>
+          <div className="container">
+            <h2>file upload</h2>
+          <form name="fileForm" enctype="multipart/form-data" data-netlify="true">
+  <p>
+    <label>
+      <span>Name:</span>
+      <input name="name" type="text"/>
+    </label>
+  </p>
+  <p>
+    <label>
+      <span>Add file:</span>
+      <input name="file" type="file"/>
+    </label>
+  </p>
+  <button className="bg-green hover:bg-greenhover py-4 px-8 text-white  my-4 block text-2xl ">Submit</button>
+</form>
+<p class="result"></p>
+          </div>
+        </section>
       </Layout>
     );
   }
