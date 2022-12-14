@@ -96,28 +96,29 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           </p>
 
           <div className="prices-container uppercase font-bold grid grid-cols-5 mb-12">
-            <div className="py-4 px-6  row-span-2"></div>
-            <div className="py-4 px-6 bg-bgblue col-span-2 uppercase text-center border-r-4 border-blue">Early bird</div>
-            <div className="py-4 px-6 bg-bggray col-span-2 uppercase text-center">standard</div>
-            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4  border-blue">9m2</div>
+            <div className="py-4 px-6  self-end"></div>
+            <div className="py-4 px-6 bg-bgblue col-span-2 uppercase text-center border-x-4 border-t-4 border-blue">Early bird <br/>(IF BOOKED BEFORE SEPTEMBER 30<sup>TH</sup>)</div>
+            <div className="py-4 px-6 bg-bggray col-span-2 uppercase text-center  border-t-4 border-r-4 border-blue">standard <br/>(FROM OCTOBER 1<sup>ST</sup>)</div>
+            <div className="py-4 px-6  self-end border-t-4 border-l-4  border-blue bg-bgblue">MEMBER STATUS</div>
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-x-4  border-blue">9m2</div>
             <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">12m2</div>
             <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">9m2</div>
-            <div className="py-4 px-6 bg-bgblue uppercase text-center border-t-4 border-blue">12m2</div>
-            <div className="text-pink py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue text-sm">INTERNATIONAL SUPPLIER MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 3 440</div>
+            <div className="py-4 px-6 bg-bgblue uppercase text-center border-t-4 border-r-4 border-blue">12m2</div>
+            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-t-4 border-blue text-sm">INTERNATIONAL SUPPLIER MEMBERS</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-t-4 border-blue flex items-center justify-center">€ 3 440</div>
             <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 590</div>
             <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 060</div>
-            <div className="text-gray py-4 px-6 bg-bggray  border-t-4 border-blue flex items-center justify-center">€ 5 415</div>
-            <div className="text-pink py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue text-sm">NATIONAL ASSOCIATION MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 3 840</div>
+            <div className="text-gray py-4 px-6 bg-bggray  border-t-4 border-r-4 border-blue flex items-center justify-center">€ 5 415</div>
+            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-t-4 border-blue text-sm">NATIONAL ASSOCIATION MEMBERS</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-t-4 border-blue flex items-center justify-center">€ 3 840</div>
             <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 5 120</div>
             <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 540</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-blue flex items-center justify-center">€ 6 060</div>
-            <div className="text-pink py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue text-sm">NON-WE MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 220</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center" >€ 6 530</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 980</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-blue flex items-center justify-center">€ 6 640</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-r-4 border-blue flex items-center justify-center">€ 6 060</div>
+            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-y-4 border-blue text-sm">NON-WE MEMBERS</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-y-4 border-blue flex items-center justify-center">€ 4 220</div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-y-4 border-blue flex items-center justify-center" >€ 6 530</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-y-4 border-blue flex items-center justify-center">€ 4 980</div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-y-4 border-blue flex items-center justify-center">€ 6 640</div>
           </div>
           <div className="  mb-12">
             <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
@@ -224,8 +225,9 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                  {/*  <input type="text" name="stand-no" required /> */}
                  <div className="custom-select">
                   <select name="stand-no" required>
-                   <option value="S08">S08</option>
-                   <option value="S07">S07</option>
+                    <option value="S09 9m2">S09 9m&sup2;</option>
+                   <option value="S08 9m2">S08 9m&sup2;</option>
+                   <option value="S07 12m2">S07 12m&sup2;</option>
                     
  
                   </select>
@@ -234,7 +236,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
 </svg>
                   </div>
                 </label>
-                <label className="custom-select-wrapper">
+                {/* <label className="custom-select-wrapper">
                   <span className="mr-2">AVAILABLE EXHIBITION STANDS:<span className="text-red-600">*</span></span>
                   <div className="custom-select">
                   <select name="standsize">
@@ -248,7 +250,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
   <path fillRule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
 </svg>
 </div>
-                </label>
+                </label> */}
                 
               </div>
               <div>
@@ -297,7 +299,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               <div>
                 <label>
                 <input type="checkbox" name="accept_terms_and_conditions" value="yes" required/>
-                <span className="ml-2">I hereby accept the <a  rel="noreferrer"  href="/terms-and-conditions"  className="text-pink" target="_blank"  >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
+                <span className="ml-2">I hereby accept the <a  rel="noreferrer"  href="/EXHIBITION_TERMS_&_CONDITION_VIENNA_2023.pdf"  className="text-pink" target="_blank"  >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
                 </label>
               </div>
               <button type="submit" className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl">

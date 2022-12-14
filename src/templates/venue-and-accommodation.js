@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { StaticImage } from "gatsby-plugin-image";
 
 export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
   return (
@@ -11,6 +12,7 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
       <PageTitle title={title} />
       <section id="venue-info">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 md:px-0">
+          <div>
           <div>
             <h3 className="font-bold mb-6 text-2xl">{venue.title}</h3>
             <p className="font-bold mb-2">
@@ -43,12 +45,8 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
               Price of double room with breakfast: 239 € (VAT included)
             </p>
           </div>
-          <PreviewCompatibleImage
-            imageInfo={{
-              image: venue.image,
-              alt: venue.title,
-            }}
-          />
+          
+         
           <div>
             <p>
               <strong>InterContinental Vienna</strong>
@@ -65,6 +63,18 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
             >
               Hotel information
             </a>
+          </div>
+          </div>
+          <div>
+            
+          <PreviewCompatibleImage
+            imageInfo={{
+              image: venue.image,
+              alt: venue.title,
+            }}
+          />
+          <div className="h-8"></div>
+          <StaticImage src="../img/hotel_vienna.png" placeholder="none" alt="Vienna Hotel"/>
           </div>
         </div>
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 p-8 md:py-12 md:px-0">

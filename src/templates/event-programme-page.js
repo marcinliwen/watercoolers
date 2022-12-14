@@ -49,7 +49,7 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
               <span>15:00</span>
               <span>EXECO meeting</span>
               <span>20:00</span>
-              <span>City dinner</span>
+              <span>Dinner</span>
             </div>
             <h3 className="font-bold text-3xl text-blue mb-4">
             WEDNESDAY 25 OCTOBER 2023
@@ -138,11 +138,11 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
             </div> */}
             <h4 className="text-pink uppercase mb-4 text-xl">GALA DINNER & AQUA AWARDS</h4>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
-              <span>19:30</span>
+              <span>19:00</span>
               <span>Transfer from the InterContinental hotel to the Gala Dinner Venue</span>
-              <span>20:00</span>
+              <span>19:30</span>
               <span><b>Gala Dinner with Aqua Awards</b> including pre-dinner drinks reception, 4 course meal with wine and entertainment</span>
-              <span>00:00</span>
+              <span>01:00</span>
               <span>Return to the InterContinental hotel</span>
             </div>
           </div>
@@ -152,7 +152,7 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
             </h3>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span>09:00</span>
-              <span>Open. A buffet lunch will be served for exhibitors & visitors</span>
+              <span>Open. The coffee breaks & buffet lunch will be served for exhibitors and visitors</span>
               <span>16:00</span>
               <span><b>FINISH</b></span>
             </div>
@@ -164,14 +164,14 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
           <div className="plan-content">
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2 ">
-                <StaticImage src="../img/programm/vienna-tour.png" alt="Vienna"/>
+                <StaticImage src="../img/programm/city_tour.png" alt="Vienna"/>
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                24 October - City Tour
+                25 October - City Tour
                 </h3>
                 <p className="text-base mb-2 ">
-                Vienna is just waiting to be explored by you!{" "}
+                Vienna is considered one of the most beautiful cities in the world and is just waiting to be explored by you!{" "}
                 </p>
                 <p className="mb-2">
                 Join our amazing city tour and discover one of the most spectacular cities in the world and its breathtaking monuments.
@@ -214,12 +214,13 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
                 <p className="text-base mb-2 ">
                   Workshops will help you grow and improve your business.
                 </p>
+                <p className="text-base mb-2 ">Here you will gain practical knowledge from the most experienced experts in our industry.</p>
               </div>
             </div>
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
               <div className="md:basis-1/2">
                 <StaticImage
-                  src="../img/programm/sudlizboa.png"
+                  src="../img/programm/gala_dinner.png"
                   alt="Sud Lisboa"
                   placeholder="none"
                 />
@@ -238,7 +239,9 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
                 <p className="text-base mb-2 ">
                   The winners of the Aqua Awards competition will be announced
                   at the Gala Dinner.
-                </p>
+                </p >
+                <p className="text-base mb-2 ">This year, on the occasion of WE's 30th anniversary, you will be able to taste the finer side of Vienna life: from sophisticated reception, exclusive dinner to the high-powered show.</p>
+                <p  className="text-base mb-2 "><b>DRESS CODE:</b> semi formal, festive attire</p>
               </div>
             </div>
             <div className="cart md:flex mb-16 md:mb-20  md:gap-8">
@@ -247,7 +250,7 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
               </div>
               <div className="md:basis-1/2 flex flex-col justify-center	">
                 <h3 className="font-bold mb-4 mt-4 text-2xl">
-                  24 October - Trade Fair
+                  27 October - Trade Fair
                 </h3>
                 <p className="text-base mb-2 ">
                 WE International Trade Fair is a great opportunity to meet in person with your customers and business partners, show your products and services to a targeted, industry specific, Europe-wide audience.

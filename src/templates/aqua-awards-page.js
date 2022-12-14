@@ -369,14 +369,14 @@ export const AquaAwardsTemplate = ({ title, info }) => {
                   Each category winner will have their presentation shown to the assembled audience of colleagues and business partners.
                 </p>
               </div>
-              {/* <div className="md:basis-1/2  md:p-4">
+               <div className="md:basis-1/2  md:p-4">
                 <StaticImage
-                  src="../img/gala-hall.png"
+                  src="../img/gala_hall.png"
                   placeholder="none"
-                  alt="Sud Lisboa Gala Hall"
+                  alt="Gala Hall"
                 />
-                <p className="font-bold">SUD LISBOA</p>
-              </div> */}
+               {/*  <p className="font-bold">SUD LISBOA</p> */}
+              </div>
             </div>
           {/*   <div className="flex flex-col md:flex-row mb-16 md:mb-20 ">
               <div className="md:basis-1/2  md:p-4 show-img order-1">

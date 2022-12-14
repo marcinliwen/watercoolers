@@ -102,7 +102,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <h1 className="font-bold text-xl text-blue ">
-                  <span>IDEA &amp; MARKETING <br /> BEATA MĄKÓLSKA</span>
+                  <span>IDEA &amp; MARKETING</span>
                 </h1>
                 <h2 className="font-bold text-md mb-4">
                   ORGANISER
@@ -151,11 +151,11 @@ export default class Index extends React.Component {
                       </p>
                     </div>
                   </div>
-                  <div className="mb-8">
+                  {/* <div className="mb-8">
                     <a rel="nofollow"  className="text-pink" href="http://www.ideamarketing.pl">
                       www.ideamarketing.pl
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-span-3">

@@ -30,8 +30,6 @@ const Footer = class extends React.Component {
               <p className="text-white text-sm font-light">
                 IDEA & MARKETING
                 <br />
-                Beata Mąkólska
-                <br />
                 Jedności 118
                 <br />
                 05-506 Janczewice, Poland

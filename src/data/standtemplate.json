@@ -1,9 +1,5 @@
 [
     {
-      "stand": "S09",
-      "name": "ABOUT WATER"
-    },
-    {
       "stand": "S29",
       "name": "ACTIVEWHERE"
     },
@@ -121,6 +117,10 @@
     },
     {
       "stand": "S08",
+      "name": ""
+    },
+    {
+      "stand": "S09",
       "name": ""
     }
   ]
