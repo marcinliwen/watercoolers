@@ -50,7 +50,7 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
           <div>
             <p>
               <strong>InterContinental Vienna</strong>
-              <br /> Johannesgasse 28, <br />
+              <br /> Johannesgasse 28 <br />
               1030 Wien, Austria
               <br />
               t: +43 1 711220
@@ -115,8 +115,8 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
             <a
               rel="noreferrer"
               className="hover:underline ease-in-out duration-300"
-              //href=""
-              //target="_blank"
+              href="https://book.passkey.com/event/50458667/owner/7754432/home"
+              target="_blank"
             >
               Book now
             </a>
@@ -124,7 +124,7 @@ export const VenueAccommodationTemplate = ({ title, venue, gallery }) => {
         </div>
       </section>
       {/*  <section><div className="container">
-        <a className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 text-center my-12 w-32 mx-auto" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1652979882546&key=GRP&app=resvlink" target="_blank">Book now</a>
+        <a className="py-3 px-4 bg-green text-white block hover:bg-greenhover ease-in-out duration-300 text-center my-12 w-32 mx-auto" href="https://book.passkey.com/event/50458667/owner/7754432/home" target="_blank">Book now</a>
         </div></section> */}
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 md:px-0">
         {gallery.map((item, index) => (

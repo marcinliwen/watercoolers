@@ -22,15 +22,15 @@ export const IndexPageTemplate = ({
       <section className="">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 p-8 md:py-12 ">
          {category.map(item=>
-            <div className="" key={item.title}>
+            <div className="flex flex-col" key={item.title}>
               <PreviewCompatibleImage
               imageInfo={{
                 image: item.image,
                 alt: item.title ,
               }} />
               <h3 className="font-bold my-4 text-2xl">{item.title}</h3>
-              <div className="text-base mb-8">{item.description}</div>
-              <Link to={item.link} className="py-3 px-4 bg-green hover:bg-greenhover text-white block w-max ml-auto ease-in-out duration-300" >Read more</Link>
+              <div className="text-base mb-8 text-justify">{item.description}</div>
+              <Link to={item.link} className="mt-auto py-3 px-4 bg-green hover:bg-greenhover text-white block w-max ml-auto ease-in-out duration-300" >Read more</Link>
             </div>
           )}
         </div>

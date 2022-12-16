@@ -96,10 +96,10 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
           </p>
 
           <div className="prices-container uppercase font-bold grid grid-cols-5 mb-12">
-            <div className="py-4 px-6  self-end"></div>
+          <div className="py-4 px-6  row-span-2 border-t-4 border-l-4 text-pink  border-blue bg-bggray flex items-center">MEMBER STATUS</div>
             <div className="py-4 px-6 bg-bgblue col-span-2 uppercase text-center border-x-4 border-t-4 border-blue">Early bird <br/>(IF BOOKED BEFORE SEPTEMBER 30<sup>TH</sup>)</div>
             <div className="py-4 px-6 bg-bggray col-span-2 uppercase text-center  border-t-4 border-r-4 border-blue">standard <br/>(FROM OCTOBER 1<sup>ST</sup>)</div>
-            <div className="py-4 px-6  self-end border-t-4 border-l-4  border-blue bg-bgblue">MEMBER STATUS</div>
+            
             <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-x-4  border-blue">9m2</div>
             <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">12m2</div>
             <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">9m2</div>

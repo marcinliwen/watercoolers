@@ -152,7 +152,8 @@ Baixa Pombalina or Belém as well as Mosteiro do Jeronimos.</p> */}
             </h3>
             <div className="grid grid-cols-[80px_1fr] gap-y-2 mb-8">
               <span>09:00</span>
-              <span>Open. The coffee breaks & buffet lunch will be served for exhibitors and visitors</span>
+              <span>Open</span>
+              <span></span><span>The coffee breaks & buffet lunch will be served for exhibitors and visitors</span>
               <span>16:00</span>
               <span><b>FINISH</b></span>
             </div>

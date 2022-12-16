@@ -5,7 +5,7 @@ image: /img/home-banner-2023.png
 category:
   - image: /img/intercontinental.png
     title: Venue & Accommodation
-    description: WE 2023 Conference and Trade Show will take place in Vienna in the InterContinental hotel.
+    description: WE 2023 Conference and Trade Show will take place in Vienna in the InterContinental hotel. It is a luxurious 5-star hotel set in a prime location in the centre of Vienna. Local tourist attractions are not far from the hotel. This hotel also features complimentary wireless internet access that will keep you connected and concierge services.
     link: /venue-and-accommodation
   - image: /img/fair.png
     title: Trade Fair
