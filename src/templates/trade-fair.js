@@ -31,7 +31,10 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
         {StandTemplate && 
         <div className="plan-nr  mb-8">
         <ul className=" md:columns-2 gap-0 list">
-        {StandTemplate.map((item, index, list)=>{
+        {StandTemplate
+        .sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))//sort alfabetically
+        .sort((a, b)=> !a.name - !b.name || a.name.localeCompare(b.name))//empty on the end
+        .map((item, index, list)=>{
             console.log(list.length / 2);
             console.log(index)
           return(
@@ -228,6 +231,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                     <option value="S09 9m2">S09 9m&sup2;</option>
                    <option value="S08 9m2">S08 9m&sup2;</option>
                    <option value="S07 12m2">S07 12m&sup2;</option>
+                   <option value="S07 12m2">S03 12m&sup2;</option>
                     
  
                   </select>
