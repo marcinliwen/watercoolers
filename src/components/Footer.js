@@ -27,16 +27,17 @@ const Footer = class extends React.Component {
               </a>
             </div>
             <div className=" md:ml-12  mb-12 md:mb-0">
-              <p className="text-white text-sm font-light">
+              <p className="text-white text-sm font-light mb-2">
+              EVENT ORGANIZER:
+             </p>
+             <p className="text-white text-xs font-light">
                 IDEA & MARKETING
                 <br />
                 Jedności 118
                 <br />
                 05-506 Janczewice, Poland
                 <br />
-                NIP: 123-002-55-82
-                <br />
-                REGON: 388439940
+                VAT no: PL1230025582
               </p>
             </div>
             {/* <div className="md:ml-12 mr-auto">

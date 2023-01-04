@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/we-logo.png";
+import Mdv_logo from  "../img/MDV_Logo.png"
+
 import phone from "../img/phone.svg";
 import MailChimpForm from "../components/MailChimpForm"
 
@@ -41,7 +43,14 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="flex w-full justify-between py-6">
+          <div className="flex w-full justify-between py-6 gap-5 md:gap-0">
+            <div >
+              <img 
+                src={Mdv_logo}
+                alt="Meeting Destination Vienna"
+                style={{ width: "126px" }}
+                />
+            </div>
             <div className="navbar-brand">
               <Link to="/" className="" title="Logo">
                 <img
