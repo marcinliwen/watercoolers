@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/we-logo.png";
-import Mdv_logo from  "../img/MDV_Logo.png"
+import Mdv_logo from  "../img/MDV_Logo.png";
+import AW_header_logo from "../img/AW-header-logo.png";
 
 import phone from "../img/phone.svg";
 import MailChimpForm from "../components/MailChimpForm"
@@ -45,11 +46,13 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="flex w-full justify-between py-6 gap-5 md:gap-0">
             <div >
+              <a href="https://www.vienna.convention.at/en" title="Meeting Destination Vienna" target="_blank" >
               <img 
                 src={Mdv_logo}
                 alt="Meeting Destination Vienna"
                 style={{ width: "126px" }}
                 />
+                </a>
             </div>
             <div className="navbar-brand">
               <Link to="/" className="" title="Logo">
@@ -73,14 +76,21 @@ const Navbar = class extends React.Component {
                 <span />
               </div>
             </div>
-            <div className="hidden md:flex gap-4 ">
-              {/* <MailChimpForm /> */}
-              {/* <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
+            <Link to="/aqua-awards" className="hidden md:block">
+              <img 
+                src={AW_header_logo} 
+                alt="Aqua Awards 2023"
+                style={{width: "106px"}}
+              />
+            </Link>
+            {/* <div className="hidden md:flex gap-4 ">
+              <MailChimpForm /> 
+             <a href="\" className="flex items-start text-blue"  rel="noopener noreferrer">
                 <img src={subscribe} alt="Newsletter" style={{width:'24px'}} className="mr-2 "/>
                 Newsletter
-              </a> */}
+              </a> 
               <Link to="/contact" className="flex items-start text-blue "><img src={phone} alt="Contect" style={{width:'24px'}} className="mr-2"/>Contact</Link>
-            </div>
+            </div> */}
           </div>
 
           <div
