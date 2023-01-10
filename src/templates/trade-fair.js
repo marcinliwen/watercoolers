@@ -5,18 +5,25 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import PageSubtitle from "../components/PageSubtitle";
 import { StaticImage } from "gatsby-plugin-image";
-import StandTemplate from "../data/standtemplate.json"
+import StandTemplate from "../data/standtemplate.json";
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
- // console.log(tradefair);
+  // console.log(tradefair);
   return (
     <div>
       <PageTitle title={title} />
-      
+
       <div className="container">
-      <div className="my-8" >
-      <a href="/EXHIBITOR_BROCHURE_VIENNA_2023.pdf" className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max" target="_blank" rel="noreferrer">Download Exhibitor Brochure  pdf</a>
-      </div>
+        <div className="my-8">
+          <a
+            href="/EXHIBITOR_BROCHURE_VIENNA_2023.pdf"
+            className="py-3 px-4 bg-green text-white block mx-auto mb-12 hover:bg-greenhover ease-in-out duration-300 w-max"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download Exhibitor Brochure pdf
+          </a>
+        </div>
         {/* <h3 className="font-bold mt-8  mb-6 text-2xl text-center">
           Don’t miss the next Watercoolers Europe annula event. Book now in your
           calendar.
@@ -26,32 +33,47 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
         </p> */}
         <div className="py-8 md:px-0">
           <h3 className="font-bold my-4 text-2xl">Floor Plan</h3>
-          <StaticImage src="../img/floor_plan_stage.png" placeholder="none" alt="Floor plan"/>
+          <StaticImage
+            src="../img/floor_plan_stage.png"
+            placeholder="none"
+            alt="Floor plan"
+          />
         </div>
-        {StandTemplate && 
-        <div className="plan-nr  mb-8">
-        <ul className=" md:columns-2 gap-0 list">
-        {StandTemplate
-        .sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))//sort alfabetically
-        .sort((a, b)=> !a.name - !b.name || a.name.localeCompare(b.name))//empty on the end
-        .map((item, index, list)=>{
-            console.log(list.length / 2);
-            console.log(index)
-          return(
-          <li 
-            key={item.stand} 
-            className={`
+        {StandTemplate && (
+          <div className="plan-nr  mb-8">
+            <ul className=" md:columns-2 gap-0 list">
+              {StandTemplate.sort((a, b) =>
+                a.name > b.name ? 1 : b.name > a.name ? -1 : 0
+              ) //sort alfabetically
+                .sort(
+                  (a, b) => !a.name - !b.name || a.name.localeCompare(b.name)
+                ) //empty on the end
+                .map((item, index, list) => {
+                  console.log(list.length / 2);
+                  console.log(index);
+                  return (
+                    <li
+                      key={item.stand}
+                      className={`
               flex w-full 
-              ${Math.floor(list.length / 2) === index ? 'md:break-after-column' : ''}
-              `}>
-              <span className="w-[108px]">{item.stand}</span>
-              <span className="block text-left  flex-1">{item.name}</span>
-          </li>
-        )})}
-        </ul>
-        </div>
-        }
-      {/*   <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
+              ${
+                Math.floor(list.length / 2) === index
+                  ? "md:break-after-column"
+                  : ""
+              }
+              `}
+                    >
+                      <span className="w-[108px]">{item.stand}</span>
+                      <span className="block text-left  flex-1">
+                        {item.name}
+                      </span>
+                    </li>
+                  );
+                })}
+            </ul>
+          </div>
+        )}
+        {/*   <div className="plan-nr md:grid grid-cols-2 gap-8 mb-12">
           <div className="grid grid-cols-[108px_1fr] list">
             <span className="first">S21</span><span className="first">ACTIVEWHERE TECNOLOGIAS DE INFORMAÇÃO LDA</span>
             <span className="">S04</span><span>ACUVA Technologies</span>
@@ -94,50 +116,96 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
       <section>
         <div className="container">
           <h3 className="font-bold mt-4 text-2xl">Stand Fees</h3>
-          <p className="font-extrabold mb-8">
-          VAT CAN BE ADDED IF APPLICABLE
-          </p>
+          <p className="font-extrabold mb-8">VAT CAN BE ADDED IF APPLICABLE</p>
 
           <div className="prices-container uppercase font-bold grid grid-cols-5 mb-12">
-          <div className="py-4 px-6  row-span-2 border-t-4 border-l-4 text-pink  border-blue bg-bggray flex items-center">MEMBER STATUS</div>
-            <div className="py-4 px-6 bg-bgblue col-span-2 uppercase text-center border-x-4 border-t-4 border-blue">Early bird <br/>(IF BOOKED BEFORE SEPTEMBER 30<sup>TH</sup>)</div>
-            <div className="py-4 px-6 bg-bggray col-span-2 uppercase text-center  border-t-4 border-r-4 border-blue">standard <br/>(FROM OCTOBER 1<sup>ST</sup>)</div>
-            
-            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-x-4  border-blue">9m2</div>
-            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">12m2</div>
-            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">9m2</div>
-            <div className="py-4 px-6 bg-bgblue uppercase text-center border-t-4 border-r-4 border-blue">12m2</div>
-            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-t-4 border-blue text-sm">INTERNATIONAL SUPPLIER MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-t-4 border-blue flex items-center justify-center">€ 3 440</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 590</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 060</div>
-            <div className="text-gray py-4 px-6 bg-bggray  border-t-4 border-r-4 border-blue flex items-center justify-center">€ 5 415</div>
-            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-t-4 border-blue text-sm">NATIONAL ASSOCIATION MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-t-4 border-blue flex items-center justify-center">€ 3 840</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">€ 5 120</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">€ 4 540</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-r-4 border-blue flex items-center justify-center">€ 6 060</div>
-            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-y-4 border-blue text-sm">NON-WE MEMBERS</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-y-4 border-blue flex items-center justify-center">€ 4 220</div>
-            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-y-4 border-blue flex items-center justify-center" >€ 6 530</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-y-4 border-blue flex items-center justify-center">€ 4 980</div>
-            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-y-4 border-blue flex items-center justify-center">€ 6 640</div>
+            <div className="py-4 px-6  row-span-2 border-t-4 border-l-4 text-pink  border-blue bg-bggray flex items-center">
+              MEMBER STATUS
+            </div>
+            <div className="py-4 px-6 bg-bgblue col-span-2 uppercase text-center border-x-4 border-t-4 border-blue">
+              Early bird <br />
+              (IF BOOKED BEFORE SEPTEMBER 30<sup>TH</sup>)
+            </div>
+            <div className="py-4 px-6 bg-bggray col-span-2 uppercase text-center  border-t-4 border-r-4 border-blue">
+              standard <br />
+              (FROM OCTOBER 1<sup>ST</sup>)
+            </div>
+
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-x-4  border-blue">
+              9m2
+            </div>
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">
+              12m2
+            </div>
+            <div className="py-4 px-6 bg-bgblue  uppercase text-center border-t-4 border-r-4 border-blue">
+              9m2
+            </div>
+            <div className="py-4 px-6 bg-bgblue uppercase text-center border-t-4 border-r-4 border-blue">
+              12m2
+            </div>
+            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-t-4 border-blue text-sm">
+              INTERNATIONAL SUPPLIER MEMBERS
+            </div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-t-4 border-blue flex items-center justify-center">
+              € 3 440
+            </div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">
+              € 4 590
+            </div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">
+              € 4 060
+            </div>
+            <div className="text-gray py-4 px-6 bg-bggray  border-t-4 border-r-4 border-blue flex items-center justify-center">
+              € 5 415
+            </div>
+            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-t-4 border-blue text-sm">
+              NATIONAL ASSOCIATION MEMBERS
+            </div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-t-4 border-blue flex items-center justify-center">
+              € 3 840
+            </div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-t-4 border-blue flex items-center justify-center">
+              € 5 120
+            </div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-t-4 border-blue flex items-center justify-center">
+              € 4 540
+            </div>
+            <div className="text-gray py-4 px-6 bg-bggray border-t-4 border-r-4 border-blue flex items-center justify-center">
+              € 6 060
+            </div>
+            <div className="text-pink py-4 px-6 bg-bggray border-l-4 border-y-4 border-blue text-sm">
+              NON-WE MEMBERS
+            </div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-x-4 border-y-4 border-blue flex items-center justify-center">
+              € 4 220
+            </div>
+            <div className="text-gray py-4 px-6 bg-bgblue border-r-4 border-y-4 border-blue flex items-center justify-center">
+              € 6 530
+            </div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-y-4 border-blue flex items-center justify-center">
+              € 4 980
+            </div>
+            <div className="text-gray py-4 px-6 bg-bggray border-r-4 border-y-4 border-blue flex items-center justify-center">
+              € 6 640
+            </div>
           </div>
           <div className="  mb-12">
             <h3 className="font-bold my-4 text-2xl">Price includes:</h3>
             <ul className="list-disc text-sm pl-6 mb-4">
               <li>
-              space only stand to be dressed individually by the exhibitors
+                space only stand to be dressed individually by the exhibitors
               </li>
+              <li>power supply (3 sockets – 220 V)</li>
               <li>
-              power supply (3 sockets – 220 V)
+                one night accommodation (single room with breakfast) on 26
+                October 2023 at the InterContinental Vienna Hotel
               </li>
-              <li>one night accommodation (single room with breakfast) on 26 October 2023 at the InterContinental Vienna Hotel</li>
               <li>listing in the Fair Catalogue</li>
             </ul>
             <h3 className="font-bold my-4 text-2xl">Payment deadlines:</h3>
             <p className="">
-            Deposit payment within 14 days of stand reservation/application form. Balance payment by <strong>31 August 2023</strong>
+              Deposit payment within 14 days of stand reservation/application
+              form. Balance payment by <strong>31 August 2023</strong>
             </p>
           </div>
         </div>
@@ -180,65 +248,116 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             <h3 className="font-bold my-4 text-2xl text-center">
               COMPANY DETAILS
             </h3>
-            <form name="stand_application_form" method="POST" netlify-honeypot="bot-field" data-netlify="true"  action="/contact/thanks/">
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="stand_application_form"/>
+            <form
+              name="stand_application_form"
+              method="POST"
+              netlify-honeypot="bot-field"
+              data-netlify="true"
+              action="/contact/thanks/"
+            >
+              <input type="hidden" name="bot-field" />
+              <input
+                type="hidden"
+                name="form-name"
+                value="stand_application_form"
+              />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <label className="flex flex-col">
-                  <span>Company name <span className="text-red-600">*</span></span>
+                  <span>
+                    Company name <span className="text-red-600">*</span>
+                  </span>
                   <input type="text" name="company_name" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>VAT No <span className="text-red-600">* (mandatory only for EU countries) </span></span><input type="text" name="vat" required />
+                  <span>
+                    VAT No{" "}
+                    <span className="text-red-600">
+                      * (mandatory only for EU countries){" "}
+                    </span>
+                  </span>
+                  <input type="text" name="vat" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>Contact person <span className="text-red-600">*</span></span>
+                  <span>
+                    Contact person <span className="text-red-600">*</span>
+                  </span>
                   <input type="text" name="contact_person" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>Street address <span className="text-red-600">*</span> </span><input type="text" name="address" required />
+                  <span>
+                    Street address <span className="text-red-600">*</span>{" "}
+                  </span>
+                  <input type="text" name="address" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>Post Code <span className="text-red-600">*</span> </span><input type="text" name="post_code" required />
+                  <span>
+                    Post Code <span className="text-red-600">*</span>{" "}
+                  </span>
+                  <input type="text" name="post_code" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>City <span className="text-red-600">*</span></span> <input type="text" name="city" required />
+                  <span>
+                    City <span className="text-red-600">*</span>
+                  </span>{" "}
+                  <input type="text" name="city" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>Region/State <span className="text-red-600">*</span></span>
+                  <span>
+                    Region/State <span className="text-red-600">*</span>
+                  </span>
                   <input type="text" name="region_state" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>Country <span className="text-red-600">*</span></span> <input type="text" name="countrey" required />
+                  <span>
+                    Country <span className="text-red-600">*</span>
+                  </span>{" "}
+                  <input type="text" name="countrey" required />
                 </label>
                 <label className="flex flex-col">
-                  <span>Tel. <span className="text-red-600">*</span></span> <input type="tel" name="tel" required />
+                  <span>
+                    Tel. <span className="text-red-600">*</span>
+                  </span>{" "}
+                  <input type="tel" name="tel" required />
                 </label>
                 <label className="flex flex-col">
                   Fax <input type="tel" name="fax" />
                 </label>
                 <label className="flex flex-col">
-                  <span>E-mail (Direct) <span className="text-red-600">*</span></span> <input type="email" name="email" required />
+                  <span>
+                    E-mail (Direct) <span className="text-red-600">*</span>
+                  </span>{" "}
+                  <input type="email" name="email" required />
                 </label>
                 <label className="flex flex-col">
                   Website <input type="text" name="website" />
                 </label>
                 <label className="custom-select-wrapper">
-                  <span className="mr-2">PREFFERED STAND NO.:<span className="text-red-600">*</span></span>
-                 {/*  <input type="text" name="stand-no" required /> */}
-                 <div className="custom-select">
-                  <select name="stand-no" required>
-                  <option value="S31 9m2">S31 9m&sup2;</option>
-                    <option value="S09 9m2">S09 9m&sup2;</option>
-                   <option value="S08 9m2">S08 9m&sup2;</option>
-                   <option value="S07 12m2">S07 12m&sup2;</option>
-                   <option value="S07 12m2">S03 12m&sup2;</option>
-                    
- 
-                  </select>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-down-short" viewBox="0 0 16 16">
-  <path fillRule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
-</svg>
+                  <span className="mr-2">
+                    PREFFERED STAND NO.:<span className="text-red-600">*</span>
+                  </span>
+                  {/*  <input type="text" name="stand-no" required /> */}
+                  <div className="custom-select">
+                    <select name="stand-no" required>
+                      <option value="S31 9m2">S31 9m&sup2;</option>
+                      <option value="S22 9m2">S22 9m&sup2;</option>
+                      <option value="S09 9m2">S09 9m&sup2;</option>
+                      <option value="S08 9m2">S08 9m&sup2;</option>
+                      <option value="S07 12m2">S07 12m&sup2;</option>
+                      <option value="S07 12m2">S03 12m&sup2;</option>
+                    </select>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="bi bi-arrow-down-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
+                      />
+                    </svg>
                   </div>
                 </label>
                 {/* <label className="custom-select-wrapper">
@@ -256,7 +375,6 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
 </svg>
 </div>
                 </label> */}
-                
               </div>
               <div>
                 <h3 className="font-bold my-4 text-2xl">
@@ -295,19 +413,42 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
               <div className="my-12">
                 <p className="">
                   Please refer any queries concerning the above requirements to
-                  the exhibition organiser: 
-                  <a rel="noreferrer" href="mailto:office@ideamarketing.pl" className="ml-1">
-                     office@ideamarketing.pl
+                  the exhibition organiser:
+                  <a
+                    rel="noreferrer"
+                    href="mailto:office@ideamarketing.pl"
+                    className="ml-1"
+                  >
+                    office@ideamarketing.pl
                   </a>
                 </p>
               </div>
               <div>
                 <label>
-                <input type="checkbox" name="accept_terms_and_conditions" value="yes" required/>
-                <span className="ml-2">I hereby accept the <a  rel="noreferrer"  href="/EXHIBITION_TERMS_&_CONDITION_VIENNA_2023.pdf"  className="text-pink" target="_blank"  >Exhibition Terms and Conditions</a> <span className="text-red-600">*</span>. </span>
+                  <input
+                    type="checkbox"
+                    name="accept_terms_and_conditions"
+                    value="yes"
+                    required
+                  />
+                  <span className="ml-2">
+                    I hereby accept the{" "}
+                    <a
+                      rel="noreferrer"
+                      href="/EXHIBITION_TERMS_&_CONDITION_VIENNA_2023.pdf"
+                      className="text-pink"
+                      target="_blank"
+                    >
+                      Exhibition Terms and Conditions
+                    </a>{" "}
+                    <span className="text-red-600">*</span>.{" "}
+                  </span>
                 </label>
               </div>
-              <button type="submit" className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl">
+              <button
+                type="submit"
+                className="bg-green hover:bg-greenhover py-4 px-8 text-white mx-auto my-4 block text-2xl"
+              >
                 Submit
               </button>
             </form>
@@ -328,7 +469,10 @@ const TradeFair = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout location={location.pathname}  pageName={data.markdownRemark.frontmatter.title}>
+    <Layout
+      location={location.pathname}
+      pageName={data.markdownRemark.frontmatter.title}
+    >
       <TradeFairTemplate
         title={frontmatter.title}
         tradefair={frontmatter.tradefair}
