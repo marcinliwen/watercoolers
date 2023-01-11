@@ -8,7 +8,13 @@ import { StaticImage } from "gatsby-plugin-image";
 import StandTemplate from "../data/standtemplate.json";
 
 export const TradeFairTemplate = ({ title, tradefair, fees }) => {
-  // console.log(tradefair);
+  const fullStands = StandTemplate.filter((item) => item.name.length > 0).sort(
+    (a, b) => (a.name > b.name ? 1 : b.name > a.name ? -1 : 0)
+  );
+  const emptyStands = StandTemplate.filter(
+    (item) => item.name.length === 0
+  ).sort((a, b) => a.id - b.id);
+  const allStands = fullStands.concat(emptyStands);
   return (
     <div>
       <PageTitle title={title} />
@@ -39,22 +45,16 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
             alt="Floor plan"
           />
         </div>
-        {StandTemplate && (
+        {allStands && (
           <div className="plan-nr  mb-8">
             <ul className=" md:columns-2 gap-0 list">
-              {StandTemplate.sort((a, b) =>
-                a.name > b.name ? 1 : b.name > a.name ? -1 : 0
-              ) //sort alfabetically
-                .sort(
-                  (a, b) => !a.name - !b.name || a.name.localeCompare(b.name)
-                ) //empty on the end
-                .map((item, index, list) => {
-                  console.log(list.length / 2);
-                  console.log(index);
-                  return (
-                    <li
-                      key={item.stand}
-                      className={`
+              {allStands.map((item, index, list) => {
+                //console.log(list.length / 2);
+                //console.log(index);
+                return (
+                  <li
+                    key={item.stand}
+                    className={`
               flex w-full 
               ${
                 Math.floor(list.length / 2) === index
@@ -62,14 +62,12 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                   : ""
               }
               `}
-                    >
-                      <span className="w-[108px]">{item.stand}</span>
-                      <span className="block text-left  flex-1">
-                        {item.name}
-                      </span>
-                    </li>
-                  );
-                })}
+                  >
+                    <span className="w-[108px]">{item.stand}</span>
+                    <span className="block text-left  flex-1">{item.name}</span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         )}
@@ -340,6 +338,7 @@ export const TradeFairTemplate = ({ title, tradefair, fees }) => {
                     <select name="stand-no" required>
                       <option value="S31 9m2">S31 9m&sup2;</option>
                       <option value="S22 9m2">S22 9m&sup2;</option>
+                      <option value="S21 9m2">S21 9m&sup2;</option>
                       <option value="S09 9m2">S09 9m&sup2;</option>
                       <option value="S08 9m2">S08 9m&sup2;</option>
                       <option value="S07 12m2">S07 12m&sup2;</option>
